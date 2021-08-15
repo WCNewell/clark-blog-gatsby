@@ -1,0 +1,181 @@
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+// @mixin flex($values) {
+//     -webkit-box-flex: $values;
+//     -moz-box-flex: $values;
+//     -webkit-flex: $values;
+//     -ms-flex: $values;
+//     flex: $values;
+// }
+
+// @mixin order($val) {
+//     -webkit-box-ordinal-group: $val;
+//     -moz-box-ordinal-group: $val;
+//     -ms-flex-order: $val;
+//     -webkit-order: $val;
+//     order: $val;
+// }
+
+$white: #effffa;
+$black: #0b0111;
+$pink: #ff0dbf;
+$gold: #ffd700;
+$blue: #0ecee3;
+
+html, body {
+  @include flexbox();
+  overflow-x: hidden;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh -webkit-fill-available;
+  width: 100vw -webkit-fill-available;
+  text-rendering: optimizeLegibility;
+}
+
+body.light-mode {
+  background-color: $white;
+  transition: background-color 0.3s ease;
+  color: $black;
+
+  a {
+      color: $black;
+  }
+  
+  .logo {
+      fill: $black;
+      height: 3.75rem;
+      width: 3.75rem;
+  }
+
+  .name {
+      color: $blue;
+  }
+  
+  .menu-item {
+      color: $black;
+  }
+
+  .footer {
+      height: 7rem;
+      width: auto;
+      background-color: $blue;
+
+      .footer-text {
+          color: $white;
+          padding: 1rem;
+      }    
+  }    
+} 
+
+body.dark-mode {
+  background-color: $black;
+  color: $white;
+
+  a {
+      color: $white;
+  }
+  
+  .logo {
+      fill: $white;
+      height: 3.75rem;
+      width: 3.75rem;
+  }
+  
+  .menu-item {
+      color: $black;
+  }
+
+  .footer {
+      position: relative;
+      height: 7rem;
+      width: auto;
+      background-color: $pink;
+      z-index: 1;
+
+      .footer-text {
+          color: $white;
+          padding: 1rem;
+      }   
+  }    
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  
+  :hover {
+      color: $pink;
+  }
+
+  :visited {
+      color: $pink;
+  }
+}
+
+.stars {
+  position: absolute;
+  z-index: 1;
+}
+
+.sticky-wrapper {
+  position: relative;
+}
+
+.sticky .sticky-inner {
+  position: fixed;
+  top: 0.5rem;
+  right: 0.5rem;
+  left: 0;
+  z-index: 0;
+}
+
+.mode-icon {
+  fill: $gold;
+  height: 1.25rem;
+  width: 1.25rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.social-icons {
+  fill: $white;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-left: 1.14rem;
+  margin-right: 1.14rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.post-title:hover, .sub-title:hover {
+  color: $pink;
+}
+
+
+
+// May need to employ media queries, i.e.:
+// need to look up what em's to use for medium and small screens
+// Or...try mobile *first* and use media queries for medium and large screens!
+// @media all and (max-width: 50em) { // also use max-min?
+//     .body {
+
+//     }
+// }
+
+// @media all and (max-width: 150em) { // also use max-min?
+//     .body {
+
+//     }
+// }
