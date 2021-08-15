@@ -5,7 +5,6 @@ import LinkedIn from '../assets/linkedin.inline.svg'
 import Github from '../assets/github.inline.svg'
 import Twitter from '../assets/twitter.inline.svg'
 import Instagram from '../assets/instagram.inline.svg'
-import TikTok from '../assets/tiktok.inline.svg'
 
 const Footer = () => {
     return (
@@ -30,9 +29,6 @@ const Footer = () => {
                 </a>
                 <a href='https://instagram.com/willcnewell/'>
                     <Instagram className='social-icons' alt='instagram icon'/>
-                </a>
-                <a href=''>
-                    <TikTok className='social-icons' alt='instagram icon'/>
                 </a>
             </div>
         </>

@@ -6,7 +6,7 @@ import Logo from '../assets/clarklogo.inline.svg'
 import Nav from './Nav'
 import Footer from './Footer'
 
-import StarLayout from './star-layout'
+import StarLayout from './StarLayout'
 import styled from 'styled-components'
 import '../styles/global-styles.scss'
 
