@@ -19,10 +19,10 @@ exports.createPages = async ({ graphql, actions }) => {
   `)
   result.data.allSanityPost.edges.forEach(edge => {
     createPage({
-      path: `$edge.node.slug`,
+      path: `${edge.node.slug.current}`,
       component: blogPostTemplate,
       context: {
-        slug: edge.node.slug.current
+        title: edge.node.title
       }
     })
   })

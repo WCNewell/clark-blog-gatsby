@@ -5,7 +5,7 @@ import React from 'react';
 export default function allPosts({ data }) {
   return (
     <>
-
+      <h1>Hello. This page will list all posts with a filter button!</h1>
     </>
   )
 };

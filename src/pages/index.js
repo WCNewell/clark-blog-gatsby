@@ -1,14 +1,10 @@
 import React from 'react'
 import Seo from '../components/seo'
 
-// import RecentPosts from '../components/RecentPosts'
-// import LatestPost from '../components/LatestPost'
-
 const IndexPage = () => (
     <>  
         <Seo title='Home' />
-        {/* <LatestPost />
-        <RecentPosts /> */}
+        <h1>Hello. This is the main page!</h1>
     </>
 )
 
