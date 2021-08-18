@@ -1,28 +1,46 @@
-// import React, { Component } from 'react'
-// import PropTypes from 'prop-types'
+import React from 'react';
+import { graphql } from 'gatsby';
+// import Img from 'gatsby-image';
+// import Seo from '../components/seo';
 
-// export default class Post extends Component {
-//     render() {
-//         const {data} = this.props
-//         return (
-//             <div>
-//                 <h1>{data.wordpressPost.title}</h1>
-//                 <img className="post-featured-photo" src={data.wordpressPost.jetpack_featured_media_url} alt={data.wordpressPost.featured_image_alt} />
-//                 <small className="featured-photo-description">{data.wordpressPost.featured_image_alt}</small>
-//                 <div
-//                     dangerouslySetInnerHTML={{
-//                         __html: data.wordpressPost.content
-//                     }}
-//                 />
-//             </div>
-//         )
-//     }
-// }
+export default function Post({ data }) {
+  return (
+    <>
+      
+    </>
+  )
+}
 
-// export const postQuery = graphql`
-//     query {}
-// `
-          
-// Post.propTypes = {
-//     data: PropTypes.object.isRequired
-// }
+export const query = graphql`
+  query {
+    post: allSanityPost {
+      nodes {
+        slug {
+          current
+        }
+        title
+        _id
+        categories {
+          title
+        }
+        author {
+          name
+        }
+        publishedAt
+        mainImage {
+          asset {
+            gatsbyImageData
+          }
+        }
+        imageCredit
+        tlDr
+        body {
+          style
+          children {
+            text
+          }
+        }
+      }
+    }
+  }
+`

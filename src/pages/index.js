@@ -1,5 +1,6 @@
 import React from 'react'
 import Seo from '../components/seo'
+
 // import RecentPosts from '../components/RecentPosts'
 // import LatestPost from '../components/LatestPost'
 
