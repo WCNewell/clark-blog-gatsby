@@ -25,7 +25,7 @@ export const query = graphql`
       _rawBody
     }
   }
-`
+`;
 
 const BlogPostTemplate = props => {
   const { data, errors } = props
@@ -50,6 +50,6 @@ const BlogPostTemplate = props => {
       <BlockContent blocks={post._rawBody} />
     </>
   )
-}
+};
 
 export default BlogPostTemplate;
