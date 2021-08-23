@@ -1,0 +1,25 @@
+.headerOne {
+  font-size: 3rem; 
+}
+
+.headerTwo {
+  font-size: 2.5rem;
+}
+
+.headerThree {
+  font-size: 2rem;
+}
+
+.headerFour {
+  font-size: 1.5rem;
+}
+
+.blockQuote {
+  font-size: 1.5rem;
+  margin: 1.5rem;
+  background-color: #DCDCDC;
+}
+
+.textBlock {
+  font-size: 1rem;
+}
