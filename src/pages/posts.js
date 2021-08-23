@@ -1,5 +1,6 @@
 import React from 'react';
-// import Img from 'gatsby-image';
+import { graphql } from 'gatsby';
+
 // import Seo from '../components/seo';
 
 export default function allPosts({ data }) {
@@ -10,3 +11,6 @@ export default function allPosts({ data }) {
   )
 };
 
+// A good example of this might be pizzas.js under pages, from video 18
+
+// export const BlogPostQuery = graphql``;

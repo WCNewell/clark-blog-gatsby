@@ -1,9 +1,9 @@
 const path = require(`path`);
 
-exports.createPages = async ({ graphql, actions }) => {
+exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   const blogPostTemplate = path.resolve(`src/templates/post.js`)
-  const result = await graphql(`
+  return graphql(`
     query {
       allSanityPost {
         edges {
@@ -11,19 +11,22 @@ exports.createPages = async ({ graphql, actions }) => {
             slug {
               current
             }
-            title
           }
         }
       }
     }
-  `)
-  result.data.allSanityPost.edges.forEach(edge => {
-    createPage({
-      path: `${edge.node.slug.current}`,
-      component: blogPostTemplate,
-      context: {
-        title: edge.node.title
-      }
+  `, { limit: 1000 }).then(result => {
+    if (result.errors) {
+      throw result.errors
+    }
+    result.data.allSanityPost.edges.forEach(edge => {
+      createPage({
+        path: `${edge.node.slug.current}`,
+        component: blogPostTemplate,
+        context: {
+          slug: edge.node.slug.current
+        },  
+      })
     })
   })
 }

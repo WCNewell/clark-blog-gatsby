@@ -5,8 +5,8 @@ import Seo from '../components/seo';
 import BlockContent from '../components/BlockContent';
 
 export const query = graphql`
-  query BlogPostTemplateQuery {
-    post: sanityPost {
+  query BlogPostTemplateQuery($slug: String!) {
+    post: sanityPost(slug: { current: { eq: $slug } }) {
       title
       author {
         name
@@ -17,7 +17,7 @@ export const query = graphql`
       }
       mainImage {
         asset {
-          gatsbyImageData(formats: AUTO, placeholder: DOMINANT_COLOR)
+          gatsbyImageData(formats: AUTO, placeholder: BLURRED)
         }
       }
       imageCredit
@@ -30,7 +30,7 @@ export const query = graphql`
 const BlogPostTemplate = props => {
   const { data, errors } = props
   const post = data && data.post
-  const imagePlaceholder = getImage(post.mainImage.asset)
+  const image = getImage(post.mainImage.asset)
   console.log(data)
   return (
     <>
@@ -44,7 +44,7 @@ const BlogPostTemplate = props => {
           <li key={category._id}>{category.title}</li>
         ))}
       </ul>
-      <GatsbyImage image={imagePlaceholder} alt={post.imageCredit} />
+      <GatsbyImage image={image} alt={post.imageCredit} />
       <p>{post.imageCredit}</p>
       <p><strong>TLDR: </strong>{post.tlDr}</p>
       <BlockContent blocks={post._rawBody} />
