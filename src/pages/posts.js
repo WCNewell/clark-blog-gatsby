@@ -18,8 +18,8 @@ export const BlogPostQuery = graphql`
           }
         }
         imageCredit
-        title
         tlDr
+        title
         slug {
           current
         }
@@ -36,10 +36,7 @@ const BlogPage = ({ data }) => {
       <h1>Blog Posts</h1>
       <BlogList posts={posts} />
     </>
-  )
-};
+  );
+}
 
 export default BlogPage;
-
-// A good example of this might be pizzas.js under pages, from video 18
-
