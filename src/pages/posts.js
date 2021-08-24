@@ -1,11 +1,13 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Seo from '../components/seo';
+import BlogList from '../components/BlogList';
 
 export const BlogPostQuery = graphql`
   query BlogPageQuery {
     posts: allSanityPost {
       nodes {
+        _id
         publishedAt
         categories {
           title
@@ -26,14 +28,13 @@ export const BlogPostQuery = graphql`
   }
 `;
 
-const BlogPage = props => {
-  const { data } = props
-
+const BlogPage = ({ data }) => {
+  const posts = data.posts.nodes;
   return (
     <>
       <Seo title='Blog Posts' />
       <h1>Blog Posts</h1>
-      {/* {postNodes} */}
+      <BlogList posts={posts} />
     </>
   )
 };

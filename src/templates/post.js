@@ -31,7 +31,6 @@ const BlogPostTemplate = props => {
   const { data, errors } = props
   const post = data && data.post
   const image = getImage(post.mainImage.asset)
-  console.log(data)
   return (
     <>
       {errors && <Seo title='GraphQL Error' />}
