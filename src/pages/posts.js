@@ -28,13 +28,12 @@ export const BlogPostQuery = graphql`
 
 const BlogPage = props => {
   const { data } = props
-  con
 
   return (
     <>
       <Seo title='Blog Posts' />
       <h1>Blog Posts</h1>
-      {postNodes}
+      {/* {postNodes} */}
     </>
   )
 };
