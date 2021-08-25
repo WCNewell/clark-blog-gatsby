@@ -125,11 +125,12 @@ a {
 
 .stars {
   position: absolute;
-  z-index: 1;
+  z-index: 0;
 }
 
 .sticky-wrapper {
   position: relative;
+  z-index: 2;
 }
 
 .sticky .sticky-inner {

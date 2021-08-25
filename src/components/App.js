@@ -137,4 +137,5 @@ const ModeIcons = styled.div`
 const Content = styled.div`
     grid-column: 1 / 5;
     grid-row: 3;
+    z-index: 1;
 `

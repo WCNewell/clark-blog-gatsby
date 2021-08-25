@@ -49,7 +49,7 @@ export const StyledMenu = styled.nav`
     background-color: #effffa;
     color:  #0b0111;
     transition: transform 0.3s ease-in-out;
-    transform: ${({ open }) => open ? 'translateX(-150%)' : 'translateX(0)'};
+    transform: ${({ open }) => open ? 'translateX(-175%)' : 'translateX(0)'};
 
     a {
         font-size: 2rem;
