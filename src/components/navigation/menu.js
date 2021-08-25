@@ -10,24 +10,48 @@ const Menu = ({ open, ...props }) => {
     const tabIndex = isHidden ? 0 : -1;
     
     return (
-        <StyledMenu open={open} aria-hidden={!isHidden} {...props}>
-            <a className='menu-item' href="/" tabIndex={tabIndex} onClick={isHidden === true && navigate()}>
-                <span aria-hidden="true"></span>
-                    <h3>home</h3>
-            </a>
-            <a className='menu-item' href="/about" tabIndex={tabIndex} onClick={isHidden === true && navigate()}>
-                <span aria-hidden="true"></span>
-                <h3>about</h3>
-            </a>
-            <a className='menu-item' href="/portfolio" tabIndex={tabIndex} onClick={isHidden === true && navigate()}>
-                <span aria-hidden="true"></span>
-                <h3>portfolio</h3>
-            </a>
-            <a className='menu-item' href="/posts" tabIndex={tabIndex} onClick={isHidden === true && navigate()}>
-                <span aria-hidden="true"></span>
-                    <h3>tech blog</h3>
-            </a>    
-        </StyledMenu>
+      <StyledMenu open={open} aria-hidden={!isHidden} {...props}>
+        <a
+          className='menu-item'
+          href="/"
+          tabIndex={tabIndex}
+          onClick={() => {
+            isHidden === true && navigate()
+          }}>
+          <span aria-hidden="true"></span>
+              <h3>home</h3>
+        </a>
+        <a
+          className='menu-item'
+          href="/about"
+          tabIndex={tabIndex}
+          onClick={() => {
+            isHidden === true && navigate()
+          }}>
+            <span aria-hidden="true"></span>
+              <h3>about</h3>
+        </a>
+        <a
+          className='menu-item'
+          href="/portfolio"
+          tabIndex={tabIndex}
+          onClick={() => {
+            isHidden === true && navigate()
+          }}>
+            <span aria-hidden="true"></span>
+              <h3>portfolio</h3>
+        </a>
+        <a
+          className='menu-item'
+          href="/posts"
+          tabIndex={tabIndex}
+          onClick={() => {
+            isHidden === true && navigate()
+          }}>
+            <span aria-hidden="true"></span>
+                <h3>tech blog</h3>
+        </a>    
+      </StyledMenu>
     )
 }
 
