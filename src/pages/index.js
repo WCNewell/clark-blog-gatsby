@@ -33,7 +33,7 @@ const IndexPage = ({ data }) => {
   return (
     <>  
       <Seo title='Home' />
-      <h1>Latest Blog Posts</h1>
+      <h1>Latest Posts</h1>
       <BlogList posts={posts}/>
     </>
   );
