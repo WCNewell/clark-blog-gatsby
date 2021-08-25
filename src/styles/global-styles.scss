@@ -179,6 +179,24 @@ body.dark-mode {
 .post-title:hover, .sub-title:hover {
   color: $pink;
 }
+  
+/*Scrollbar Styles */
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+html {
+  scrollbar-width: thin;
+  scrollbar-color: $white $pink;
+}
+body::-webkit-scrollbar-track {
+  background: $white;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: $pink;
+  border-radius: 6px;
+  border: 3px solid $white;
+}
 
 
 
