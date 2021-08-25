@@ -1,32 +1,32 @@
 import React from 'react';
+import { navigate } from 'gatsby'
 import { bool } from 'prop-types'
 import styled from 'styled-components'
-import { Link } from 'gatsby'
 import '../../styles/global-styles.scss'
 
 const Menu = ({ open, ...props }) => {
   
     const isHidden = open ? true : false;
     const tabIndex = isHidden ? 0 : -1;
-
+    
     return (
         <StyledMenu open={open} aria-hidden={!isHidden} {...props}>
-            <Link className='menu-item' to="/" tabIndex={tabIndex} onClick={isHidden === true}>
+            <a className='menu-item' href="/" tabIndex={tabIndex} onClick={isHidden === true && navigate()}>
                 <span aria-hidden="true"></span>
                     <h3>home</h3>
-            </Link>
-            <Link className='menu-item' to="/about" tabIndex={tabIndex} onClick={isHidden === true}>
+            </a>
+            <a className='menu-item' href="/about" tabIndex={tabIndex} onClick={isHidden === true && navigate()}>
                 <span aria-hidden="true"></span>
                 <h3>about</h3>
-            </Link>
-            <Link className='menu-item' to="/portfolio" tabIndex={tabIndex} onClick={isHidden === true}>
+            </a>
+            <a className='menu-item' href="/portfolio" tabIndex={tabIndex} onClick={isHidden === true && navigate()}>
                 <span aria-hidden="true"></span>
                 <h3>portfolio</h3>
-            </Link>
-            <Link className='menu-item' to="/posts" tabIndex={tabIndex} onClick={isHidden === true}>
+            </a>
+            <a className='menu-item' href="/posts" tabIndex={tabIndex} onClick={isHidden === true && navigate()}>
                 <span aria-hidden="true"></span>
                     <h3>tech blog</h3>
-            </Link>    
+            </a>    
         </StyledMenu>
     )
 }
