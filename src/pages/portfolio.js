@@ -1,13 +1,13 @@
 import React from 'react'
 import Seo from '../components/seo'
 
-const About = () => (
+const Portfolio = () => (
     <>  
-        <Seo title='About' />
+        <Seo title='Portfolio' />
             <div>
-                <h1>About</h1>
+                <h1>Portfolio</h1>
             </div>
     </>
 )
 
-export default About
+export default Portfolio;

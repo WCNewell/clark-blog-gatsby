@@ -167,6 +167,15 @@ body.dark-mode {
   margin-bottom: 1rem;
 }
 
+.menu-icons {
+  fill: $pink;
+  height: 2rem;
+  width: 2rem;
+  margin-right: 1.14rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
 .post-title:hover, .sub-title:hover {
   color: $pink;
 }
