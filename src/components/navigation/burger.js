@@ -1,6 +1,6 @@
-import React from 'react'
-import { bool, func } from 'prop-types'
-import styled from 'styled-components'
+import React from 'react';
+import { bool, func } from 'prop-types';
+import styled from 'styled-components';
 
 const Burger = ({ open, setOpen, ...props }) => {
   
@@ -12,7 +12,7 @@ const Burger = ({ open, setOpen, ...props }) => {
             <span />
             <span />
         </StyledBurger>
-    )
+    );
 }
 
 Burger.propTypes = {
@@ -64,4 +64,4 @@ export const StyledBurger = styled.button`
             transform: ${({ open }) => open ? 'rotate(-45deg)' : 'rotate(0)'};
         }
     }
-`
+`;

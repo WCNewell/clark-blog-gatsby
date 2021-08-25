@@ -1,14 +1,14 @@
 import React from 'react';
-import { navigate } from 'gatsby'
-import { bool } from 'prop-types'
-import styled from 'styled-components'
-import '../../styles/global-styles.scss'
+import { navigate } from 'gatsby';
+import { bool } from 'prop-types';
+import styled from 'styled-components';
+import '../../styles/global-styles.scss';
 
-import Mail from '../../assets/mail.inline.svg'
-import LinkedIn from '../../assets/linkedin.inline.svg'
-import Github from '../../assets/github.inline.svg'
-import Twitter from '../../assets/twitter.inline.svg'
-import Instagram from '../../assets/instagram.inline.svg'
+import Mail from '../../assets/mail.inline.svg';
+import LinkedIn from '../../assets/linkedin.inline.svg';
+import Github from '../../assets/github.inline.svg';
+import Twitter from '../../assets/twitter.inline.svg';
+import Instagram from '../../assets/instagram.inline.svg';
 
 const Menu = ({ open, ...props }) => {
   
@@ -75,7 +75,7 @@ const Menu = ({ open, ...props }) => {
         </a>
       </div>    
     </StyledMenu>
-  )
+  );
 }
 
 Menu.propTypes = {
@@ -105,4 +105,4 @@ const StyledMenu = styled.nav`
         text-decoration: none;
         transition: color 0.3s linear;
     }
-`
+`;

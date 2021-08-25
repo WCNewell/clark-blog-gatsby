@@ -1,6 +1,6 @@
 import React from 'react';
 import BaseBlockContent from '@sanity/block-content-to-react';
-import '../styles/typography.css'
+import '../styles/typography.css';
 
 const serializers = {
   types: {
@@ -30,4 +30,4 @@ const serializers = {
 
 const BlockContent = ({ blocks }) => <BaseBlockContent blocks={blocks} serializers={serializers} />
 
-export default BlockContent
+export default BlockContent;
