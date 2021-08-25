@@ -23,9 +23,9 @@ const Menu = ({ open, ...props }) => {
                 <span aria-hidden="true"></span>
                 <h3>portfolio</h3>
             </Link>
-            <Link className='menu-item' to="/blog" tabIndex={tabIndex} onClick={isHidden === true}>
+            <Link className='menu-item' to="/posts" tabIndex={tabIndex} onClick={isHidden === true}>
                 <span aria-hidden="true"></span>
-                    <h3>web blog</h3>
+                    <h3>tech blog</h3>
             </Link>    
         </StyledMenu>
     )
