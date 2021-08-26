@@ -7,6 +7,7 @@ import BlockContent from '../components/BlockContent';
 export const query = graphql`
   query BlogPostTemplateQuery($slug: String!) {
     post: sanityPost(slug: { current: { eq: $slug } }) {
+      _id
       title
       author {
         name
@@ -14,6 +15,7 @@ export const query = graphql`
       publishedAt(formatString: "MMMM Do yyyy")
       categories {
         title
+        _id
       }
       mainImage {
         asset {
