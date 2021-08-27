@@ -20,7 +20,7 @@ const Portfolio = () => (
 						<h2>Highlighted Projects</h2>
 											{/* Clark Blog */}
 						<a href='/'>
-							<DemoLink>Clark Blog</DemoLink>
+							<h3>Clark Blog</h3>
 						</a>
 						<RepoLinkButton>	
 						<a href='https://github.com/WCNewell/clark-blog-gatsby'>
@@ -49,7 +49,7 @@ const Portfolio = () => (
 						</ul>
 										{/* Clark's Slices */}
 						<a href='https://clarks-slices.netlify.app/'>
-							<DemoLink>Clark's Slices</DemoLink>
+							<h3>Clark's Slices</h3>
 						</a>
 						<RepoLinkButton>	
 						<a href='https://github.com/WCNewell/master-gatsby'>
@@ -60,7 +60,7 @@ const Portfolio = () => (
 						<p>Brief description...</p>
 										{/* Max Hamburger */}
 						<a href='https://wcnewell.github.io/max-hamburger/'>
-							<DemoLink>Max Hamburger</DemoLink>
+							<h3>Max Hamburger</h3>
 						</a>
 						<RepoLinkButton>	
 						<a href='https://github.com/WCNewell/max-hamburger'>
@@ -71,7 +71,7 @@ const Portfolio = () => (
 						<p>Brief description...</p>
 										{/* Vuetiful Goals */}
 						<a href='https://vuetiful-goals.firebaseapp.com/#/goals'>
-							<DemoLink>Vuetiful Goals</DemoLink>
+							<h3>Vuetiful Goals</h3>
 						</a>
 						<RepoLinkButton>	
 						<a href='https://github.com/WCNewell/VuetifulGoals-client'>
@@ -91,8 +91,4 @@ export default Portfolio;
 const RepoLinkButton = styled.button`
 	display: flex;
 	align-content: flex-start;
-`
-
-const DemoLink = styled.h3`
-	color: #0b0111;
-`
+`;
