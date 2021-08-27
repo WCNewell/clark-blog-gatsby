@@ -2,8 +2,8 @@ import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import Seo from '../components/seo';
 
-const ClarkAlyeska = () => {
-  return <StaticImage src='../images/ClarkAlyeska.jpg' alt="Clark Newell at Alyeska Ski Resort" />
+const ClarkHeadshot = () => {
+  return <StaticImage src='../images/ClarkHeadshot.jpg' alt="Clark Newell at Alyeska Ski Resort" />
 }
 
 const About = () => (
@@ -11,16 +11,15 @@ const About = () => (
 		<Seo title='About' />
 				<div>
 					<h1>About</h1>
-					<ClarkAlyeska />
+					<ClarkHeadshot />
 					<div>
-						<p>Customer service manager, web developer, outdoorsman and pop culture entusist.</p>
-						
+						<p>Hello World! I'm a Customer service manager, web developer, outdoorsman and pop culture enthusist.</p>
 						<h2>Highlighted Experience</h2>
 						<ul>
 							<li>
 								<h3>Smith's Marketplace - Customer Service Manager</h3>
 								<p>Sept 2018 - Current</p>
-								<p>Responsible for supervising a 170,000 sq. ft. superstore in store directors' absence, with focus on speed, reliability, friendliness and cleanliness with checkout, self-checkout, and guest money services. Supervise and direct front-end employee activities. Ensure maintenance and operability of check-out technology including self-checkout robots and cash recycler. Oversee the cleanliness of the entire store and protect substantial cash assets. Also trained in grocery inventory ordering and stocking as well as selection and curbside delivery for online "pickup" orders using wireless handheld devices designed by Kroger Technology.</p>	
+								<p>Responsible for supervising a 170,000 sq. ft. superstore in store directors' absence, with focus on speed, reliability, friendliness, and cleanliness at checkout, self-checkout, and guest money services. Supervise and direct front-end employee activities and protect substantial cash assets. Ensure maintenance and operability of check-out technology including self-checkout robots and cash recycler. Also trained in grocery inventory ordering and stocking as well as selection and curbside delivery for online pickup orders using wireless handheld devices designed by Kroger Technology.</p>	
 							</li>
 							<li>
 								<h3>Red Pepper Software - Software Development Intern</h3>
@@ -65,7 +64,7 @@ const About = () => (
 							</li>
 							<li>
 								<h3>Queer Tech Utah</h3>
-								<h4></h4>
+								<h4>Co-organizer</h4>
 								<p>Organized social networking events and technology discussions for the LGBTQIA+ developer and tech community in the Salt Lake City, Utah area via meetup. Also chaired a Diversity and Inclusion discussion panel for the Silicon Slopes organization.</p>	
 							</li>
 						</ul>

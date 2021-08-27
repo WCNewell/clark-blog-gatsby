@@ -176,6 +176,13 @@ body.dark-mode {
   margin-bottom: 1rem;
 }
 
+.portfolio-icon {
+  fill: $pink;
+  height: 1rem;
+  width: 1rem;
+  cursor: pointer;
+}
+
 .post-title:hover, .sub-title:hover {
   color: $pink;
 }

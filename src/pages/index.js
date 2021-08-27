@@ -1,6 +1,6 @@
 import React from 'react'
 import Seo from '../components/seo'
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import BlogList from '../components/BlogList';
 
 export const RecentPostsQuery = graphql`
@@ -33,8 +33,14 @@ const IndexPage = ({ data }) => {
   return (
     <>  
       <Seo title='Home' />
-      <h1>Latest Posts</h1>
+      <div>
+        <h1>Home</h1>
+      </div>
       <BlogList posts={posts}/>
+      <Link to="/posts" >
+        <h2>See more posts...</h2>
+      </Link>
+      
     </>
   );
 }
