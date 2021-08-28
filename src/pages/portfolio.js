@@ -41,11 +41,11 @@ const Portfolio = () => (
 						</ul>
 						<p>Further Iterations will present the following features:</p>
 						<ul>
-							<li>Accessbility audit and adjustments implmented</li>
+							<li>Accessbility audit and adjustments implemented</li>
 							<li>Unit testing</li>
 							<li>Sorting of blog posts by category</li>
-							<li>Advancments in Sass and CSS</li>
-							<li>A separately hosted fitness blog showcasing different styling and content</li>
+							<li>Advancments in Sassy CSS and Styled-Components</li>
+							<li>A separately hosted fitness blog showcasing different styling and original content</li>
 						</ul>
 										{/* Clark's Slices */}
 						<a href='https://clarks-slices.netlify.app/'>
@@ -57,7 +57,7 @@ const Portfolio = () => (
 							<p>View the code on Github</p>
 							</a>
 						</RepoLinkButton>
-						<p>Brief description...</p>
+						<p>Completed the entire Master-Gatsby course from Wes Bos and this is the resulting demo.</p>
 										{/* Max Hamburger */}
 						<a href='https://wcnewell.github.io/max-hamburger/'>
 							<h3>Max Hamburger</h3>
@@ -66,9 +66,9 @@ const Portfolio = () => (
 						<a href='https://github.com/WCNewell/max-hamburger'>
 							<Github className='portfolio-icon' alt='github icon' />
 							<p>View the code on Github</p>
-							</a>
+						</a>
 						</RepoLinkButton>
-						<p>Brief description...</p>
+						<p>Completed the entire Udemy React course from Maximilian Schwarzmueller and this is the resulting demo.</p>
 										{/* Vuetiful Goals */}
 						<a href='https://vuetiful-goals.firebaseapp.com/#/goals'>
 							<h3>Vuetiful Goals</h3>
@@ -79,7 +79,7 @@ const Portfolio = () => (
 							<p>View the code on Github</p>
 							</a>
 						</RepoLinkButton>
-						<p>Brief description...</p>
+						<p>Very first CRUD application completed while at Galvanize.</p>
 
 					</div>
 				</div>

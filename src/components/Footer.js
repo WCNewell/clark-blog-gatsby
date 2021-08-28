@@ -15,7 +15,7 @@ const Footer = () => {
                 {` `}
                 <a href="https://www.gatsbyjs.org">Gatsby</a>
             </h5>
-            <a href='mailto: clark@clarknewell.tech'>
+            <a href='mailto: process.env.EMAIL_ADDRESS'>
                 <Mail className='social-icons 'alt='email icon'/>
             </a>
             <a href='https://linkedin.com/in/william-clark-newell/'>
