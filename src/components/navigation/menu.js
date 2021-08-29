@@ -58,9 +58,6 @@ const Menu = ({ open, ...props }) => {
               <h3>tech blog</h3>
       </a>
       <div className="menu-icons">
-      <a href='mailto: process.env.EMAIL_ADDRESS'>
-        <Mail className='menu-icons 'alt='email icon'/>
-        </a>
         <a href='https://linkedin.com/in/william-clark-newell/'>
             <LinkedIn className='menu-icons' alt='linkedin icon'/>
         </a>

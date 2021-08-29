@@ -18,6 +18,7 @@ const Portfolio = () => (
 					<div>
 						<p>The first iteration of my personal website was created with an early version of Gatsby and a template from HTML5 UP.</p>
 						<h2>Highlighted Projects</h2>
+						
 											{/* Clark Blog */}
 						<a href='/'>
 							<h3>Clark Blog</h3>
@@ -36,17 +37,10 @@ const Portfolio = () => (
 							<li>GraphQL to traverse the Gatsby and Sanity APIs.</li>
 							<li>Sassy CSS and Styled Components</li>
 							<li>Light and dark mode with state management provided by Gatsby and React hooks</li>
-							<li>Original logo designed with boxy-svg</li>
-							<li>Original blog content</li>
+							<li>Original logo design and original blog content</li>
 						</ul>
-						<p>Further Iterations will present the following features:</p>
-						<ul>
-							<li>Accessbility audit and adjustments implemented</li>
-							<li>Unit testing</li>
-							<li>Sorting of blog posts by category</li>
-							<li>Advancments in Sassy CSS and Styled-Components</li>
-							<li>A separately hosted fitness blog showcasing different styling and original content</li>
-						</ul>
+						<p>Further Iterations will present the following features: accessbility audit with adjustments implemented, unit testing, contact form, and sorting of blog posts by categor and more.</p>
+						
 										{/* Clark's Slices */}
 						<a href='https://clarks-slices.netlify.app/'>
 							<h3>Clark's Slices</h3>
@@ -58,6 +52,7 @@ const Portfolio = () => (
 							</a>
 						</RepoLinkButton>
 						<p>Completed the entire Master-Gatsby course from Wes Bos and this is the resulting demo.</p>
+						
 										{/* Max Hamburger */}
 						<a href='https://wcnewell.github.io/max-hamburger/'>
 							<h3>Max Hamburger</h3>
@@ -69,6 +64,7 @@ const Portfolio = () => (
 						</a>
 						</RepoLinkButton>
 						<p>Completed the entire Udemy React course from Maximilian Schwarzmueller and this is the resulting demo.</p>
+						
 										{/* Vuetiful Goals */}
 						<a href='https://vuetiful-goals.firebaseapp.com/#/goals'>
 							<h3>Vuetiful Goals</h3>
