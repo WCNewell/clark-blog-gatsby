@@ -73,11 +73,11 @@ const Menu = ({ open, ...props }) => {
         <a href='https://github.com/WCNewell'>
             <Github className='menu-icons' alt='github icon'/>
         </a>
-        <a href='https://twitter.com/WCNewell'>
-            <Twitter className='menu-icons' alt='twitter icon'/>
-        </a>
         <a href='https://instagram.com/willcnewell/'>
             <Instagram className='menu-icons' alt='instagram icon'/>
+        </a>
+        <a href='https://twitter.com/WCNewell'>
+            <Twitter className='menu-icons' alt='twitter icon'/>
         </a>
       </div>    
     </StyledMenu>
