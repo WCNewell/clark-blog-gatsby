@@ -4,7 +4,6 @@ import { bool } from 'prop-types';
 import styled from 'styled-components';
 import '../../styles/global-styles.scss';
 
-import Mail from '../../assets/mail.inline.svg';
 import LinkedIn from '../../assets/linkedin.inline.svg';
 import Github from '../../assets/github.inline.svg';
 import Twitter from '../../assets/twitter.inline.svg';
@@ -56,6 +55,16 @@ const Menu = ({ open, ...props }) => {
         }}>
           <span aria-hidden="true"></span>
               <h3>tech blog</h3>
+      </a>
+      <a
+        className='menu-item'
+        href="/contact"
+        tabIndex={tabIndex}
+        onClick={() => {
+          isHidden === true && navigate()
+        }}>
+          <span aria-hidden="true"></span>
+              <h3>contact</h3>
       </a>
       <div className="menu-icons">
         <a href='https://linkedin.com/in/william-clark-newell/'>

@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Mail from '../assets/mail.inline.svg';
 import LinkedIn from '../assets/linkedin.inline.svg';
 import Github from '../assets/github.inline.svg';
 import Twitter from '../assets/twitter.inline.svg';
