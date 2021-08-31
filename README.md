@@ -1,4 +1,3 @@
-![Spaceman Clark](./src/images/OG-AstronautClark)
 <p align="center">
   <a href="https://www.clarknewell.tech">
     <h1 align="center">www.clarknewell.tech</h1>
