@@ -2,8 +2,8 @@ import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import Seo from '../components/seo';
 
-const ClarkHeadshot = () => {
-  return <StaticImage src='../images/ClarkHeadshot.jpg' alt="Clark Newell at Alyeska Ski Resort" />
+const ClarkAlyeska = () => {
+  return <StaticImage src='../images/ClarkAlyeska.jpg' alt="Clark Newell at Alyeska Ski Resort" />
 }
 
 const About = () => (
@@ -11,7 +11,7 @@ const About = () => (
 		<Seo title='About' />
 				<div>
 					<h1>About</h1>
-					<ClarkHeadshot />
+					<ClarkAlyeska />
 					<div>
 						<p>Hello World! I'm a Customer service manager, web developer, outdoorsman and pop culture enthusist.</p>
 						<h2>Highlighted Experience</h2>
