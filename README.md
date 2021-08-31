@@ -4,7 +4,7 @@
 </p>
 
 
-Version 3.0 of my personal website / blogsite and portfolio under development based on the [gatsby default starter](https://github.com/gatsbyjs/gatsby-starter-default)
+Version 3.0 of my personal website / blogsite and portfolio currently under development
 
 ## 🚀 Features
 
