@@ -1,11 +1,9 @@
+![Spaceman Clark](./src/assets/clarklogo.inline.svg)
 <p align="center">
   <a href="https://www.clarknewell.tech">
-    <img alt="Spaceman Clark" src="../gatsby/src/images/clark-logo-white.png" width="60" />
-  </a>
+    <h1 align="center">www.clarknewell.tech</h1>
 </p>
-<h1 align="center">
-  www.clarknewell.tech
-</h1>
+
 
 Version 3.0 of my personal website / blogsite / and portfolio under development based on the [gatsby default starter](https://github.com/gatsbyjs/gatsby-starter-default)
 
