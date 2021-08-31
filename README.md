@@ -1,7 +1,6 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.clarknewell.tech">
-    <img alt="Gatsby" src="../gatsby/src/assets/clarklogo.inline.svg" width="60" />
+    <img alt="Spaceman Clark" src="../gatsby/src/images/clark-logo-white.png" width="60" />
   </a>
 </p>
 <h1 align="center">
