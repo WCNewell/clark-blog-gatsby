@@ -54,7 +54,7 @@ const Portfolio = () => (
 								plugin</li>
 							<li>Original logo design and original blog content</li>
 						</ul>
-						<p>Further Iterations will present the following features: accessbility audit with adjustments implemented, unit testing, stateful contact form, sorting of blog posts by category, and more advanced Sassy CSS.</p>
+						<p>Further Iterations will present the following features: a stateful contact form, sorting of blog posts by categories, and more advanced Sassy CSS.</p>
 						
 										{/* Clark's Slices */}
 						<a href='https://clarks-slices.netlify.app/'>

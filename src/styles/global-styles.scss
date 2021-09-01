@@ -24,9 +24,9 @@
 
 $white: #effffa;
 $black: #0b0111;
-$pink: #ff0dbf;
+$pink: #ff004c;
 $gold: #ffd700;
-$blue: #0ecee3;
+$blue: #00d9ff;
 
 html, body {
   @include flexbox();
@@ -64,6 +64,7 @@ body.light-mode {
 
   .extlink {
     color: $pink;
+    font-weight: bold;
   }
   
   .logo {
@@ -73,7 +74,7 @@ body.light-mode {
   }
 
   .name {
-      color: $blue;
+      color: $black;
   }
   
   .menu-item {
@@ -83,12 +84,17 @@ body.light-mode {
   .footer {
       height: 7rem;
       width: auto;
-      background-color: $blue;
+      background-color: $black;
 
       .footer-text {
-          color: $white;
+          color: $pink;
           padding: 1rem;
-      }    
+      }
+      
+      .footer-link {
+        color: $white;
+        text-decoration: underline;
+      }
   }    
 } 
 
@@ -112,6 +118,7 @@ body.dark-mode {
   
   .extlink {
     color: $pink;
+    font-weight: bold;
   }
   
   .logo {
@@ -134,7 +141,12 @@ body.dark-mode {
       .footer-text {
           color: $white;
           padding: 1rem;
-      }   
+      }
+      
+      .footer-link {
+        color: $white;
+        text-decoration: underline;
+      }
   }    
 }
 
@@ -167,10 +179,10 @@ body.dark-mode {
 
 .social-icons {
   fill: $white;
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 2.0rem;
+  width: 2.0rem;
   margin-left: 1.14rem;
-  margin-right: 1.14rem;
+  margin-right: 1.6rem;
   cursor: pointer;
   margin-bottom: 1rem;
 }

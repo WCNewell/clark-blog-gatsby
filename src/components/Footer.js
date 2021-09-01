@@ -12,7 +12,7 @@ const Footer = () => {
             <h5 className='footer-text'>
                 © {new Date().getFullYear()} Clark Newell, Built with
                 {` `}
-                <a href="https://www.gatsbyjs.org">Gatsby</a>
+                <a className="footer-link" href="https://www.gatsbyjs.org">Gatsby</a>
             </h5>
             <a href='https://linkedin.com/in/william-clark-newell/'>
                 <LinkedIn className='social-icons' alt='linkedin icon'/>
