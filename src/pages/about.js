@@ -58,14 +58,14 @@ const About = () => (
 						<h2>Service</h2>
 						<ul>
 							<li>
-								<h3>Denver LGBTQ Tech</h3>
-								<h4>Co-organizer</h4>
-								<p>Organized social networking events and technology discussions for the LGBTQIA+ developer and tech community in the Denver, Colorado area via meetup.</p>	
-							</li>
-							<li>
 								<h3>Queer Tech Utah</h3>
 								<h4>Co-organizer</h4>
 								<p>Organized social networking events and technology discussions for the LGBTQIA+ developer and tech community in the Salt Lake City, Utah area via meetup. Also chaired a Diversity and Inclusion discussion panel for the Silicon Slopes organization.</p>	
+							</li>
+							<li>
+								<h3>Denver LGBTQ Tech</h3>
+								<h4>Co-organizer</h4>
+								<p>Organized social networking events and technology discussions for the LGBTQIA+ developer and tech community in the Denver, Colorado area via meetup.</p>	
 							</li>
 						</ul>
 					</div>
