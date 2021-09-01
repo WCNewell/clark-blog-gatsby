@@ -31,12 +31,27 @@ const Portfolio = () => (
 						</RepoLinkButton>
 						<p>Version 3.0 of my personal website presents the following features:</p>	
 						<ul>
-							<li>Built with Gatsby, a frontend framework based on the React library</li>
-							<li>Frontend hosted by Netlify with CI/CD (Continuous Integration and Continuous Deployement) via Github commits</li>
-							<li>Custom backend and CMS (Content Management) studio built with Sanity.io</li>
-							<li>GraphQL is implemented to traverse the Gatsby and Sanity APIs</li>
-							<li>Sass and Styled Components are implemented for CSS styling</li>
-							<li>Light and dark mode is implemented with state management via Gatsby and React hooks and the useDarkMode plugin</li>
+							<li>Built with
+								<a className="extlink" href="https://gatsbyjs.com"> Gatsby, </a>
+									a frontend framework based on the opensource 
+								<a className="extlink" href="https://reactjs.org"> React </a>
+								library</li>
+							<li>Frontend hosted by
+								<a className="extlink" href="https://netlify.com"> Netlify </a>
+									with CI/CD (Continuous Integration and Continuous Deployement) via Github commits</li>
+							<li>Custom backend and CMS (Content Management Studio) built with 
+								<a className="extlink" href="https://sanity.io"> Sanity.io</a>
+							</li>
+							<li>
+								<a className="extlink" href="https://graphql.org">GraphQL </a>
+								is implemented to traverse the Gatsby and Sanity APIs</li>
+							<li>
+								<a className="extlink" href="https://sass-lang.com">Sass </a>and 
+								<a className="extlink" href="https://styled-components.com"> Styled Components </a>
+								are implemented for CSS styling</li>
+							<li>Light and dark mode is implemented with state management via Gatsby and React hooks and the 
+								<a className="extlink" href="https://www.npmjs.com/package/use-dark-mode"> useDarkMode </a>
+								plugin</li>
 							<li>Original logo design and original blog content</li>
 						</ul>
 						<p>Further Iterations will present the following features: accessbility audit with adjustments implemented, unit testing, stateful contact form, sorting of blog posts by category, and more advanced Sassy CSS.</p>
