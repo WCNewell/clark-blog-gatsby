@@ -18,23 +18,13 @@ const Menu = ({ open, ...props }) => {
     <StyledMenu open={open} aria-hidden={!isHidden} {...props}>
       <a
         className='menu-item'
-        href="/"
-        tabIndex={tabIndex}
-        onClick={() => {
-          isHidden === true && navigate()
-        }}>
-        <span aria-hidden="true"></span>
-            <h3>home</h3>
-      </a>
-      <a
-        className='menu-item'
         href="/about"
         tabIndex={tabIndex}
         onClick={() => {
           isHidden === true && navigate()
         }}>
           <span aria-hidden="true"></span>
-            <h3>about</h3>
+            <h2>about</h2>
       </a>
       <a
         className='menu-item'
@@ -44,7 +34,7 @@ const Menu = ({ open, ...props }) => {
           isHidden === true && navigate()
         }}>
           <span aria-hidden="true"></span>
-            <h3>portfolio</h3>
+            <h2>portfolio</h2>
       </a>
       <a
         className='menu-item'
@@ -54,7 +44,7 @@ const Menu = ({ open, ...props }) => {
           isHidden === true && navigate()
         }}>
           <span aria-hidden="true"></span>
-              <h3>tech blog</h3>
+              <h2>tech blog</h2>
       </a>
       <a
         className='menu-item'
@@ -64,19 +54,19 @@ const Menu = ({ open, ...props }) => {
           isHidden === true && navigate()
         }}>
           <span aria-hidden="true"></span>
-              <h3>contact</h3>
+              <h2>contact</h2>
       </a>
       <div className="menu-icons">
-        <a href='https://linkedin.com/in/william-clark-newell/'>
-            <LinkedIn className='menu-icons' alt='linkedin icon'/>
+        <a aria-label="linked in" href='https://linkedin.com/in/william-clark-newell/'>
+            <LinkedIn className='menu-icons' alt='linked in icon'/>
         </a>
-        <a href='https://github.com/WCNewell'>
+        <a aria-label="github" href='https://github.com/WCNewell'>
             <Github className='menu-icons' alt='github icon'/>
         </a>
-        <a href='https://instagram.com/willcnewell/'>
+        <a aria-label="instagram" href='https://instagram.com/willcnewell/'>
             <Instagram className='menu-icons' alt='instagram icon'/>
         </a>
-        <a href='https://twitter.com/WCNewell'>
+        <a aria-label="twitter" href='https://twitter.com/WCNewell'>
             <Twitter className='menu-icons' alt='twitter icon'/>
         </a>
       </div>    

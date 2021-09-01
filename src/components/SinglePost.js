@@ -7,7 +7,7 @@ const SinglePost = ({ post }) => {
   return (
     <>
       <GatsbyImage image={image} alt={post.imageCredit} />
-      <span>
+      <span aria-label={post.title}>
         <Link to={`/${post.slug.current}`}>
           <h2>{post.title}</h2>
         </Link>

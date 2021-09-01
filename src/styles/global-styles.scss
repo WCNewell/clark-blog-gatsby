@@ -41,6 +41,10 @@ body {
   height: 100vh -webkit-fill-available;
   width: 100vw -webkit-fill-available;
   text-rendering: optimizeLegibility;
+
+  a.extlink {
+    font-weight: bold;
+  }
 }
 
 body.light-mode {
@@ -62,11 +66,6 @@ body.light-mode {
     }
   }
 
-  .extlink {
-    color: $pink;
-    font-weight: bold;
-  }
-  
   .logo {
       fill: $black;
       height: 3.75rem;
@@ -114,11 +113,6 @@ body.dark-mode {
     :visited {
       color: $pink;
     }
-  }
-  
-  .extlink {
-    color: $pink;
-    font-weight: bold;
   }
   
   .logo {

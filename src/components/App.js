@@ -50,7 +50,7 @@ const App = ({ children }) => {
       return (
         <>
           <Brand>
-              <Link to="/" alt="link to home page">
+              <Link to="/" aria-label="home page">
                   <Logo className='logo' />
               </Link>
               <Name>
