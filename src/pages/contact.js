@@ -1,7 +1,9 @@
 import React from 'react';
+import Seo from '../components/seo';
 
 const ContactPage = () => (
   <>
+    <Seo title="Contact" />
     <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
       <input type="hidden" name="bot-field" />
       <input type="hidden" name="form-name" value="contact" />
