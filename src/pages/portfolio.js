@@ -53,9 +53,8 @@ const Portfolio = () => (
 								<a className="extlink" aria-label="use dark mode" href="https://www.npmjs.com/package/use-dark-mode"> useDarkMode </a>
 								plugin
 							</li>
-							<li>Accessbility audit performed with
-								<a className="extlink" aria-label="wave" href="https://wave.webaim.org/"> WAVE </a>
-								(Website Accessbility Evaluation Tool)
+							<li>Unit testing created with
+								<a className="extlink" aria-label="jest" href="https://jestjs.io/"> Jest </a>
 							</li>
 							<li>Original logo design and original blog content</li>
 						</ul>
