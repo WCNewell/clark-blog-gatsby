@@ -14,6 +14,8 @@ const About = () => (
 					<ClarkAlyeska />
 					<div>
 						<p>Hello World! I'm a Customer service manager, web developer, outdoorsman and pop culture enthusist.</p>
+						<h2>Goal</h2>
+						<p>To represent your software company in sales, support, quality analysis, product management and / or development.</p>
 						<h2>Highlighted Experience</h2>
 						<ul>
 							<li>
