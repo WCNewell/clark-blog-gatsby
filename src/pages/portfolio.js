@@ -38,8 +38,8 @@ const Portfolio = () => (
 								library</li>
 							<li>Frontend hosted by
 								<a className="extlink" aria-label="netlify" href="https://netlify.com"> Netlify </a>
-									with CI/CD (Continuous Integration and Continuous Deployement) via Github commits</li>
-							<li>Custom backend and CMS (Content Management Studio) built with 
+									with CI/CD (Continuous Integration and Continuous Deployment) via Github commits</li>
+							<li>Custom backend and CMS (Content Management Studio) built with and hosted by
 								<a className="extlink" aria-label="sanity" href="https://sanity.io"> Sanity.io</a>
 							</li>
 							<li>
@@ -55,6 +55,9 @@ const Portfolio = () => (
 							</li>
 							<li>Unit testing created with
 								<a className="extlink" aria-label="jest" href="https://jestjs.io/"> Jest </a>
+							</li>
+							<li>Accessbility audit and corrections performed with
+								<a className="extlink" aria-label="wave" href="https://wave.webaim.org/"> WAVE </a>
 							</li>
 							<li>Original logo design and original blog content</li>
 						</ul>
@@ -94,7 +97,7 @@ const Portfolio = () => (
 							<p>View the code on Github</p>
 							</a>
 						</RepoLinkButton>
-						<p>Very first CRUD (Create, Read, Update, Delete) application completed while at Galvanize.</p>
+						<p>Very first CRUD (Create, Read, Update, Delete) application completed while at Galvanize using Vue.js.</p>
 
 					</div>
 				</div>
