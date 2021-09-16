@@ -13,7 +13,7 @@ const About = () => (
 					<h1>About</h1>
 					<ClarkAlyeska />
 					<div>
-						<p>Hello World! I'm a Customer service manager, web developer, outdoorsman and pop culture enthusist.</p>
+						<p>Hello World! I'm a Customer service manager, web developer, outdoorsman and pop culture enthusist. Photo of me on the Alyeska ski resort headwall while previewing the Cirque Series 2021 race course by Robyn Newell, July 2021.</p>
 						<h2>Goal</h2>
 						<p>To represent your software company in sales, support, quality analysis, product management and / or development.</p>
 						<h2>Highlighted Experience</h2>
