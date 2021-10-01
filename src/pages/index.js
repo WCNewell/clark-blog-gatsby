@@ -15,7 +15,7 @@ export const RecentPostsQuery = graphql`
         }
         mainImage {
           asset {
-            gatsbyImageData(formats: AUTO, placeholder: BLURRED)
+            gatsbyImageData(formats: AUTO, placeholder: BLURRED, aspectRatio: 1)
           }
         }
         imageCredit

@@ -10,11 +10,11 @@ const Footer = () => {
   return (
       <>
         <div className='footer'>
-            <h3 className='footer-text'>
+            <h4 className='footer-text'>
                 © {new Date().getFullYear()} Clark Newell, Built with
                 {` `}
                 <a className="footer-link" aria-label="gatsby" href="https://www.gatsbyjs.org">Gatsby</a>
-            </h3>
+            </h4>
             <IconBox>
               <a href='https://linkedin.com/in/william-clark-newell/' aria-label="linked in">
                   <LinkedIn className='social-icons' alt='linked in icon'/>

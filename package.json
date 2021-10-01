@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "clark newell blog",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A portfolio and tech blog based on the gatsby default starter",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Clark Newell <williamcnewell@gmail.com>",
   "dependencies": {
     "@sanity/block-content-to-react": "^3.0.0",
     "gatsby": "^3.11.1",

@@ -3,10 +3,13 @@ import { Link } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
 const SinglePost = ({ post }) => {
-  const image = getImage(post.mainImage.asset);
+  const image = getImage(post.mainImage.asset.gatsbyImageData);
   return (
     <>
-      <GatsbyImage image={image} alt={post.imageCredit} />
+      <GatsbyImage
+        image={image}
+        alt={post.imageCredit}
+      />
       <span aria-label={post.title}>
         <Link to={`/${post.slug.current}`}>
           <h2>{post.title}</h2>

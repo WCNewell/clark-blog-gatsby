@@ -3,10 +3,10 @@ require('dotenv').config()
 module.exports = {
     siteMetadata: {
         title: `Clark Newell`,
-        description: `web development and fitness journey`,
-        keywords: `Web Development Gatsby React Blog Headless WordPress Fitness`,
+        description: `portfolio and tech blog`,
+        keywords: `gatsby sanity react clark newell web development blog`,
         author: `@gatsbyjs and @WCNewell`,
-        siteUrl: 'https://clarknewell.netlify.com'
+        siteUrl: 'https://www.clarknewell.tech'
     },
     plugins: [
         `gatsby-plugin-react-helmet`,

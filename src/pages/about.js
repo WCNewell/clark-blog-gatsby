@@ -3,7 +3,13 @@ import { StaticImage } from 'gatsby-plugin-image';
 import Seo from '../components/seo';
 
 const ClarkAlyeska = () => {
-  return <StaticImage src='../images/ClarkAlyeska.jpg' alt="Clark Newell at Alyeska Ski Resort" />
+  return (
+		<StaticImage
+		src='../images/ClarkAlyeska.jpg'
+		alt="Clark Newell at Alyeska Ski Resort"
+		placeholder="blurred"
+		/>
+	)
 }
 
 const About = () => (

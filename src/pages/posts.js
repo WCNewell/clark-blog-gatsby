@@ -14,7 +14,7 @@ export const BlogPostQuery = graphql`
         }
         mainImage {
           asset {
-            gatsbyImageData(formats: AUTO, placeholder: BLURRED)
+            gatsbyImageData(formats: AUTO, placeholder: BLURRED, aspectRatio: 1)
           }
         }
         imageCredit
