@@ -18,6 +18,16 @@ const Menu = ({ open, ...props }) => {
     <StyledMenu open={open} aria-hidden={!isHidden} {...props}>
       <a
         className='menu-item'
+        href="/"
+        tabIndex={tabIndex}
+        onClick={() => {
+          isHidden === true && navigate()
+        }}>
+          <span aria-hidden="true"></span>
+            <h2>home</h2>
+      </a>
+      <a
+        className='menu-item'
         href="/about"
         tabIndex={tabIndex}
         onClick={() => {
