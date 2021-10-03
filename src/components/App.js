@@ -105,21 +105,16 @@ App.propTypes = {
 }
 
 const Main = styled.div`
-  display: grid;
-  grid-template-rows: 4rem auto;
   margin-top: 0.5rem;
   margin-right: 0.5rem;
   margin-left: 0.5rem;
-  grid-row-gap: 0.5rem;
-  grid-template-areas:
-    "header"
-    "recent posts" "latest posts"
+  padding-bottom: 12rem;
 `;
 
 const Brand = styled.div`
+  display: grid;  
   grid-area: header;
   grid-template-columns: repeat(4, 1fr);
-  display: grid;
   grid-column: 1 / 5;
   grid-row: 1 / 2;
 `;
@@ -135,7 +130,7 @@ const ModeIcons = styled.div`
 `;
 
 const Content = styled.div`
-    grid-column: 1 / 5;
-    grid-row: 3;
+    /* grid-column: 1 / 5;
+    grid-row: 3; */
     z-index: 1;
 `;

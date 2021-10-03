@@ -94,7 +94,7 @@ const StyledMenu = styled.nav`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 100vh;
+    height: 110vh;
     text-align: left;
     padding: 2rem;
     position: absolute;
@@ -105,8 +105,7 @@ const StyledMenu = styled.nav`
     transform: ${({ open }) => open ? 'translateX(-175%)' : 'translateX(0)'};
 
     a {
-        font-size: 2rem;
-        padding: 2rem 0;
+        padding: 1rem 0;
         outline: none;
         text-decoration: none;
         transition: color 0.3s linear;

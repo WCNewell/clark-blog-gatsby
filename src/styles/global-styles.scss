@@ -28,29 +28,31 @@ $pink: #ff006f;
 $gold: #ffd700;
 $blue: #00d9ff;
 
-html, body {
-  overflow-x: hidden;
-}
+// html, body {
+//   overflow-x: hidden;
+// }
 
-*, *::after, *::before {
-  box-sizing: border-box;
-}
+// *, *::after, *::before {
+//   box-sizing: border-box;
+// }
 
 body {
-  height: 100vh -webkit-fill-available;
-  width: 100vw -webkit-fill-available;
+  min-height: 100vh;
+  width: 100vw;
   text-rendering: optimizeLegibility;
+  position: relative;
+
 
   a.extlink {
     font-weight: bold;
-  }
+  }  
+}
 
-  .footer {
-    position: relative;
-    height: 8rem;
-    width: auto;
-    z-index: 3;
-  }
+footer {
+  position: absolute;
+  height: 9rem;
+  width: auto;
+  z-index: 3;
 }
 
 body.light-mode {
@@ -184,7 +186,7 @@ body.dark-mode {
   width: 2rem;
   margin-right: 1.14rem;
   cursor: pointer;
-  margin-bottom: 1rem;
+  margin-bottom: 2.2rem;
 }
 
 .portfolio-icon {

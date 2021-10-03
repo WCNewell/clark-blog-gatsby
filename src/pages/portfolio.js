@@ -35,10 +35,10 @@ const Portfolio = () => (
 								<a className="extlink" aria-label="gatsby" href="https://gatsbyjs.com"> Gatsby, </a>
 									a frontend framework based on the opensource 
 								<a className="extlink" aria-label="react" href="https://reactjs.org"> React </a>
-								library. This UI stems from the default starter.</li>
+								library. This UI stems from the default starter</li>
 							<li>Frontend hosted by
 								<a className="extlink" aria-label="netlify" href="https://netlify.com"> Netlify </a>
-									with CI/CD (Continuous Integration and Continuous Deployment) via Github commits</li>
+									with CI/CD (Continuous Integration and Continuous Deployment) via Github commits. Netlify also provides the honeypot and data transfer for the contact form</li>
 							<li>Custom backend and CMS (Content Management Studio) built with and hosted by
 								<a className="extlink" aria-label="sanity" href="https://sanity.io"> Sanity.io</a>
 							</li>
