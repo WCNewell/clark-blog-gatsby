@@ -2,7 +2,6 @@ import React from 'react';
 import { navigate } from 'gatsby';
 import { bool } from 'prop-types';
 import styled from 'styled-components';
-import '../../styles/global-styles.scss';
 
 import LinkedIn from '../../assets/linkedin.inline.svg';
 import Github from '../../assets/github.inline.svg';
@@ -98,7 +97,7 @@ const StyledMenu = styled.nav`
     text-align: left;
     padding: 2rem;
     position: absolute;
-    right: -275px;
+    right: -300px;
     background-color: #effffa;
     color:  #0b0111;
     transition: transform 0.3s ease-in-out;

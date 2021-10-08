@@ -6,7 +6,7 @@ import styled from 'styled-components';
 import Github from '../assets/github.inline.svg';
 
 const ClarkWebOne = () => {
-  return <StaticImage src='../images/clarknewell_og-homepage.jpg' alt="Original Clark Newell web development website" />
+  return <StaticImage src='../images/clarknewell_og-homepage.jpg' className="image" alt="Original Clark Newell web development website" />
 }
 
 const Portfolio = () => (
@@ -46,10 +46,11 @@ const Portfolio = () => (
 								<a className="extlink" aria-label="graph q l" href="https://graphql.org">GraphQL </a>
 								is implemented to traverse the Gatsby and Sanity APIs</li>
 							<li>
-								<a className="extlink" aria-label="sass" href="https://sass-lang.com">Sass </a>and 
-								<a className="extlink" aria-label="styled components" href="https://styled-components.com"> Styled Components </a>
+								<a className="extlink" aria-label="sass" href="https://sass-lang.com">Sass, </a> 
+								<a className="extlink" aria-label="styled components" href="https://styled-components.com"> Styled Components </a>and
+								<a className="extlink" aria-label="typography.js" href="https://kyleamathews.github.io/typography.js/"> Typography.js </a> 
 								are implemented for CSS styling</li>
-							<li>Light and dark mode is implemented with state management via Gatsby and React hooks and the 
+							<li>Light and dark mode is implemented with state management via React hooks and the 
 								<a className="extlink" aria-label="use dark mode" href="https://www.npmjs.com/package/use-dark-mode"> useDarkMode </a>
 								plugin
 							</li>
