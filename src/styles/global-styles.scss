@@ -1,51 +1,39 @@
-// @mixin flexbox() {
-//   display: -webkit-box;
-//   display: -moz-box;
-//   display: -ms-flexbox;
-//   display: -webkit-flex;
-//   display: flex;
-// }
-
-// @mixin flex($values) {
-//     -webkit-box-flex: $values;
-//     -moz-box-flex: $values;
-//     -webkit-flex: $values;
-//     -ms-flex: $values;
-//     flex: $values;
-// }
-
-// @mixin order($val) {
-//     -webkit-box-ordinal-group: $val;
-//     -moz-box-ordinal-group: $val;
-//     -ms-flex-order: $val;
-//     -webkit-order: $val;
-//     order: $val;
-// }
-
 $white: #effffa;
 $black: #0b0111;
 $pink: #ff006f;
 $gold: #ffd700;
-$blue: #00d9ff;
 
-// html, body {
-//   overflow-x: hidden;
-// }
+html, body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
 
-// *, *::after, *::before {
-//   box-sizing: border-box;
-// }
+*, *::after, *::before {
+  box-sizing: border-box;
+}
 
 body {
-  min-height: 100vh;
-  width: 100vw;
-  text-rendering: optimizeLegibility;
+  height: 100vh;
   position: relative;
+  @media (min-width: 320px) {
+    // small mobile width and display
+  }
+  @media (min-width: 481px) {
+    // big amd landscape mobile width and display
+  }
+  @media (min-width: 641px) {
+    // portrait tablet width and display
+  }
+  @media (min-width: 961px) {
+    // laptop width and display
+  }
+  @media (min-width: 1025px) {
+    // big desktop width and display
+  }
+  @media (min-width: 1281px) {
+    // hi-res desktop width and display
+  }
 
-
-  a.extlink {
-    font-weight: bold;
-  }  
 }
 
 footer {
@@ -107,6 +95,10 @@ body.dark-mode {
   background-color: $black;
   color: $white;
 
+  h1 {
+    color: $white;
+  }
+  
   a {
     color: $white;
     text-decoration: none;
@@ -161,6 +153,10 @@ body.dark-mode {
   top: 0.5rem;
   right: 0.5rem;
   left: 1;
+}
+
+.image {
+  border-radius: 10px;
 }
 
 .mode-icon {

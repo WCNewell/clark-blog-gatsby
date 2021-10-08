@@ -53,9 +53,7 @@ const App = ({ children }) => {
               <Link to="/" aria-label="home page">
                   <Logo className='logo' />
               </Link>
-              <Name>
-                  <h1 className='name'>clark newell</h1>
-              </Name>
+              <h2 className='name'>clark newell</h2>
               <ModeIcons>    
                 <SunIcon  className='mode-icon'
                           onClick={() => {
@@ -105,32 +103,20 @@ App.propTypes = {
 }
 
 const Main = styled.div`
-  margin-top: 0.5rem;
   margin-right: 0.5rem;
   margin-left: 0.5rem;
+  margin-top: 0.5rem;
   padding-bottom: 12rem;
 `;
 
 const Brand = styled.div`
-  display: grid;  
-  grid-area: header;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column: 1 / 5;
-  grid-row: 1 / 2;
-`;
-
-const Name = styled.div`
-    grid-column: 2 / 3;
+ 
 `;
 
 const ModeIcons = styled.div`
-    grid-column: 3 / 4;
-    display: flex;
-    align-items: flex-start;
+   
 `;
 
 const Content = styled.div`
-    /* grid-column: 1 / 5;
-    grid-row: 3; */
     z-index: 1;
 `;

@@ -45,7 +45,7 @@ const BlogPostTemplate = props => {
           <li key={category._id}>{category.title}</li>
         ))}
       </ul>
-      <GatsbyImage image={image} alt={post.imageCredit} />
+      <GatsbyImage image={image} className="image" alt={post.imageCredit} />
       <p>{post.imageCredit}</p>
       <p><strong>TLDR: </strong>{post.tlDr}</p>
       <BlockContent blocks={post._rawBody} />

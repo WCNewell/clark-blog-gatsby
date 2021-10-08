@@ -5,9 +5,10 @@ import Seo from '../components/seo';
 const ClarkAlyeska = () => {
   return (
 		<StaticImage
-		src='../images/ClarkAlyeska.jpg'
-		alt="Clark Newell at Alyeska Ski Resort"
-		placeholder="blurred"
+			src='../images/ClarkAlyeska.jpg'
+			className="image"
+			alt="Clark Newell at Alyeska Ski Resort"
+			placeholder="blurred"
 		/>
 	)
 }
@@ -27,7 +28,7 @@ const About = () => (
 							<li>
 								<h3>Smith's Marketplace - Customer Service Manager</h3>
 								<p>Sept 2018 - Current</p>
-								<p>Responsible for supervising a 170,000 sq. ft. superstore in store directors' absence, with focus on speed, reliability, friendliness, and cleanliness at checkout, self-checkout, and guest money services. Supervise and direct front-end employee activities and protect substantial cash assets. Ensure maintenance and operability of check-out technology including self-checkout robots and cash recycler. Also trained in grocery inventory ordering and stocking as well as selection and curbside delivery of online pickup orders using wireless handheld devices designed by Kroger Technology.</p>	
+								<p>Responsible for supervising a 170,000 sq. ft. superstore in store directors' absence, with focus on speed, reliability, friendliness, and cleanliness at checkout, self-checkout, and guest money services. Supervise and direct front-end employee activities and protect substantial cash assets. Ensure maintenance and operability of check-out technology including self-checkout robots and cash recycler. Also trained in grocery inventory ordering and stocking as well as selection and curbside delivery of online pickup orders using wireless handheld devices and software designed by or for Kroger Technology.</p>	
 							</li>
 							<li>
 								<h3>Red Pepper Software - Software Development Intern</h3>
