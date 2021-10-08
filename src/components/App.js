@@ -96,7 +96,7 @@ const App = ({ children }) => {
     );
 }
 
-export default App
+export default App;
 
 App.propTypes = {
   children: PropTypes.node.isRequired,
@@ -107,10 +107,30 @@ const Main = styled.div`
   margin-left: 0.5rem;
   margin-top: 0.5rem;
   padding-bottom: 12rem;
+  display: grid;
+  @media (min-width: 320px) {
+    // small mobile width and display
+  }
+  @media (min-width: 481px) {
+    // big amd landscape mobile width and display
+  }
+  @media (min-width: 641px) {
+    // portrait tablet width and display
+  }
+  @media (min-width: 961px) {
+    // laptop width and display
+  }
+  @media (min-width: 1025px) {
+    // big desktop width and display
+  }
+  @media (min-width: 1281px) {
+    // hi-res desktop width and display
+  }
 `;
 
 const Brand = styled.div`
- 
+  
+
 `;
 
 const ModeIcons = styled.div`

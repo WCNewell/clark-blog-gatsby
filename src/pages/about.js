@@ -56,12 +56,13 @@ const About = () => (
 							<li>
 								<h3>Galvanize</h3>
 								<h4>Web Development Immersive Certificate</h4>
-								<p>Galvanize, in association with Hack Reactor, provides a 6-month coding bootcamp which trains participants in building full-stack JavaScript web applications. In a fully immersive developer environment, Galvanize participants complete industry focused drills, which include front-end frameworks, building back-end databases with API CRUD connectivity between server and client, pair programming, and agile workflow.</p>	
+								<p>
+									<a href="https://www.galvanize.com/"> Galvanize, </a>in association with Hack Reactor, provides a 6-month coding bootcamp which trains participants in building full-stack JavaScript web applications. In a fully immersive developer environment, Galvanize participants complete industry focused drills, which include front-end frameworks, building back-end databases with API CRUD connectivity between server and client, pair programming, and agile workflow.</p>	
 							</li>
 							<li>
 								<h3>University of Utah</h3>
 								<h4>Bachelor of Arts in Music</h4>
-								<p>Completed a liberal arts degree in music along with a German minor, also intentionally completed multiple business, communication and marketing electives all while working full time as an admin for the College of Engineering.</p>	
+								<p>Completed a liberal arts degree in music along with a German minor, also intentionally completed multiple business, communication and marketing electives all while working full time as an adminastrator for the College of Engineering.</p>	
 							</li>
 						</ul>
 						<h2>Service</h2>

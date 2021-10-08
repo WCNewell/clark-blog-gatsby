@@ -15,24 +15,7 @@ html, body {
 body {
   height: 100vh;
   position: relative;
-  @media (min-width: 320px) {
-    // small mobile width and display
-  }
-  @media (min-width: 481px) {
-    // big amd landscape mobile width and display
-  }
-  @media (min-width: 641px) {
-    // portrait tablet width and display
-  }
-  @media (min-width: 961px) {
-    // laptop width and display
-  }
-  @media (min-width: 1025px) {
-    // big desktop width and display
-  }
-  @media (min-width: 1281px) {
-    // hi-res desktop width and display
-  }
+  
 
 }
 
@@ -157,6 +140,8 @@ body.dark-mode {
 
 .image {
   border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
 }
 
 .mode-icon {
