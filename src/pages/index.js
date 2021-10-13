@@ -5,7 +5,7 @@ import BlogList from '../components/BlogList';
 
 export const RecentPostsQuery = graphql`
   query RecentPostsQuery {
-    posts: allSanityPost(limit: 3, sort: {order: DESC, fields: publishedAt}) {
+    posts: allSanityPost(limit: 6, sort: {order: DESC, fields: publishedAt}) {
       nodes {
         _id
         title
@@ -33,12 +33,10 @@ const IndexPage = ({ data }) => {
   return (
     <>  
       <Seo title='Home' />
-      <div>
-        <h1>Home</h1>
-      </div>
+      <h1>home</h1>
       <BlogList posts={posts}/>
       <Link to="/posts" >
-        <h2 aria-label="see more posts">See more posts...</h2>
+        <h3 aria-label="see more posts">See more posts...</h3>
       </Link>
       
     </>

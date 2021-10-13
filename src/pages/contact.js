@@ -9,24 +9,24 @@ const ContactPage = () => (
       <input type="hidden" name="form-name" value="contact" />
       <div>
         <label>
-          <h4>Email</h4>
-          <input type="email" name="email" />
+          <h4>email</h4>
+          <input className="form-input" type="email" name="email" placeholder=" email address" />
         </label>
       </div>
       <div>
         <label>
-          <h4>Name</h4>
-          <input type="text" name="name" />
+          <h4>name</h4>
+          <input className="form-input" type="text" name="name" placeholder=" name"/>
         </label>
       </div>
       <div>
         <label>
-          <h4>Message</h4>
-          <textarea type="text" name="message" cols="30" rows="10"/>
+          <h4>message</h4>
+          <textarea className="form-input" type="text" name="message" rows="10"/>
         </label>
         <div> 
-        <button>
-          <h4>Send</h4>
+        <button className="form-button">
+          <h4 className="dark-link">send</h4>
         </button>
         </div>
       </div>

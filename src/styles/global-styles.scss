@@ -2,45 +2,14 @@ $white: #effffa;
 $black: #0b0111;
 $pink: #ff006f;
 $gold: #ffd700;
+$grey: #e6dfdf;
 
 html, body {
-  overflow-x: hidden;
   box-sizing: border-box;
 }
 
 *, *::after, *::before {
   box-sizing: border-box;
-}
-
-body {
-  height: 100vh;
-  position: relative;
-  @media (min-width: 320px) {
-    // small mobile width and display
-  }
-  @media (min-width: 481px) {
-    // big amd landscape mobile width and display
-  }
-  @media (min-width: 641px) {
-    // portrait tablet width and display
-  }
-  @media (min-width: 961px) {
-    // laptop width and display
-  }
-  @media (min-width: 1025px) {
-    // big desktop width and display
-  }
-  @media (min-width: 1281px) {
-    // hi-res desktop width and display
-  }
-
-}
-
-footer {
-  position: absolute;
-  height: 9rem;
-  width: auto;
-  z-index: 3;
 }
 
 body.light-mode {
@@ -72,10 +41,6 @@ body.light-mode {
       color: $black;
   }
   
-  .menu-item {
-      color: $black;
-  }
-
   .footer {
     background-color: $black;
 
@@ -85,8 +50,8 @@ body.light-mode {
     }
     
     .footer-link {
-      color: $white;
-      text-decoration: underline;
+      color: $black;
+      text-decoration: none;
     }
   }    
 } 
@@ -95,7 +60,7 @@ body.dark-mode {
   background-color: $black;
   color: $white;
 
-  h1 {
+  h1, h2, h4 {
     color: $white;
   }
   
@@ -113,18 +78,29 @@ body.dark-mode {
     }
   }
   
+  .stars {
+    position: absolute;
+    z-index: auto;
+  }
+  
+  .dark-link {
+    color: $black;
+  }
+
+  .dark-header {
+    color: $white;
+  }
+
   .logo {
       fill: $white;
       height: 3.75rem;
       width: 3.75rem;
   }
   
-  .menu-item {
-      color: $black;
-  }
-
   .footer {
       background-color: $pink;
+      position: relative;
+      z-index: 1;
 
       .footer-text {
           color: $white;
@@ -132,15 +108,30 @@ body.dark-mode {
       }
       
       .footer-link {
-        color: $white;
-        text-decoration: underline;
+        color: $black;
+        text-decoration: none;
       }
-  }    
+  }
 }
 
-.stars {
-  position: absolute;
-  z-index: auto;
+h1, h2 {
+  margin-top: 0.5rem;
+}
+
+.name {
+  margin: 0;
+}
+
+.sun-grid {
+  margin-top: 0.5rem;
+}
+
+.moon-grid {
+  margin-top: 0.5rem;
+}
+
+.caption {
+  font-size: 14px;
 }
 
 .sticky-wrapper {
@@ -156,14 +147,16 @@ body.dark-mode {
 }
 
 .image {
-  border-radius: 10px;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
 }
 
 .mode-icon {
   fill: $gold;
   height: 1.25rem;
   width: 1.25rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   margin-left: 2rem;
   cursor: pointer;
 }
@@ -180,6 +173,7 @@ body.dark-mode {
   fill: $pink;
   height: 2rem;
   width: 2rem;
+  margin-top: 1rem;
   margin-right: 1.14rem;
   cursor: pointer;
   margin-bottom: 2.2rem;
@@ -195,38 +189,26 @@ body.dark-mode {
 .post-title:hover, .sub-title:hover {
   color: $pink;
 }
+
+.form-input {
+  width: 18rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+}
+
+.form-button {
+  color: $black;
+  margin-top: 1rem;
+  width: 5rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  box-shadow: 5px 2.5px 2.5px $grey;
   
-/*Scrollbar Styles */
-
-// body::-webkit-scrollbar {
-//   width: 12px;
-// }
-// html {
-//   scrollbar-width: thin;
-//   scrollbar-color: $white $pink;
-// }
-// body::-webkit-scrollbar-track {
-//   background: $white;
-// }
-// body::-webkit-scrollbar-thumb {
-//   background-color: $pink;
-//   border-radius: 6px;
-//   border: 3px solid $white;
-// }
-
-
-
-// May need to employ media queries, i.e.:
-// need to look up what em's to use for medium and small screens
-// Or...try mobile *first* and use media queries for medium and large screens!
-// @media all and (max-width: 50em) { // also use max-min?
-//     .body {
-
-//     }
-// }
-
-// @media all and (max-width: 150em) { // also use max-min?
-//     .body {
-
-//     }
-// }
+  h4 {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;  
+  }
+}

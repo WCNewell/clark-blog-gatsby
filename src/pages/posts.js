@@ -32,8 +32,8 @@ const BlogPage = ({ data }) => {
   const posts = data.posts.nodes;
   return (
     <>
-      <Seo title='Blog Posts' />
-      <h1>Tech Blog Posts</h1>
+      <Seo title='Tech Blog Posts' />
+      <h1>tech blog posts</h1>
       <BlogList posts={posts} />
     </>
   );

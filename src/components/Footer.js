@@ -9,8 +9,8 @@ import Instagram from '../assets/instagram.inline.svg';
 const Footer = () => {
   return (
       <>
-        <div className='footer'>
-            <h4 className='footer-text'>
+        <div className="footer">
+            <h4 className="footer-text">
                 © {new Date().getFullYear()} Clark Newell, Built with
                 {` `}
                 <a className="footer-link" aria-label="gatsby" href="https://www.gatsbyjs.org">Gatsby</a>

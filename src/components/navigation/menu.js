@@ -16,54 +16,49 @@ const Menu = ({ open, ...props }) => {
   return (
     <StyledMenu open={open} aria-hidden={!isHidden} {...props}>
       <a
-        className='menu-item'
         href="/"
         tabIndex={tabIndex}
         onClick={() => {
           isHidden === true && navigate()
         }}>
           <span aria-hidden="true"></span>
-            <h2>home</h2>
+            <h3>home</h3>
       </a>
       <a
-        className='menu-item'
         href="/about"
         tabIndex={tabIndex}
         onClick={() => {
           isHidden === true && navigate()
         }}>
           <span aria-hidden="true"></span>
-            <h2>about</h2>
+            <h3>about</h3>
       </a>
       <a
-        className='menu-item'
         href="/portfolio"
         tabIndex={tabIndex}
         onClick={() => {
           isHidden === true && navigate()
         }}>
           <span aria-hidden="true"></span>
-            <h2>portfolio</h2>
+            <h3>portfolio</h3>
       </a>
       <a
-        className='menu-item'
         href="/posts"
         tabIndex={tabIndex}
         onClick={() => {
           isHidden === true && navigate()
         }}>
           <span aria-hidden="true"></span>
-              <h2>tech blog</h2>
+              <h3>tech blog</h3>
       </a>
       <a
-        className='menu-item'
         href="/contact"
         tabIndex={tabIndex}
         onClick={() => {
           isHidden === true && navigate()
         }}>
           <span aria-hidden="true"></span>
-              <h2>contact</h2>
+              <h3>contact</h3>
       </a>
       <div className="menu-icons">
         <a aria-label="linked in" href='https://linkedin.com/in/william-clark-newell/'>
@@ -90,23 +85,16 @@ Menu.propTypes = {
 export default Menu
 
 const StyledMenu = styled.nav`
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 110vh;
-    text-align: left;
-    padding: 2rem;
-    position: absolute;
-    right: -300px;
-    background-color: #effffa;
-    color:  #0b0111;
-    transition: transform 0.3s ease-in-out;
-    transform: ${({ open }) => open ? 'translateX(-175%)' : 'translateX(0)'};
-
-    a {
-        padding: 1rem 0;
-        outline: none;
-        text-decoration: none;
-        transition: color 0.3s linear;
-    }
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 110vh;
+  text-align: left;
+  padding: 2rem;
+  position: absolute;
+  right: -310px;
+  background-color: #effffa;
+  color:  #0b0111;
+  transition: transform 0.3s ease-in-out;
+  transform: ${({ open }) => open ? 'translateX(-175%)' : 'translateX(0)'};
 `;

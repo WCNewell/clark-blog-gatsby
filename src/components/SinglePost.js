@@ -13,7 +13,7 @@ const SinglePost = ({ post }) => {
       />
       <span aria-label={post.title}>
         <Link to={`/${post.slug.current}`}>
-          <h2>{post.title}</h2>
+          <h3 className="dark-link">{post.title}</h3>
         </Link>
         <p>{post.categories.map((category) => category.title).join(' ')}</p>
       </span>
