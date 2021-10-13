@@ -3,9 +3,11 @@ $black: #0b0111;
 $pink: #ff006f;
 $gold: #ffd700;
 $grey: #e6dfdf;
+$truewhite: #ffffff;
 
 html, body {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 *, *::after, *::before {
@@ -147,9 +149,11 @@ h1, h2 {
 }
 
 .image {
-  border-radius: 0.5rem;
-  -webkit-border-radius: 0.5rem;
-  -moz-border-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  
 }
 
 .mode-icon {
@@ -179,36 +183,57 @@ h1, h2 {
   margin-bottom: 2.2rem;
 }
 
-.portfolio-icon {
-  fill: $pink;
-  height: 1rem;
-  width: 1rem;
-  cursor: pointer;
-}
-
 .post-title:hover, .sub-title:hover {
   color: $pink;
 }
 
 .form-input {
   width: 18rem;
-  border-radius: 0.5rem;
-  -webkit-border-radius: 0.5rem;
-  -moz-border-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
-.form-button {
+button {
   color: $black;
-  margin-top: 1rem;
-  width: 5rem;
-  border-radius: 0.5rem;
-  -webkit-border-radius: 0.5rem;
-  -moz-border-radius: 0.5rem;
+  background-color: $truewhite;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
   box-shadow: 5px 2.5px 2.5px $grey;
+}
+
+.portfolio-icon {
+    fill: $pink;
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}  
+
+.repo-link {
+
+  p {
+    color: $black;
+  }
   
+  a {
+    text-decoration: none;
+  }
+}
+
+.form-button {  
+  margin-top: 1rem;
+  width: 6rem;
+   
   h4 {
     margin: 1rem;
     display: flex;
     justify-content: center;  
   }
+}
+
+.astronaut {
+  margin-top: 20rem;
 }

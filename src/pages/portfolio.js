@@ -23,12 +23,6 @@ const Portfolio = () => (
 						<a href='/'>
 							<ProjectLink>Clark Blog</ProjectLink>
 						</a>
-						<RepoLinkButton>	
-						<a href='https://github.com/WCNewell/clark-blog-gatsby'>
-							<Github className='portfolio-icon' alt='github icon' />
-							<p>View the code on Github</p>
-							</a>
-						</RepoLinkButton>
 						<p>Version 3.0 of my personal website presents the following features:</p>	
 						<ul>
 							<li>Built with
@@ -50,7 +44,7 @@ const Portfolio = () => (
 								<a className="dark-link" aria-label="styled components" href="https://styled-components.com"> Styled Components, </a>
 								<a className="dark-link" aria-label="typography.js" href="https://kyleamathews.github.io/typography.js/"> Typography.js, </a> 
 								and Grid are implemented for CSS styling</li>
-							<li>Light and dark mode is implemented with state management via React hooks and the 
+							<li>Light and dark "star" modes are implemented with state management via React hooks and the 
 								<a className="dark-link" aria-label="use dark mode" href="https://www.npmjs.com/package/use-dark-mode"> useDarkMode </a>
 								plugin
 							</li>
@@ -62,44 +56,46 @@ const Portfolio = () => (
 							</li>
 							<li>Original logo design and original blog content</li>
 						</ul>
-						<p>Further Iterations will present the following features: a stateful contact form, sorting of blog posts by categories, and more advanced Sassy CSS.</p>
-						
+						<p>Further Iterations will present some of the following features: a stateful contact form, sorting of blog posts by further categories, and more advanced Sassy CSS.</p>
+						<button className="repo-link">	
+						<a href='https://github.com/WCNewell/clark-blog-gatsby'>
+							<Github className='portfolio-icon' alt='github icon' />
+								<p>View the code on Github</p>
+							</a>
+						</button>
 										{/* Clark's Slices */}
 						<a aria-label="clarks slices" href='https://clarks-slices.netlify.app/'>
 							<ProjectLink>Clark's Slices</ProjectLink>
 						</a>
-						<RepoLinkButton>	
+						<p>Completed the entire Master-Gatsby course from Wes Bos and this is the resulting demo.</p>
+						<button className="repo-link">	
 						<a aria-label="github" href='https://github.com/WCNewell/master-gatsby'>
 							<Github className='portfolio-icon' alt='github icon' />
-							<p>View the code on Github</p>
+								<p>View the code on Github</p>
 							</a>
-						</RepoLinkButton>
-						<p>Completed the entire Master-Gatsby course from Wes Bos and this is the resulting demo.</p>
-						
+						</button>
 										{/* Max Hamburger */}
 						<a aria-label="max hamburger" href='https://wcnewell.github.io/max-hamburger/'>
 							<ProjectLink>Max Hamburger</ProjectLink>
 						</a>
-						<RepoLinkButton>	
+						<p>Completed the entire Udemy React course from Maximilian Schwarzmueller and this is the resulting demo.</p>
+						<button className="repo-link">	
 						<a aria-label="github" href='https://github.com/WCNewell/max-hamburger'>
 							<Github className='portfolio-icon' alt='github icon' />
-							<p>View the code on Github</p>
+								<p>View the code on Github</p>
 						</a>
-						</RepoLinkButton>
-						<p>Completed the entire Udemy React course from Maximilian Schwarzmueller and this is the resulting demo.</p>
-						
+						</button>
 										{/* Vuetiful Goals */}
 						<a aria-label="vuetiful goals" href='https://vuetiful-goals.firebaseapp.com/#/goals'>
 							<ProjectLink>Vuetiful Goals</ProjectLink>
 						</a>
-						<RepoLinkButton>	
+						<p>Very first CRUD (Create, Read, Update, Delete) application completed while at Galvanize using Vue.js.</p>
+						<button className="repo-link">	
 						<a aria-label="github" href='https://github.com/WCNewell/VuetifulGoals-client'>
 							<Github className='portfolio-icon' alt='github icon' />
-							<p>View the code on Github</p>
+								<p>View the code on Github</p>
 							</a>
-						</RepoLinkButton>
-						<p>Very first CRUD (Create, Read, Update, Delete) application completed while at Galvanize using Vue.js.</p>
-
+						</button>
 					</div>
 				</div>
 	</>
@@ -109,9 +105,4 @@ export default Portfolio;
 
 const ProjectLink = styled.h3`
 	text-decoration: underline;
-`;
-
-const RepoLinkButton = styled.button`
-	display: flex;
-	align-content: flex-start;
 `;

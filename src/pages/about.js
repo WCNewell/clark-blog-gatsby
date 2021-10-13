@@ -20,7 +20,7 @@ const About = () => (
 					<h1>about</h1>
 					<ClarkAlyeska />
 					<div>
-						<p className="caption">Hello World! I'm a Customer service manager, web developer, outdoorsman and pop culture enthusist. Photo of me on the Alyeska ski resort headwall while previewing the Cirque Series 2021 race course by Robyn Newell, July 2021.</p>
+						<p className="caption">Hello World! I'm a Customer service manager, web developer, outdoorsman and pop culture enthusist. Photo of myself on the Alyeska ski resort headwall while previewing the Cirque Series 2021 race course by Robyn Newell, July 2021.</p>
 						<h2>Goal</h2>
 						<p>To represent your software company in marketing, sales, support, implementation, quality analysis, product management and development as my skills continue to grow.</p>
 						<h2>Highlighted Experience</h2>
@@ -33,7 +33,7 @@ const About = () => (
 							<li>
 								<h3 className="dark-header">Red Pepper Software - Software Development Intern</h3>
 								<p>Jan 2019 - Nov 2019</p>
-								<p>The mantra at Red Pepper is that you are an efficient problem solver, no matter what tech-stack or programming language gets thrown at you. Using Jira as the productivity tool inline with scrum methodology and agile workflow, assist team with QA, pair programming, code review and full stack coding assignments building proprietary software for multiple clients. Simultaneously managing multiple tickets on strict tempo timers, switch between multiple tech stacks and languages throughout the day. Become proficient in frontend web and mobile development using HTML, CSS, Sass, JavaScript, TypeScript, PHP,  Razor, Xamarin.iOS, JS frameworks such as AngularJS and Angular using VS Code, customize templates on e-commerce platforms such as Shopify and blog-sites such as WordPress and Magento, and interfacing with CRM APIs such as Zoho. Become proficient in full stack and backend development using C#, ASP.NET, Entity framework and SQL using Visual Studio and SSMS. Also conduct lunch and learns and speed training sessions for company staff.</p>	
+								<p>The mantra at Red Pepper is that you are an efficient problem solver, no matter what tech-stack or programming language gets thrown at you. Using Jira as the productivity tool inline with scrum methodology and agile workflow, assist team with QA, pair programming, code review and full stack coding assignments building proprietary software for multiple clients. Simultaneously managing multiple tickets on strict tempo timers, switch between multiple tech stacks and languages throughout the day. Become proficient in frontend web and mobile development using HTML, CSS, Sass, JavaScript, TypeScript, PHP,  Razor, Xamarin.iOS, JS frameworks such as AngularJS and Angular using VS Code, customize templates on e-commerce platforms such as Shopify and blog-sites such as WordPress and Magento, and interfacing with CRM APIs such as Zoho. Become proficient in full stack and backend development using C#, ASP.NET, Entity framework and SQL using Visual Studio and SSMS. Understand version control using git while managing code bases in Github and Bitbucket. Also conduct lunch and learns and speed training sessions for company staff.</p>	
 							</li>
 							<li>
 								<h3 className="dark-header">Flynn Restaurant Group - Applebee's Assistant Manager</h3>
