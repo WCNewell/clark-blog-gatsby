@@ -36,7 +36,7 @@ const ContactPage = () => {
         <div>
           <label>
             <h4>message</h4>
-            <textarea className="form-input" type="text" name="message" rows="10"/>
+            <textarea className="form-input" type="text" name="message" rows="8"/>
           </label>
           <div> 
             <button className="form-button">
