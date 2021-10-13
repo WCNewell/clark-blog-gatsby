@@ -6,6 +6,7 @@ $grey: #e6dfdf;
 
 html, body {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 *, *::after, *::before {
@@ -211,4 +212,8 @@ h1, h2 {
     display: flex;
     justify-content: center;  
   }
+}
+
+.astronaut {
+  margin-top: 20rem;
 }
