@@ -2,6 +2,7 @@ $white: #effffa;
 $black: #0b0111;
 $pink: #ff006f;
 $gold: #ffd700;
+$grey: #e6dfdf;
 
 html, body {
   box-sizing: border-box;
@@ -110,7 +111,7 @@ body.dark-mode {
         color: $black;
         text-decoration: none;
       }
-  }    
+  }
 }
 
 h1, h2 {
@@ -146,9 +147,9 @@ h1, h2 {
 }
 
 .image {
-  border-radius: 1rem;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
 }
 
 .mode-icon {
@@ -187,4 +188,27 @@ h1, h2 {
 
 .post-title:hover, .sub-title:hover {
   color: $pink;
+}
+
+.form-input {
+  width: 18rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+}
+
+.form-button {
+  color: $black;
+  margin-top: 1rem;
+  width: 5rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  box-shadow: 5px 2.5px 2.5px $grey;
+  
+  h4 {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;  
+  }
 }

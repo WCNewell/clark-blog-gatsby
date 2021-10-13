@@ -32,33 +32,33 @@ const Portfolio = () => (
 						<p>Version 3.0 of my personal website presents the following features:</p>	
 						<ul>
 							<li>Built with
-								<a className="extlink" aria-label="gatsby" href="https://gatsbyjs.com"> Gatsby, </a>
+								<a className="dark-link" aria-label="gatsby" href="https://gatsbyjs.com"> Gatsby, </a>
 									a frontend framework based on the opensource 
-								<a className="extlink" aria-label="react" href="https://reactjs.org"> React </a>
+								<a className="dark-link" aria-label="react" href="https://reactjs.org"> React </a>
 								library. This UI stems from the default starter</li>
 							<li>Frontend hosted by
-								<a className="extlink" aria-label="netlify" href="https://netlify.com"> Netlify </a>
+								<a className="dark-link" aria-label="netlify" href="https://netlify.com"> Netlify </a>
 									with CI/CD (Continuous Integration and Continuous Deployment) via Github commits. Netlify also provides the honeypot and data transfer for the contact form</li>
 							<li>Custom backend and CMS (Content Management Studio) built with and hosted by
-								<a className="extlink" aria-label="sanity" href="https://sanity.io"> Sanity.io</a>
+								<a className="dark-link" aria-label="sanity" href="https://sanity.io"> Sanity.io</a>
 							</li>
 							<li>
-								<a className="extlink" aria-label="graph q l" href="https://graphql.org">GraphQL </a>
+								<a className="dark-link" aria-label="graph q l" href="https://graphql.org">GraphQL </a>
 								is implemented to traverse the Gatsby and Sanity APIs</li>
 							<li>
-								<a className="extlink" aria-label="sass" href="https://sass-lang.com">Sass, </a> 
-								<a className="extlink" aria-label="styled components" href="https://styled-components.com"> Styled Components </a>and
-								<a className="extlink" aria-label="typography.js" href="https://kyleamathews.github.io/typography.js/"> Typography.js </a> 
-								are implemented for CSS styling</li>
+								<a className="dark-link" aria-label="sass" href="https://sass-lang.com">Sass, </a> 
+								<a className="dark-link" aria-label="styled components" href="https://styled-components.com"> Styled Components, </a>
+								<a className="dark-link" aria-label="typography.js" href="https://kyleamathews.github.io/typography.js/"> Typography.js, </a> 
+								and Grid are implemented for CSS styling</li>
 							<li>Light and dark mode is implemented with state management via React hooks and the 
-								<a className="extlink" aria-label="use dark mode" href="https://www.npmjs.com/package/use-dark-mode"> useDarkMode </a>
+								<a className="dark-link" aria-label="use dark mode" href="https://www.npmjs.com/package/use-dark-mode"> useDarkMode </a>
 								plugin
 							</li>
 							<li>Unit testing created with
-								<a className="extlink" aria-label="jest" href="https://jestjs.io/"> Jest </a>
+								<a className="dark-link" aria-label="jest" href="https://jestjs.io/"> Jest </a>
 							</li>
-							<li>Accessbility audit and corrections performed with
-								<a className="extlink" aria-label="wave" href="https://wave.webaim.org/"> WAVE </a>
+							<li>Accessbility performed with
+								<a className="dark-link" aria-label="wave" href="https://wave.webaim.org/"> WAVE </a>
 							</li>
 							<li>Original logo design and original blog content</li>
 						</ul>
