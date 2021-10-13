@@ -3,10 +3,10 @@ import { navigate } from 'gatsby';
 import { bool } from 'prop-types';
 import styled from 'styled-components';
 
-import LinkedIn from '../../assets/linkedin.inline.svg';
-import Github from '../../assets/github.inline.svg';
-import Twitter from '../../assets/twitter.inline.svg';
-import Instagram from '../../assets/instagram.inline.svg';
+// import LinkedIn from '../../assets/linkedin.inline.svg';
+// import Github from '../../assets/github.inline.svg';
+// import Twitter from '../../assets/twitter.inline.svg';
+// import Instagram from '../../assets/instagram.inline.svg';
 
 const Menu = ({ open, ...props }) => {
   
@@ -23,7 +23,7 @@ const Menu = ({ open, ...props }) => {
           isHidden === true && navigate()
         }}>
           <span aria-hidden="true"></span>
-            <h2>home</h2>
+            <h4>home</h4>
       </a>
       <a
         className='menu-item'
@@ -33,7 +33,7 @@ const Menu = ({ open, ...props }) => {
           isHidden === true && navigate()
         }}>
           <span aria-hidden="true"></span>
-            <h2>about</h2>
+            <h4>about</h4>
       </a>
       <a
         className='menu-item'
@@ -43,7 +43,7 @@ const Menu = ({ open, ...props }) => {
           isHidden === true && navigate()
         }}>
           <span aria-hidden="true"></span>
-            <h2>portfolio</h2>
+            <h4>portfolio</h4>
       </a>
       <a
         className='menu-item'
@@ -53,7 +53,7 @@ const Menu = ({ open, ...props }) => {
           isHidden === true && navigate()
         }}>
           <span aria-hidden="true"></span>
-              <h2>tech blog</h2>
+              <h4>tech blog</h4>
       </a>
       <a
         className='menu-item'
@@ -63,9 +63,9 @@ const Menu = ({ open, ...props }) => {
           isHidden === true && navigate()
         }}>
           <span aria-hidden="true"></span>
-              <h2>contact</h2>
+              <h4>contact</h4>
       </a>
-      <div className="menu-icons">
+      {/* <div className="menu-icons">
         <a aria-label="linked in" href='https://linkedin.com/in/william-clark-newell/'>
             <LinkedIn className='menu-icons' alt='linked in icon'/>
         </a>
@@ -78,7 +78,7 @@ const Menu = ({ open, ...props }) => {
         <a aria-label="twitter" href='https://twitter.com/WCNewell'>
             <Twitter className='menu-icons' alt='twitter icon'/>
         </a>
-      </div>    
+      </div>     */}
     </StyledMenu>
   );
 }
@@ -97,7 +97,7 @@ const StyledMenu = styled.nav`
     text-align: left;
     padding: 2rem;
     position: absolute;
-    right: -300px;
+    right: -250px;
     background-color: #effffa;
     color:  #0b0111;
     transition: transform 0.3s ease-in-out;

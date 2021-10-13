@@ -6,9 +6,9 @@ import Logo from '../assets/clarklogo.inline.svg';
 import Nav from './Nav';
 import Footer from './Footer';
 
-import StarLayout from './StarLayout';
-import styled from 'styled-components';
 import '../styles/global-styles.scss';
+import '../styles/grids.css';
+import StarLayout from './StarLayout';
 
 import SunIcon from '../assets/sun.inline.svg';
 import MoonIcon from '../assets/moon.inline.svg';
@@ -20,7 +20,7 @@ const Layout = () => {
     return (
             theme === 'night' ? <StarLayout /> : null
     );
-}
+};
 
 const App = ({ children }) => {
   const [theme, setTheme] = React.useState('night');
@@ -49,33 +49,41 @@ const App = ({ children }) => {
 
       return (
         <>
-          <Brand>
-              <Link to="/" aria-label="home page">
-                  <Logo className='logo' />
-              </Link>
-              <h2 className='name'>clark newell</h2>
-              <ModeIcons>    
-                <SunIcon  className='mode-icon'
-                          onClick={() => {
-                              toggleTheme()
-                              darkMode.disable()
-                          }}
-                          alt='sun icon for light mode'
-                />
-                <MoonIcon className='mode-icon' 
-                          onClick={() => {
-                              toggleTheme()
-                              darkMode.enable()
-                          }}
-                          alt='moon icon for dark star mode'
-                />
-              </ModeIcons>
-              <div className={`sticky-wrapper${isSticky ? ' sticky' : ''}`} ref={ref}>
-                  <div className='sticky-inner'> 
-                      <Nav />
-                  </div>
+          <div className="logo-grid">
+            <Link to="/" aria-label="home page">
+                <Logo className="logo" />
+            </Link>
+          </div>
+          <div className="name-grid">
+            <h2>
+              clark newell
+            </h2>
+          </div>
+          <div className="sun-grid">    
+            <SunIcon  className="mode-icon"
+                      onClick={() => {
+                          toggleTheme()
+                          darkMode.disable()
+                      }}
+                      alt='sun icon for light mode'
+            />
+          </div>
+          <div className="moon-grid">
+            <MoonIcon className="mode-icon" 
+                      onClick={() => {
+                          toggleTheme()
+                          darkMode.enable()
+                      }}
+                      alt='moon icon for dark star mode'
+            />
+          </div>
+          <div className={`sticky-wrapper${isSticky ? ' sticky' : ''}`} ref={ref}>
+              <div className='sticky-inner'> 
+                <div className="nav-grid">
+                  <Nav />
+                </div>
               </div>
-          </Brand>
+          </div>
         </>
       );
     }
@@ -83,14 +91,14 @@ const App = ({ children }) => {
     return (
       <ThemeContext.Provider value={'night'}>
         <>
-          <Main>
-              <Layout />
-              <Header />
-              <Content>
-                  {children}
-              </Content>
-          </Main>
-          <Footer />    
+          <div className="main-grid">
+            {/* <Layout /> */}
+            <Header />
+            <div className="content">
+              {children}
+            </div>  
+          </div>
+          <Footer className="footer" />    
         </>
       </ThemeContext.Provider>
     );
@@ -102,41 +110,3 @@ App.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-const Main = styled.div`
-  margin-right: 0.5rem;
-  margin-left: 0.5rem;
-  margin-top: 0.5rem;
-  padding-bottom: 12rem;
-  display: grid;
-  @media (min-width: 320px) {
-    // small mobile width and display
-  }
-  @media (min-width: 481px) {
-    // big amd landscape mobile width and display
-  }
-  @media (min-width: 641px) {
-    // portrait tablet width and display
-  }
-  @media (min-width: 961px) {
-    // laptop width and display
-  }
-  @media (min-width: 1025px) {
-    // big desktop width and display
-  }
-  @media (min-width: 1281px) {
-    // hi-res desktop width and display
-  }
-`;
-
-const Brand = styled.div`
-  
-
-`;
-
-const ModeIcons = styled.div`
-   
-`;
-
-const Content = styled.div`
-    z-index: 1;
-`;

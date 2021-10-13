@@ -4,26 +4,11 @@ $pink: #ff006f;
 $gold: #ffd700;
 
 html, body {
-  overflow-x: hidden;
   box-sizing: border-box;
 }
 
 *, *::after, *::before {
   box-sizing: border-box;
-}
-
-body {
-  height: 100vh;
-  position: relative;
-  
-
-}
-
-footer {
-  position: absolute;
-  height: 9rem;
-  width: auto;
-  z-index: 3;
 }
 
 body.light-mode {
@@ -78,7 +63,7 @@ body.dark-mode {
   background-color: $black;
   color: $white;
 
-  h1 {
+  h1, h2, h3 {
     color: $white;
   }
   
@@ -115,7 +100,6 @@ body.dark-mode {
       }
       
       .footer-link {
-        color: $white;
         text-decoration: underline;
       }
   }    
@@ -139,9 +123,9 @@ body.dark-mode {
 }
 
 .image {
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
 }
 
 .mode-icon {
@@ -165,6 +149,7 @@ body.dark-mode {
   fill: $pink;
   height: 2rem;
   width: 2rem;
+  margin-top: 1rem;
   margin-right: 1.14rem;
   cursor: pointer;
   margin-bottom: 2.2rem;
@@ -180,38 +165,3 @@ body.dark-mode {
 .post-title:hover, .sub-title:hover {
   color: $pink;
 }
-  
-/*Scrollbar Styles */
-
-// body::-webkit-scrollbar {
-//   width: 12px;
-// }
-// html {
-//   scrollbar-width: thin;
-//   scrollbar-color: $white $pink;
-// }
-// body::-webkit-scrollbar-track {
-//   background: $white;
-// }
-// body::-webkit-scrollbar-thumb {
-//   background-color: $pink;
-//   border-radius: 6px;
-//   border: 3px solid $white;
-// }
-
-
-
-// May need to employ media queries, i.e.:
-// need to look up what em's to use for medium and small screens
-// Or...try mobile *first* and use media queries for medium and large screens!
-// @media all and (max-width: 50em) { // also use max-min?
-//     .body {
-
-//     }
-// }
-
-// @media all and (max-width: 150em) { // also use max-min?
-//     .body {
-
-//     }
-// }

@@ -1,0 +1,66 @@
+.main-grid {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(16, [col-start] 1fr);
+  grid-template-rows: 6rem auto;
+  gap: 0.25rem;
+}
+
+.logo-grid {
+  grid-column: col-start 1 / span 3;
+}
+
+.name-grid {
+  grid-column: col-start 4 / span 4;
+}
+
+.sun-grid {
+  grid-column: col-start 8 / span 2;
+}
+
+.moon-grid {
+  grid-column: col-start 10 / span 2;
+}
+
+.sticky-wrapper {
+  grid-column: col-start 16;
+}
+
+.content {
+  grid-column: col-start 2 / span 14;
+  grid-row: 2;
+}
+
+
+
+/* small mobile */
+@media (min-width: 320px) {
+
+}
+
+/* big mobile */
+@media (min-width: 481px) {
+
+}
+
+/* tablet */
+@media (min-width: 641px) {
+
+}
+
+/* laptop */
+@media (min-width: 961px) {
+
+}
+
+/* big desktop */
+@media (min-width: 1025px) {
+
+}
+
+/* hi-res desktop */
+@media (min-width: 1281px) {
+
+}

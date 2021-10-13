@@ -22,7 +22,7 @@ const About = () => (
 					<div>
 						<p>Hello World! I'm a Customer service manager, web developer, outdoorsman and pop culture enthusist. Photo of me on the Alyeska ski resort headwall while previewing the Cirque Series 2021 race course by Robyn Newell, July 2021.</p>
 						<h2>Goal</h2>
-						<p>To represent your software company in marketing, sales, support, implementation, quality analysis, product management and / or development as my skills continue to grow.</p>
+						<p>To represent your software company in marketing, sales, support, implementation, quality analysis, product management and development as my skills continue to grow.</p>
 						<h2>Highlighted Experience</h2>
 						<ul>
 							<li>
