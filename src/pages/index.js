@@ -33,6 +33,7 @@ const IndexPage = ({ data }) => {
   return (
     <>  
       <Seo title='Home' />
+      <h1>home</h1>
       <BlogList posts={posts}/>
       <Link to="/posts" >
         <h3 aria-label="see more posts">See more posts...</h3>

@@ -40,10 +40,6 @@ body.light-mode {
       color: $black;
   }
   
-  .menu-item {
-      color: $black;
-  }
-
   .footer {
     background-color: $black;
 
@@ -53,8 +49,8 @@ body.light-mode {
     }
     
     .footer-link {
-      color: $white;
-      text-decoration: underline;
+      color: $black;
+      text-decoration: none;
     }
   }    
 } 
@@ -63,7 +59,7 @@ body.dark-mode {
   background-color: $black;
   color: $white;
 
-  h1, h2, h3 {
+  h1, h2, h4 {
     color: $white;
   }
   
@@ -81,18 +77,29 @@ body.dark-mode {
     }
   }
   
+  .stars {
+    position: absolute;
+    z-index: auto;
+  }
+  
+  .dark-link {
+    color: $black;
+  }
+
+  .dark-header {
+    color: $white;
+  }
+
   .logo {
       fill: $white;
       height: 3.75rem;
       width: 3.75rem;
   }
   
-  .menu-item {
-      color: $black;
-  }
-
   .footer {
       background-color: $pink;
+      position: relative;
+      z-index: 1;
 
       .footer-text {
           color: $white;
@@ -100,14 +107,30 @@ body.dark-mode {
       }
       
       .footer-link {
-        text-decoration: underline;
+        color: $black;
+        text-decoration: none;
       }
   }    
 }
 
-.stars {
-  position: absolute;
-  z-index: auto;
+h1, h2 {
+  margin-top: 0.5rem;
+}
+
+.name {
+  margin: 0;
+}
+
+.sun-grid {
+  margin-top: 0.5rem;
+}
+
+.moon-grid {
+  margin-top: 0.5rem;
+}
+
+.caption {
+  font-size: 14px;
 }
 
 .sticky-wrapper {
@@ -132,7 +155,7 @@ body.dark-mode {
   fill: $gold;
   height: 1.25rem;
   width: 1.25rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   margin-left: 2rem;
   cursor: pointer;
 }

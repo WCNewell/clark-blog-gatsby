@@ -55,7 +55,7 @@ const App = ({ children }) => {
             </Link>
           </div>
           <div className="name-grid">
-            <h2>
+            <h2 className="name">
               clark newell
             </h2>
           </div>
@@ -92,8 +92,8 @@ const App = ({ children }) => {
       <ThemeContext.Provider value={'night'}>
         <>
           <div className="main-grid">
-            {/* <Layout /> */}
             <Header />
+            <Layout />
             <div className="content">
               {children}
             </div>  
