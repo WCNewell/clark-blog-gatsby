@@ -115,6 +115,23 @@ h1, h2 {
   margin-top: 0.5rem;
 }
 
+img {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;  
+}
+
+button {
+  color: $black;
+  background-color: $truewhite;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  box-shadow: 5px 2.5px 2.5px $grey;
+}
+
 .name {
   margin: 0;
 }
@@ -141,13 +158,6 @@ h1, h2 {
   top: 0.5rem;
   right: 0.5rem;
   left: 1;
-}
-
-img {
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;  
 }
 
 .mode-icon {
@@ -177,6 +187,12 @@ img {
   margin-bottom: 2.2rem;
 }
 
+.content-item {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
 .post-title:hover, .sub-title:hover {
   color: $pink;
 }
@@ -189,18 +205,9 @@ img {
   border-bottom-left-radius: 0.5rem;
 }
 
-button {
-  color: $black;
-  background-color: $truewhite;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
-  box-shadow: 5px 2.5px 2.5px $grey;
-}
-
 .portfolio-icon {
     fill: $pink;
+    margin-top: 0.5rem;
     height: 2rem;
     width: 2rem;
     cursor: pointer;
