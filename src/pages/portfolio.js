@@ -51,7 +51,7 @@ const Portfolio = () => (
 							<li>Unit testing created with
 								<a className="dark-link" aria-label="jest" href="https://jestjs.io/"> Jest </a>
 							</li>
-							<li>Accessbility performed with
+							<li>Accessbility audit performed with
 								<a className="dark-link" aria-label="wave" href="https://wave.webaim.org/"> WAVE </a>
 							</li>
 							<li>Original logo design and original blog content</li>
