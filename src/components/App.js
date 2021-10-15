@@ -9,6 +9,7 @@ import Footer from './Footer';
 import '../styles/global-styles.scss';
 import '../styles/grids.css';
 import StarLayout from './StarLayout';
+import PageTransition from 'gatsby-plugin-page-transitions';
 
 import SunIcon from '../assets/sun.inline.svg';
 import MoonIcon from '../assets/moon.inline.svg';
@@ -91,14 +92,16 @@ const App = ({ children }) => {
     return (
       <ThemeContext.Provider value={'night'}>
         <>
-          <div className="main-grid">
-            <Header />
-            <Layout />
-            <div className="content">
-              {children}
-            </div>  
-          </div>
-          <Footer className="footer" />    
+          <PageTransition>
+            <div className="main-grid">
+              <Header />
+              <Layout />
+              <div className="content">
+                {children}
+              </div>  
+            </div>
+            <Footer className="footer" />
+          </PageTransition>
         </>
       </ThemeContext.Provider>
     );

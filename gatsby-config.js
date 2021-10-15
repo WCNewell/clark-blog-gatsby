@@ -38,6 +38,7 @@ module.exports = {
         `gatsby-plugin-sass`,   
         `gatsby-plugin-styled-components`,
         `gatsby-plugin-use-dark-mode`,
+        `gatsby-plugin-page-transitions`,
         {
           resolve: `gatsby-plugin-react-svg`,
           options: {
