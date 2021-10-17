@@ -49,7 +49,7 @@ const Menu = ({ open, ...props }) => {
           isHidden === true && navigate()
         }}>
           <span aria-hidden="true"></span>
-              <h3>tech blog</h3>
+              <h3>blog</h3>
       </a>
       <a
         href="/contact"
