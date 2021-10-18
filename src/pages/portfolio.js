@@ -13,7 +13,7 @@ const Portfolio = () => (
 	<>  
 		<Seo title='About' />
 				<div>
-					<h1>portfolio</h1>
+					<h1 className="page-title">portfolio</h1>
 					<ClarkWebOne />
 					<div>
 						<p className="caption">The first iteration of my personal website was created with an early version of Gatsby and a template from HTML5 UP.</p>

@@ -18,6 +18,7 @@ const ContactPage = () => {
   return (
     <>
       <Seo title="Contact" />
+      <h1 className="page-title">contact form</h1>
       <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="contact" />

@@ -33,7 +33,7 @@ const BlogPage = ({ data }) => {
   return (
     <>
       <Seo title='Blog Posts' />
-      <h1>blog</h1>
+      <h1 className="page-title">blog</h1>
       <BlogList posts={posts} />
     </>
   );

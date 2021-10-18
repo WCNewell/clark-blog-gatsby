@@ -98,7 +98,7 @@ const App = ({ children }) => {
               <Layout />
               <div className="content">
                 {children}
-              </div>  
+              </div> 
             </div>
             <Footer className="footer" />
           </PageTransition>

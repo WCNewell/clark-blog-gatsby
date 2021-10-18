@@ -17,7 +17,7 @@ const About = () => (
 	<>  
 		<Seo title='About' />
 				<div>
-					<h1>about</h1>
+					<h1 className="page-title">about</h1>
 					<ClarkAlyeska />
 					<div>
 						<p className="caption">Hello World! I'm a Customer service manager, web developer, outdoorsman and pop culture enthusist. Photo of myself on the Alyeska ski resort headwall while previewing the Cirque Series 2021 race course by Robyn Newell, July 2021.</p>
