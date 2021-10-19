@@ -80,7 +80,7 @@ const App = ({ children }) => {
           </div>
           <div className={`sticky-wrapper${isSticky ? ' sticky' : ''}`} ref={ref}>
               <div className='sticky-inner'> 
-                <div className="nav-grid">
+                <div>
                   <Nav />
                 </div>
               </div>
@@ -93,10 +93,12 @@ const App = ({ children }) => {
       <ThemeContext.Provider value={'night'}>
         <>
           <PageTransition>
-            <div className="main-grid">
-              <Header />
+            <div>
+              <div className="header-grid">
+                <Header />
+              </div>
               <Layout />
-              <div className="content">
+              <div>
                 {children}
               </div> 
             </div>
