@@ -1,106 +1,103 @@
 import React from 'react';
 import PropTypes from "prop-types";
-import useDarkMode from 'use-dark-mode';
-import { Link } from 'gatsby';
-import Logo from '../assets/clarklogo.inline.svg';
-import Nav from './Nav';
+// import useDarkMode from 'use-dark-mode';
+// import { Link } from 'gatsby';
+// import Logo from '../assets/clarklogo.inline.svg';
+// import Nav from './Nav';
+// import Header from './Header';
 import Footer from './Footer';
 
 import '../styles/global-styles.scss';
 import '../styles/grids.css';
-import StarLayout from './StarLayout';
+import StarMode from './StarMode';
 import PageTransition from 'gatsby-plugin-page-transitions';
 
-import SunIcon from '../assets/sun.inline.svg';
-import MoonIcon from '../assets/moon.inline.svg';
+// import SunIcon from '../assets/sun.inline.svg';
+// import MoonIcon from '../assets/moon.inline.svg';
 
 export const ThemeContext = React.createContext('day');
 
-const Layout = () => {
+const Mode = () => {
   const theme = React.useContext(ThemeContext)
     return (
-            theme === 'night' ? <StarLayout /> : null
+            theme === 'night' ? <StarMode /> : null
     );
 };
 
 const App = ({ children }) => {
-  const [theme, setTheme] = React.useState('night');
-  const darkMode = useDarkMode(false);
+  // const [theme, setTheme] = React.useState('night');
+  // const darkMode = useDarkMode(false);
 
-  const toggleTheme = () => {
-    theme === darkMode ? setTheme('night') : setTheme('day')
-  }
+  // const toggleTheme = () => {
+  //   theme === darkMode ? setTheme('night') : setTheme('day')
+  // }
   
-  const Header = () => {
-      const [isSticky, setSticky] = React.useState(false)
-      const ref = React.useRef(null)
-      const handleScroll = () => {
-          if (ref.current) {
-              setSticky(ref.current.getBoundingClientRect().top <= 0)
-          }
-      }
+  // const Header = () => {
+  //     const [isSticky, setSticky] = React.useState(false)
+  //     const ref = React.useRef(null)
+  //     const handleScroll = () => {
+  //         if (ref.current) {
+  //             setSticky(ref.current.getBoundingClientRect().top <= 0)
+  //         }
+  //     }
 
-      React.useEffect(() => {
-          window.addEventListener('scroll', handleScroll)
+  //     React.useEffect(() => {
+  //         window.addEventListener('scroll', handleScroll)
 
-          return () => {
-              window.removeEventListener('scroll', () => handleScroll)
-          }
-      }, []);
+  //         return () => {
+  //             window.removeEventListener('scroll', () => handleScroll)
+  //         }
+  //     }, []);
 
-      return (
-        <>
-          <div className="logo-grid">
-            <Link to="/" aria-label="home page">
-                <Logo className="logo" />
-            </Link>
-          </div>
-          <div className="name-grid">
-            <h2 className="name">
-              clark newell
-            </h2>
-          </div>
-          <div className="sun-grid">    
-            <SunIcon  className="mode-icon"
-                      onClick={() => {
-                          toggleTheme()
-                          darkMode.disable()
-                      }}
-                      alt='sun icon for light mode'
-            />
-          </div>
-          <div className="moon-grid">
-            <MoonIcon className="mode-icon" 
-                      onClick={() => {
-                          toggleTheme()
-                          darkMode.enable()
-                      }}
-                      alt='moon icon for dark star mode'
-            />
-          </div>
-          <div className={`sticky-wrapper${isSticky ? ' sticky' : ''}`} ref={ref}>
-              <div className='sticky-inner'> 
-                <div>
-                  <Nav />
-                </div>
-              </div>
-          </div>
-        </>
-      );
-    }
+  //     return (
+  //       <>
+  //         <div className="logo-grid">
+  //           <Link to="/" aria-label="home page">
+  //               <Logo className="logo" />
+  //           </Link>
+  //         </div>
+  //         <div className="name-grid">
+  //           <h2 className="name">
+  //             clark newell
+  //           </h2>
+  //         </div>
+  //         <div className="sun-grid">    
+  //           <SunIcon  className="mode-icon"
+  //                     onClick={() => {
+  //                         toggleTheme()
+  //                         darkMode.disable()
+  //                     }}
+  //                     alt='sun icon for light mode'
+  //           />
+  //         </div>
+  //         <div className="moon-grid">
+  //           <MoonIcon className="mode-icon" 
+  //                     onClick={() => {
+  //                         toggleTheme()
+  //                         darkMode.enable()
+  //                     }}
+  //                     alt='moon icon for dark star mode'
+  //           />
+  //         </div>
+  //         <div className={`sticky-wrapper${isSticky ? ' sticky' : ''}`} ref={ref}>
+  //             <div className='sticky-inner'> 
+  //               <div>
+  //                 <Nav />
+  //               </div>
+  //             </div>
+  //         </div>
+  //       </>
+  //     );
+  //   }
 
     return (
       <ThemeContext.Provider value={'night'}>
         <>
           <PageTransition>
+          {/* <Header />     */}
+            <Mode />
             <div>
-              <div className="header-grid">
-                <Header />
-              </div>
-              <Layout />
-              <div>
-                {children}
-              </div> 
+              {children}
             </div>
             <Footer className="footer" />
           </PageTransition>

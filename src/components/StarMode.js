@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/star-styles.scss';
 
-const StarLayout = () => {
+const StarMode = () => {
 	return (
 		<>
 			<div className='stars'></div>
@@ -11,4 +11,4 @@ const StarLayout = () => {
 	);
 }
 
-export default StarLayout;
+export default StarMode;

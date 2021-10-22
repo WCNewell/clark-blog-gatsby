@@ -1,6 +1,7 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import Seo from '../components/seo';
+import Header from '../components/Header';
 
 const ClarkAlyeska = () => {
   return (
@@ -16,10 +17,11 @@ const ClarkAlyeska = () => {
 const About = () => (
 	<>  
 		<Seo title='About' />
-				<div>
+				<div className="main-grid">
+					<Header />
 					<h1 className="page-title">about</h1>
-					<ClarkAlyeska />
-					<div>
+					<div className="content">
+						<ClarkAlyeska />
 						<p className="caption">Hello World! I'm a Customer service manager, web developer, outdoorsman and pop culture enthusist. Photo of myself on the Alyeska ski resort headwall while previewing the Cirque Series 2021 race course by Robyn Newell, July 2021.</p>
 						<h2>Goal</h2>
 						<p>To represent your software company in marketing, sales, support, implementation, quality analysis, product management and development as my skills continue to grow.</p>

@@ -43,7 +43,7 @@ const Menu = ({ open, ...props }) => {
             <h3>portfolio</h3>
       </a>
       <a
-        href="/posts"
+        href="/blog"
         tabIndex={tabIndex}
         onClick={() => {
           isHidden === true && navigate()
