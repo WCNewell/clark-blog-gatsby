@@ -92,7 +92,7 @@ const StyledMenu = styled.nav`
   text-align: left;
   padding: 2rem;
   position: absolute;
-  right: -310px;
+  right: -290px;
   background-color: #effffa;
   color:  #0b0111;
   transition: transform 0.3s ease-in-out;

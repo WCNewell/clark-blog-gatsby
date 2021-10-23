@@ -144,10 +144,6 @@ button {
   margin-top: 0.5rem;
 }
 
-.caption {
-  font-size: 14px;
-}
-
 .sticky-wrapper {
   position: relative;
   z-index: 2;
@@ -167,6 +163,14 @@ button {
   margin-top: 0.5rem;
   margin-left: 2rem;
   cursor: pointer;
+}
+
+.caption {
+  font-size: 14px;
+}
+
+.category {
+  padding: 1rem;
 }
 
 .social-icons {
