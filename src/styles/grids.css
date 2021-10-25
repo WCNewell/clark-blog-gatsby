@@ -8,7 +8,7 @@
     margin-right: 0.5rem;
     display: grid;
     grid-template-columns: repeat(16, [col-start] 1fr);
-    grid-template-rows: 4rem auto;
+    grid-auto-rows: repeat(minmax(5rem, 1fr));
   }
   
   .logo-grid {
@@ -63,7 +63,7 @@
     margin-right: 0.5rem;
     display: grid;
     grid-template-columns: repeat(16, [col-start] 1fr);
-    grid-template-rows: 4rem auto;
+    grid-auto-rows: repeat(minmax(5rem, 1fr));
     gap: 0.25rem;
   }
   
@@ -104,6 +104,26 @@
     margin-left: 2rem;
     margin-right: 2rem;
   }
+  
+  .grid-one {
+    grid-column: col-start 2 / span 15;
+    grid-row: 3;
+  }
+
+  .grid-two {
+    grid-column: col-start 2 / span 15;
+    grid-row: 4;
+  }
+
+  .grid-three {
+    grid-column: col-start 2 / span 15;
+    grid-row: 5;
+  }
+
+  .grid-four {
+    grid-column: col-start 2 / span 15;
+    grid-row: 6;
+  }
 
 }
 
@@ -117,7 +137,7 @@
     margin-right: 0.5rem;
     display: grid;
     grid-template-columns: repeat(16, [col-start] 1fr);
-    grid-template-rows: 4rem auto;
+    grid-auto-rows: repeat(minmax(5rem, 1fr));
     gap: 0.25rem;
   }
   
@@ -158,6 +178,25 @@
     margin-right: 2rem;
   }
 
+  .grid-one {
+    grid-column: col-start 2 / span 15;
+    grid-row: 3;
+  }
+
+  .grid-two {
+    grid-column: col-start 2 / span 15;
+    grid-row: 4;
+  }
+
+  .grid-three {
+    grid-column: col-start 2 / span 15;
+    grid-row: 5;
+  }
+
+  .grid-four {
+    grid-column: col-start 2 / span 15;
+    grid-row: 6;
+  }
 }
 
 /* tablet */
@@ -170,7 +209,7 @@
     margin-right: 0.5rem;
     display: grid;
     grid-template-columns: repeat(16, [col-start] 1fr);
-    grid-template-rows: 4rem auto;
+    grid-auto-rows: repeat(minmax(5rem, 1fr));
     gap: 0.25rem;
   }
   
@@ -211,6 +250,25 @@
     margin-right: 3rem;
   }
 
+  .grid-one {
+    grid-column: col-start 2 / span 15;
+    grid-row: 3;
+  }
+
+  .grid-two {
+    grid-column: col-start 2 / span 15;
+    grid-row: 4;
+  }
+
+  .grid-three {
+    grid-column: col-start 2 / span 15;
+    grid-row: 5;
+  }
+
+  .grid-four {
+    grid-column: col-start 2 / span 15;
+    grid-row: 6;
+  }
 }
 
 /* small screen */
@@ -223,7 +281,7 @@
     margin-right: 0.5rem;
     display: grid;
     grid-template-columns: repeat(17, [col-start] 1fr);
-    grid-template-rows: 5rem 4rem auto;
+    grid-auto-rows: repeat(minmax(5rem, 1fr));
     gap: 0.25rem;
   }
   
@@ -267,6 +325,25 @@
     margin-right: 4rem;
   }
 
+  .grid-one {
+    grid-column: col-start 2 / span 15;
+    grid-row: 3;
+  }
+
+  .grid-two {
+    grid-column: col-start 2 / span 15;
+    grid-row: 4;
+  }
+
+  .grid-three {
+    grid-column: col-start 2 / span 15;
+    grid-row: 5;
+  }
+
+  .grid-four {
+    grid-column: col-start 2 / span 15;
+    grid-row: 6;
+  }
 }
 
 /* Medium screen */
@@ -279,7 +356,7 @@
     margin-right: 0.5rem;
     display: grid;
     grid-template-columns: repeat(17, [col-start] 1fr);
-    grid-template-rows: 5rem 4rem auto;
+    grid-auto-rows: repeat(minmax(5rem, 1fr));
     gap: 0.25rem;
   }
   
@@ -323,6 +400,25 @@
     margin-right: 5rem;
   }
 
+  .grid-one {
+    grid-column: col-start 2 / span 15;
+    grid-row: 3;
+  }
+
+  .grid-two {
+    grid-column: col-start 2 / span 15;
+    grid-row: 4;
+  }
+
+  .grid-three {
+    grid-column: col-start 2 / span 15;
+    grid-row: 5;
+  }
+
+  .grid-four {
+    grid-column: col-start 2 / span 15;
+    grid-row: 6;
+  }
 }
 
 /* large screen */
@@ -335,7 +431,7 @@
     margin-right: 0.5rem;
     display: grid;
     grid-template-columns: repeat(17, [col-start] 1fr);
-    grid-template-rows: 5rem 4rem auto;
+    grid-auto-rows: 5rem 4rem 50rem auto;
     gap: 0.25rem;
   }
   
@@ -379,6 +475,25 @@
     margin-left: 6.5rem;
     margin-right: 6.5rem;
   }
+  .grid-one {
+    grid-column: col-start 2 / span 7;
+    grid-row: 3;
+  }
+
+  .grid-two {
+    grid-column: col-start 10 / span 7;
+    grid-row: 3;
+  }
+
+  .grid-three {
+    grid-column: col-start 2 / span 7;
+    grid-row: 4;
+  }
+
+  .grid-four {
+    grid-column: col-start 10 / span 7;
+    grid-row: 4;
+  }
 }
 
 /* Huge Screen */
@@ -391,7 +506,7 @@
     margin-right: 0.5rem;
     display: grid;
     grid-template-columns: repeat(17, [col-start] 1fr);
-    grid-template-rows: 5rem 4rem auto;
+    grid-auto-rows: 5rem 4rem 50rem auto;
     gap: 0.25rem;
   }
   
@@ -436,14 +551,6 @@
     margin-right: 7rem;
   }
 
-  /* .page-content {
-    grid-column: col-start 1 / span 15;
-    grid-row: 3;
-    display: grid;
-    grid-template-columns: repeat(17, [col-start] 1fr);
-    gap: 3rem;
-  } */
-
   .grid-one {
     grid-column: col-start 2 / span 7;
     grid-row: 3;
@@ -463,5 +570,4 @@
     grid-column: col-start 10 / span 7;
     grid-row: 4;
   }
-
 }

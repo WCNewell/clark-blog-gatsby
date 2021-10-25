@@ -96,6 +96,11 @@ body.dark-mode {
     text-shadow: none;
   }
 
+  .project-link {
+    color: $pink;
+    text-shadow: none;
+  }
+  
   .dark-header {
     color: $white;
   }
@@ -136,10 +141,6 @@ img {
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;  
 }
-
-// .image {
-//   grid-area: img;
-// }
 
 .post-image {
   display: flex;

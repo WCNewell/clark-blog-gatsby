@@ -10,10 +10,6 @@ $shadows-small:  multiple-box-shadow(700);
 $shadows-medium: multiple-box-shadow(200);
 $shadows-big:    multiple-box-shadow(100);
 
-body.dark-mode .space {
-  overflow-y: hidden;
-}
-
 body.dark-mode .stars {
   
   width: 1px;
@@ -25,7 +21,7 @@ body.dark-mode .stars {
   &:after {
       content: " ";
       position: absolute;
-      top: 1500px;
+      top: 1000px;
       width: 1px;
       height: 1px;
       background: transparent;
@@ -43,7 +39,7 @@ body.dark-mode .stars2 {
   &:after {
       content: " ";
       position: absolute;
-      top: 1100px;
+      top: 500px;
       width: 2px;
       height: 2px;
       background: transparent;
@@ -61,7 +57,7 @@ body.dark-mode .stars3 {
   &:after {
       content: " ";
       position: absolute;
-      top: 800px;
+      top: 500px;
       width: 3px;
       height: 3px;
       background: transparent;
