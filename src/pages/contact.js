@@ -51,7 +51,7 @@ const ContactPage = () => {
             </div>
           </form>
           <FormSpace />
-            <GatsbyAstronaut className="astronaut"/>
+            <GatsbyAstronaut />
             <p className="caption">Hello from the Gatsby Spaceman! Image design by Gatsby.</p>
           <FormSpace />
         </div>

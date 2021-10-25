@@ -8,7 +8,7 @@ const SinglePost = ({ post }) => {
     <>
       <div>    
         <GatsbyImage
-          className="image"
+          className="post-image"
           image={image}
           alt={post.imageCredit}
         />

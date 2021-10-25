@@ -40,7 +40,7 @@ const IndexPage = ({ data }) => {
         <div className="content">
           <BlogList posts={posts}/>
             <Link to="/blog" >
-              <h3 aria-label="see more posts">See more posts...</h3>
+              <h1 className="blog-link" aria-label="see more posts">See more posts...</h1>
             </Link>
         </div>
       </div>

@@ -2,12 +2,17 @@ import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import Header from '../components/Header';
 import Seo from '../components/seo';
-import styled from 'styled-components';
 
 import Github from '../assets/github.inline.svg';
 
 const ClarkWebOne = () => {
-  return <StaticImage src='../images/clarknewell_og-homepage.jpg' className="image" alt="Original Clark Newell web development website" />
+  return ( 
+		<StaticImage
+			src='../images/clarknewell_og-homepage.jpg'
+			className="image"
+			alt="Original Clark Newell web development website"
+		/>
+	)
 }
 
 const Portfolio = () => (
@@ -24,7 +29,7 @@ const Portfolio = () => (
 							
 												{/* Clark Blog */}
 							<a href='/'>
-								<ProjectLink>Clark Blog</ProjectLink>
+								<h3>Clark Blog</h3>
 							</a>
 							<p>Version 3.0 of my personal website presents the following features:</p>	
 							<ul>
@@ -68,7 +73,7 @@ const Portfolio = () => (
 							</button>
 											{/* Clark's Slices */}
 							<a aria-label="clarks slices" href='https://clarks-slices.netlify.app/'>
-								<ProjectLink>Clark's Slices</ProjectLink>
+								<h3>Clark's Slices</h3>
 							</a>
 							<p>Completed the entire Master-Gatsby course from Wes Bos and this is the resulting demo.</p>
 							<button className="repo-link">	
@@ -79,7 +84,7 @@ const Portfolio = () => (
 							</button>
 											{/* Max Hamburger */}
 							<a aria-label="max hamburger" href='https://wcnewell.github.io/max-hamburger/'>
-								<ProjectLink>Max Hamburger</ProjectLink>
+								<h3>Max Hamburger</h3>
 							</a>
 							<p>Completed the entire Udemy React course from Maximilian Schwarzmueller and this is the resulting demo.</p>
 							<button className="repo-link">	
@@ -90,7 +95,7 @@ const Portfolio = () => (
 							</button>
 											{/* Vuetiful Goals */}
 							<a aria-label="vuetiful goals" href='https://vuetiful-goals.firebaseapp.com/#/goals'>
-								<ProjectLink>Vuetiful Goals</ProjectLink>
+								<h3>Vuetiful Goals</h3>
 							</a>
 							<p>Very first CRUD (Create, Read, Update, Delete) application completed while at Galvanize using Vue.js.</p>
 							<button className="repo-link">	
@@ -106,7 +111,3 @@ const Portfolio = () => (
 );
 
 export default Portfolio;
-
-const ProjectLink = styled.h3`
-	text-decoration: underline;
-`;
