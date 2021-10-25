@@ -63,8 +63,7 @@ const ContactPage = () => {
 export default ContactPage;
 
 const FormSpace = styled.div`
-  margin-top: 30rem;
-  height: 30rem;
+  height: 50rem;
 `;
 
 

@@ -6,7 +6,7 @@ import BlogList from '../components/BlogList';
 
 export const RecentPostsQuery = graphql`
   query RecentPostsQuery {
-    posts: allSanityPost(limit: 6, sort: {order: DESC, fields: publishedAt}) {
+    posts: allSanityPost(limit: 10, sort: {order: DESC, fields: publishedAt}) {
       nodes {
         _id
         title
