@@ -137,6 +137,15 @@ img {
   border-bottom-left-radius: 0.5rem;  
 }
 
+// .image {
+//   grid-area: img;
+// }
+
+.post-image {
+  display: flex;
+  justify-content: center;
+}
+
 button {
   color: $black;
   background-color: $truewhite;
@@ -145,11 +154,6 @@ button {
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
   box-shadow: 5px 2.5px 2.5px $grey;
-}
-
-.post-image {
-  display: flex;
-  justify-content: center;
 }
 
 .sun-grid {
@@ -205,12 +209,6 @@ button {
   margin-right: 1.14rem;
   cursor: pointer;
   margin-bottom: 2.2rem;
-}
-
-.content-item {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
 }
 
 .post-title:hover, .sub-title:hover {

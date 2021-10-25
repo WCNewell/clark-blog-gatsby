@@ -7,7 +7,7 @@ const ClarkAlyeska = () => {
   return (
 		<StaticImage
 			src='../images/ClarkAlyeska.jpg'
-			className="image"
+			// className="image"
 			alt="Clark Newell at Alyeska Ski Resort"
 			placeholder="blurred"
 		/>
