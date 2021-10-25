@@ -169,9 +169,10 @@ button {
   font-size: 14px;
 }
 
-.category {
-  padding: 1rem;
-}
+// .category {
+//   padding: 1rem;
+//   list-style-type: none;
+// }
 
 .social-icons {
   fill: $white;
@@ -179,6 +180,10 @@ button {
   width: 2.0rem;
   cursor: pointer;
   margin-bottom: 1rem;
+  @media screen and (min-width: 860px) {
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+  }
 }
 
 .menu-icons {

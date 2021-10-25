@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import Seo from '../components/seo';
+import Header from '../components/Header';
 import BlockContent from '../components/BlockContent';
 
 export const query = graphql`

@@ -16,9 +16,9 @@ const SinglePost = ({ post }) => {
           <Link to={`/${post.slug.current}`}>
             <h3 className="dark-link">{post.title}</h3>
           </Link>
-          <ul>
+          {/* <ul>
             <li className="category">{post.categories.map((category) => category.title).join(' ')}</li>
-          </ul>
+          </ul> */}
         </span>
         <p>{post.tlDr}</p>
       </div>
