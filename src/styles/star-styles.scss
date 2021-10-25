@@ -1,7 +1,7 @@
 @function multiple-box-shadow ($n) {
-  $value: '#{random(4000)}px #{random(4000)}px #fff';
+  $value: '#{random(2000)}px #{random(2000)}px #fff';
   @for $i from 2 through $n {
-  $value: '#{$value} , #{random(4000)}px #{random(4000)}px #fff'
+  $value: '#{$value} , #{random(2000)}px #{random(2000)}px #fff'
   }
   @return unquote($value);
 }
@@ -62,7 +62,7 @@ body.dark-mode .stars3 {
   &:after {
       content: " ";
       position: absolute;
-      top: 2000px;
+      top: 1000px;
       width: 3px;
       height: 3px;
       background: transparent;
@@ -75,6 +75,6 @@ body.dark-mode .stars3 {
       transform: translateY(0px);
   }
   to {		
-      transform: translateY(-2000px);
+      transform: translateY(-1000px);
   }
 }

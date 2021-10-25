@@ -38,18 +38,23 @@ const BlogPostTemplate = props => {
     <>
       {errors && <Seo title='GraphQL Error' />}
       {post && <Seo title={post.title || 'Untitled'} />}
-      <h1>{post.title}</h1>
-      <h4>by {post.author.name}</h4>
-      <p>{post.publishedAt}</p>
-      <ul>
-        {post.categories.map((category) => (
-          <li key={category._id}>{category.title}</li>
-        ))}
-      </ul>
-      <GatsbyImage image={image} className="image" alt={post.imageCredit} />
-      <p className="caption">{post.imageCredit}</p>
-      <p><strong>TLDR: </strong>{post.tlDr}</p>
-      <BlockContent blocks={post._rawBody} />
+        <div className="main-grid">
+          <Header />
+          <h1 className="page-title">{post.title}</h1>
+        </div>
+        <div className="content-items">
+          <h4>by {post.author.name}</h4>
+          <p>{post.publishedAt}</p>
+          {/* <ul>
+            {post.categories.map((category) => (
+              <li key={category._id}>{category.title}</li>
+            ))}
+          </ul> */}  
+          <GatsbyImage image={image} className="image" alt={post.imageCredit} />
+          <p className="caption">{post.imageCredit}</p>
+          <p><strong>TLDR: </strong>{post.tlDr}</p>
+          <BlockContent blocks={post._rawBody} />
+        </div>
     </>
   )
 };

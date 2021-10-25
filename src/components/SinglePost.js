@@ -6,7 +6,7 @@ const SinglePost = ({ post }) => {
   const image = getImage(post.mainImage.asset.gatsbyImageData);
   return (
     <>
-      <div className="content-items">    
+      <div>    
         <GatsbyImage
           className="image"
           image={image}
