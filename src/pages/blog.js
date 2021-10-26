@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Seo from '../components/seo';
+import Header from '../components/Header';
 import BlogList from '../components/BlogList';
 
 export const BlogPostQuery = graphql`
@@ -28,15 +29,20 @@ export const BlogPostQuery = graphql`
   }
 `;
 
-const BlogPage = ({ data }) => {
+const Blog = ({ data }) => {
   const posts = data.posts.nodes;
   return (
     <>
       <Seo title='Blog Posts' />
-      <h1>blog</h1>
-      <BlogList posts={posts} />
+      <div className="main-grid">
+        <Header />
+        <h1 className="page-title">blog</h1>
+        <div className="content">
+          <BlogList posts={posts} />
+        </div>
+      </div>
     </>
   );
 }
 
-export default BlogPage;
+export default Blog;

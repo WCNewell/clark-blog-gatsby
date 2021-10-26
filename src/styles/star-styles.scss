@@ -1,7 +1,7 @@
 @function multiple-box-shadow ($n) {
-  $value: '#{random(4000)}px #{random(4000)}px #fff';
+  $value: '#{random(2000)}px #{random(2000)}px #fff';
   @for $i from 2 through $n {
-  $value: '#{$value} , #{random(4000)}px #{random(4000)}px #fff'
+  $value: '#{$value} , #{random(2000)}px #{random(2000)}px #fff'
   }
   @return unquote($value);
 }
@@ -10,23 +10,18 @@ $shadows-small:  multiple-box-shadow(700);
 $shadows-medium: multiple-box-shadow(200);
 $shadows-big:    multiple-box-shadow(100);
 
-body.dark-mode html {
-  height: 100%;
-  overflow: hidden;
-}
-
 body.dark-mode .stars {
   
   width: 1px;
   height: 1px;
   background: transparent;
   box-shadow: $shadows-small;
-  animation: animStar 50s linear infinite;
+  animation: animStar 60s linear infinite;
   
   &:after {
       content: " ";
       position: absolute;
-      top: 2000px;
+      top: 1000px;
       width: 1px;
       height: 1px;
       background: transparent;
@@ -39,12 +34,12 @@ body.dark-mode .stars2 {
   height: 2px;
   background: transparent;
   box-shadow: $shadows-medium;
-  animation: animStar 100s linear infinite;
+  animation: animStar 120s linear infinite;
   
   &:after {
       content: " ";
       position: absolute;
-      top: 2000px;
+      top: 500px;
       width: 2px;
       height: 2px;
       background: transparent;
@@ -57,12 +52,12 @@ body.dark-mode .stars3 {
   height: 3px;
   background: transparent;
   box-shadow: $shadows-big;
-  animation: animStar 150s linear infinite;
+  animation: animStar 240s linear infinite;
   
   &:after {
       content: " ";
       position: absolute;
-      top: 2000px;
+      top: 500px;
       width: 3px;
       height: 3px;
       background: transparent;
@@ -75,6 +70,6 @@ body.dark-mode .stars3 {
       transform: translateY(0px);
   }
   to {		
-      transform: translateY(-2000px);
+      transform: translateY(-1000px);
   }
 }

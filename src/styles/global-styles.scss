@@ -52,7 +52,7 @@ body.light-mode {
     }
     
     .footer-link {
-      color: $black;
+      color: $white;
       text-decoration: none;
     }
   }    
@@ -80,15 +80,22 @@ body.dark-mode {
     }
   }
   
-  .stars {
-    position: absolute;
-    z-index: auto;
+  li {
+    :hover {
+      color: $pink;
+    }
   }
   
   .dark-link {
-    color: $black;
+    color: $white;
+    text-shadow: none;
   }
 
+  .project-link {
+    color: $pink;
+    text-shadow: none;
+  }
+  
   .dark-header {
     color: $white;
   }
@@ -99,10 +106,14 @@ body.dark-mode {
     width: 3.75rem;
   }
   
+  .blog-link {
+    color: $white;
+    text-shadow: none;
+  }
+
   .footer {
     background-color: $pink;
     position: relative;
-    z-index: 1;
 
     .footer-text {
         color: $white;
@@ -111,8 +122,12 @@ body.dark-mode {
   }
 }
 
-h1, h2 {
+h1 {
   margin-top: 0.5rem;
+}
+
+h2 {
+  margin-top: 0.25rem;
 }
 
 img {
@@ -120,6 +135,15 @@ img {
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;  
+}
+
+.post-image {
+  display: flex;
+  justify-content: center;
+}
+
+.astro-image {
+  margin-top: 25rem;
 }
 
 button {
@@ -132,20 +156,12 @@ button {
   box-shadow: 5px 2.5px 2.5px $grey;
 }
 
-.name {
-  margin: 0;
-}
-
 .sun-grid {
   margin-top: 0.5rem;
 }
 
 .moon-grid {
   margin-top: 0.5rem;
-}
-
-.caption {
-  font-size: 14px;
 }
 
 .sticky-wrapper {
@@ -169,12 +185,20 @@ button {
   cursor: pointer;
 }
 
+.caption {
+  font-size: 14px;
+}
+
 .social-icons {
   fill: $white;
   height: 2.0rem;
   width: 2.0rem;
   cursor: pointer;
   margin-bottom: 1rem;
+  @media screen and (min-width: 860px) {
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+  }
 }
 
 .menu-icons {
@@ -185,12 +209,6 @@ button {
   margin-right: 1.14rem;
   cursor: pointer;
   margin-bottom: 2.2rem;
-}
-
-.content-item {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
 }
 
 .post-title:hover, .sub-title:hover {
@@ -233,8 +251,12 @@ button {
     display: flex;
     justify-content: center;  
   }
+
+  h4.send-link {
+    color: $black;
+  }
 }
 
-.astronaut {
-  margin-top: 20rem;
+.footer-link {
+  text-shadow: none;
 }

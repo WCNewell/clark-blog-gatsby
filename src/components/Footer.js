@@ -43,4 +43,7 @@ const IconBox = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  @media screen and (min-width: 860px) {
+    justify-content: flex-start;
+  }
 `

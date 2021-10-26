@@ -6,9 +6,9 @@ const SinglePost = ({ post }) => {
   const image = getImage(post.mainImage.asset.gatsbyImageData);
   return (
     <>
-      <li className="content-item">    
+      <div>    
         <GatsbyImage
-          className="image"
+          className="post-image"
           image={image}
           alt={post.imageCredit}
         />
@@ -16,10 +16,12 @@ const SinglePost = ({ post }) => {
           <Link to={`/${post.slug.current}`}>
             <h3 className="dark-link">{post.title}</h3>
           </Link>
-          <p>{post.categories.map((category) => category.title).join(' ')}</p>
+          {/* <ul>
+            <li className="category">{post.categories.map((category) => category.title).join(' ')}</li>
+          </ul> */}
         </span>
         <p>{post.tlDr}</p>
-      </li>
+      </div>
     </>
   );
 }
