@@ -86,11 +86,6 @@ body.dark-mode {
     }
   }
   
-  // .stars {
-  //   position: absolute;
-  //   z-index: auto;
-  // }
-  
   .dark-link {
     color: $white;
     text-shadow: none;
@@ -145,6 +140,10 @@ img {
 .post-image {
   display: flex;
   justify-content: center;
+}
+
+.astro-image {
+  margin-top: 25rem;
 }
 
 button {
@@ -251,6 +250,10 @@ button {
     margin: 1rem;
     display: flex;
     justify-content: center;  
+  }
+
+  h4.send-link {
+    color: $black;
   }
 }
 
