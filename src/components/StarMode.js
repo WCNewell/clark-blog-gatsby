@@ -3,7 +3,7 @@ import '../styles/star-styles.scss';
 
 const StarMode = () => {
 	return (
-		<div className="space">
+		<div>
 			<div className='stars'></div>
 			<div className='stars2'></div>
 			<div className='stars3'></div>
