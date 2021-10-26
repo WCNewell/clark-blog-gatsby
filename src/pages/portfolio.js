@@ -52,7 +52,7 @@ const Portfolio = () => (
 							<a className="dark-link" aria-label="sass" href="https://sass-lang.com">Sass, </a> 
 							<a className="dark-link" aria-label="styled components" href="https://styled-components.com"> Styled Components, </a>
 							<a className="dark-link" aria-label="typography.js" href="https://kyleamathews.github.io/typography.js/"> Typography.js, </a> 
-							and a responsive grid are implemented for CSS styling</li>
+							and a custom responsive grid are implemented for CSS styling</li>
 						<li>Light and dark "star" modes are implemented with state management via React hooks and the 
 							<a className="dark-link" aria-label="use dark mode" href="https://www.npmjs.com/package/use-dark-mode"> useDarkMode </a>
 							plugin
@@ -65,7 +65,7 @@ const Portfolio = () => (
 						</li>
 						<li>Original logo design and original blog content</li>
 					</ul>
-					<p>Further Iterations will present some of the following features: a stateful contact form, sorting of blog posts by further categories, and more advanced Sassy CSS.</p>
+					<p>Further Iterations will present some of the following features: a stateful contact form, sorting of blog posts by categories, and more advanced Sassy CSS.</p>
 					<button className="repo-link">	
 					<a href='https://github.com/WCNewell/clark-blog-gatsby'>
 						<Github className='portfolio-icon' alt='github icon' />

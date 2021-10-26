@@ -5,7 +5,6 @@ import Footer from './Footer';
 import '../styles/global-styles.scss';
 import '../styles/grids.css';
 import StarMode from './StarMode';
-import PageTransition from 'gatsby-plugin-page-transitions';
 
 export const ThemeContext = React.createContext('day');
 
@@ -21,14 +20,11 @@ const App = ({ children }) => {
     return (
       <ThemeContext.Provider value={'night'}>
         <>
-          <PageTransition>
-          {/* <Header />     */}
-            <Mode />
-            <div>
-              {children}
-            </div>
-            <Footer className="footer" />
-          </PageTransition>
+          <Mode />
+          <div>
+            {children}
+          </div>
+          <Footer className="footer" />
         </>
       </ThemeContext.Provider>
     );

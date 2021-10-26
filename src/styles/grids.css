@@ -51,6 +51,25 @@
     margin-right: 2rem;
   }
 
+  .grid-one {
+    grid-column: col-start 2 / span 14;
+    grid-row: 3;
+  }
+
+  .grid-two {
+    grid-column: col-start 2 / span 14;
+    grid-row: 4;
+  }
+
+  .grid-three {
+    grid-column: col-start 2 / span 14;
+    grid-row: 5;
+  }
+
+  .grid-four {
+    grid-column: col-start 2 / span 14;
+    grid-row: 6;
+  }
 }
 
 /* medium mobile */
@@ -106,22 +125,22 @@
   }
   
   .grid-one {
-    grid-column: col-start 2 / span 15;
+    grid-column: col-start 2 / span 13;
     grid-row: 3;
   }
 
   .grid-two {
-    grid-column: col-start 2 / span 15;
+    grid-column: col-start 2 / span 13;
     grid-row: 4;
   }
 
   .grid-three {
-    grid-column: col-start 2 / span 15;
+    grid-column: col-start 2 / span 13;
     grid-row: 5;
   }
 
   .grid-four {
-    grid-column: col-start 2 / span 15;
+    grid-column: col-start 2 / span 13;
     grid-row: 6;
   }
 
@@ -179,22 +198,22 @@
   }
 
   .grid-one {
-    grid-column: col-start 2 / span 15;
+    grid-column: col-start 2 / span 13;
     grid-row: 3;
   }
 
   .grid-two {
-    grid-column: col-start 2 / span 15;
+    grid-column: col-start 2 / span 13;
     grid-row: 4;
   }
 
   .grid-three {
-    grid-column: col-start 2 / span 15;
+    grid-column: col-start 2 / span 13;
     grid-row: 5;
   }
 
   .grid-four {
-    grid-column: col-start 2 / span 15;
+    grid-column: col-start 2 / span 13;
     grid-row: 6;
   }
 }
@@ -251,22 +270,22 @@
   }
 
   .grid-one {
-    grid-column: col-start 2 / span 15;
+    grid-column: col-start 2 / span 14;
     grid-row: 3;
   }
 
   .grid-two {
-    grid-column: col-start 2 / span 15;
+    grid-column: col-start 2 / span 14;
     grid-row: 4;
   }
 
   .grid-three {
-    grid-column: col-start 2 / span 15;
+    grid-column: col-start 2 / span 14;
     grid-row: 5;
   }
 
   .grid-four {
-    grid-column: col-start 2 / span 15;
+    grid-column: col-start 2 / span 14;
     grid-row: 6;
   }
 }
@@ -540,7 +559,7 @@
   
   .content {
     grid-column: col-start 2 / span 15;
-    grid-row: 3;
+    grid-row: 3 / span 2;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 3rem;
