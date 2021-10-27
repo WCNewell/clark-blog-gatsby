@@ -6,12 +6,13 @@ const SinglePost = ({ post }) => {
   const image = getImage(post.mainImage.asset.gatsbyImageData);
   return (
     <>
-      <div>    
-        <GatsbyImage
-          className="post-image"
-          image={image}
-          alt={post.imageCredit}
-        />
+      <div>
+        <div className="post-image">    
+          <GatsbyImage
+            image={image}
+            alt={post.imageCredit}
+          />
+        </div>
         <span aria-label={post.title}>
           <Link to={`/${post.slug.current}`}>
             <h3 className="dark-link">{post.title}</h3>

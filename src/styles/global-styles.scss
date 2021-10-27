@@ -23,12 +23,9 @@ body.light-mode {
     color: $black;
     text-decoration: none;
     cursor: pointer;
-  
-    :hover {
-      color: $pink;
-    }
+    text-shadow: none;
 
-    :visited {
+    :hover {
       color: $pink;
     }
   }
@@ -67,20 +64,11 @@ body.dark-mode {
   }
   
   a {
-    color: $black;
+    color: $white;
     text-decoration: none;
     cursor: pointer;
-  
-    :hover {
-      color: $pink;
-    }
+    text-shadow: none;
 
-    :visited {
-      color: $pink;
-    }
-  }
-  
-  li {
     :hover {
       color: $pink;
     }
@@ -92,7 +80,7 @@ body.dark-mode {
   }
 
   .project-link {
-    color: $pink;
+    color: $white;
     text-shadow: none;
   }
   
@@ -231,7 +219,8 @@ button {
     cursor: pointer;
 }  
 
-.repo-link {
+button.repo-link {
+  width: 8rem;
 
   p {
     color: $black;
