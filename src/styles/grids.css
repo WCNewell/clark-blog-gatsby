@@ -525,7 +525,7 @@
     margin-right: 0.5rem;
     display: grid;
     grid-template-columns: repeat(17, [col-start] 1fr);
-    grid-auto-rows: 5rem 4rem 50rem auto;
+    grid-auto-rows: 5rem 4rem 54rem auto;
     gap: 0.25rem;
   }
   
