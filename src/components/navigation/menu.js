@@ -19,7 +19,7 @@ const Menu = ({ open, ...props }) => {
         href="/"
         tabIndex={tabIndex}
         onClick={() => {
-          isHidden === true && navigate()
+          isHidden === true && navigate("/")
         }}>
           <span aria-hidden="true"></span>
             <h3>home</h3>
@@ -28,7 +28,7 @@ const Menu = ({ open, ...props }) => {
         href="/about"
         tabIndex={tabIndex}
         onClick={() => {
-          isHidden === true && navigate()
+          isHidden === true && navigate("/about")
         }}>
           <span aria-hidden="true"></span>
             <h3>about</h3>
@@ -37,7 +37,7 @@ const Menu = ({ open, ...props }) => {
         href="/portfolio"
         tabIndex={tabIndex}
         onClick={() => {
-          isHidden === true && navigate()
+          isHidden === true && navigate("/portfolio")
         }}>
           <span aria-hidden="true"></span>
             <h3>portfolio</h3>
@@ -46,7 +46,7 @@ const Menu = ({ open, ...props }) => {
         href="/blog"
         tabIndex={tabIndex}
         onClick={() => {
-          isHidden === true && navigate()
+          isHidden === true && navigate("/blog")
         }}>
           <span aria-hidden="true"></span>
               <h3>blog</h3>
@@ -55,7 +55,7 @@ const Menu = ({ open, ...props }) => {
         href="/contact"
         tabIndex={tabIndex}
         onClick={() => {
-          isHidden === true && navigate()
+          isHidden === true && navigate("/contact")
         }}>
           <span aria-hidden="true"></span>
               <h3>contact</h3>
