@@ -10,7 +10,7 @@ describe("SEO component", () => {
     useStaticQuery.mockReturnValue({
       site: {
         siteMetadata: {
-          title: `Clark Newell Portfolio Blog`,
+          title: `Clark Newell`,
           description: `portfolio and tech blog`,
           social: {
             twitter: `W. Clark Newell`,
@@ -21,7 +21,7 @@ describe("SEO component", () => {
   })
 
   it("renders the tests correctly", () => {
-    const mockTitle = "Clark Newell Blog"
+    const mockTitle = "Clark Newell"
     const mockDescription = "portfolio and tech blog"
     const mockTwitterHandler = "W. Clark Newell"
 
