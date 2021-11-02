@@ -4,7 +4,7 @@ module.exports = {
     siteMetadata: {
         title: `Clark Newell`,
         description: `portfolio and tech blog`,
-        keywords: `gatsby sanity react clark newell web development blog`,
+        keywords: `gatsby sanity react clark newell web development tech blog`,
         author: `@gatsbyjs and @WCNewell`,
         siteUrl: 'https://www.clarknewell.tech'
     },
