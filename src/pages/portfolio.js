@@ -65,7 +65,7 @@ const Portfolio = () => (
 						</li>
 						<li>Original logo design and original blog content</li>
 					</ul>
-					<p>Further Iterations will present some of the following features: More advanced Sassy CSS including smoother page transitions, sorting of blog posts by categories, improved error handling, and a stateful contact form.</p>
+					<p>Further Iterations will present some of the following features: More advanced Sassy CSS including smoother page transitions, sorting of blog posts by categories, improved testing and error handling, and a stateful contact form.</p>
 					<button className="repo-link">	
 					<a href='https://github.com/WCNewell/clark-blog-gatsby'>
 						<Github className='portfolio-icon' alt='github icon' />
