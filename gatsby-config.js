@@ -35,7 +35,8 @@ module.exports = {
         `gatsby-transformer-sharp`,
         `gatsby-plugin-image`,
         `gatsby-plugin-sharp`,
-        `gatsby-plugin-sass`,   
+        `gatsby-plugin-sass`,
+        `gatsby-plugin-jss`,   
         `gatsby-plugin-styled-components`,
         `gatsby-plugin-use-dark-mode`,
         {
