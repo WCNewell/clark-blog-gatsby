@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+Array [
+  <div
+    className="logo-grid"
+  >
+    <a
+      aria-label="home page"
+      href="/"
+    >
+      <test-file-stub
+        className="logo"
+      />
+    </a>
+  </div>,
+  <div
+    className="name-grid"
+  >
+    <h2
+      className="name"
+    >
+      clark newell
+    </h2>
+  </div>,
+  <div
+    className="sun-grid"
+  >
+    <test-file-stub
+      alt="sun icon for light mode"
+      className="mode-icon"
+      onClick={[Function]}
+    />
+  </div>,
+  <div
+    className="moon-grid"
+  >
+    <test-file-stub
+      alt="moon icon for dark star mode"
+      className="mode-icon"
+      onClick={[Function]}
+    />
+  </div>,
+  <div
+    className="sticky-wrapper"
+  >
+    <div
+      className="sticky-inner"
+    >
+      <div>
+        <div>
+          <div
+            aria-controls="main-menu"
+            aria-expanded={false}
+            aria-label="Toggle menu"
+            className="sc-bdvvtL fXtgWY"
+            onClick={[Function]}
+            open={false}
+          >
+            <span />
+            <span />
+            <span />
+          </div>
+          <nav
+            aria-hidden={true}
+            className="sc-gsDKAQ ftDsXq"
+            id="main-menu"
+            open={false}
+          >
+            <a
+              href="/"
+              onClick={[Function]}
+              tabIndex={-1}
+            >
+              <span
+                aria-hidden="true"
+              />
+              <h3>
+                home
+              </h3>
+            </a>
+            <a
+              href="/about"
+              onClick={[Function]}
+              tabIndex={-1}
+            >
+              <span
+                aria-hidden="true"
+              />
+              <h3>
+                about
+              </h3>
+            </a>
+            <a
+              href="/portfolio"
+              onClick={[Function]}
+              tabIndex={-1}
+            >
+              <span
+                aria-hidden="true"
+              />
+              <h3>
+                portfolio
+              </h3>
+            </a>
+            <a
+              href="/blog"
+              onClick={[Function]}
+              tabIndex={-1}
+            >
+              <span
+                aria-hidden="true"
+              />
+              <h3>
+                blog
+              </h3>
+            </a>
+            <a
+              href="/contact"
+              onClick={[Function]}
+              tabIndex={-1}
+            >
+              <span
+                aria-hidden="true"
+              />
+              <h3>
+                contact
+              </h3>
+            </a>
+            <div
+              className="menu-icons"
+            >
+              <a
+                aria-label="linked in"
+                href="https://linkedin.com/in/william-clark-newell/"
+              >
+                <test-file-stub
+                  alt="linked in icon"
+                  className="menu-icons"
+                />
+              </a>
+              <a
+                aria-label="github"
+                href="https://github.com/WCNewell"
+              >
+                <test-file-stub
+                  alt="github icon"
+                  className="menu-icons"
+                />
+              </a>
+              <a
+                aria-label="instagram"
+                href="https://instagram.com/willcnewell/"
+              >
+                <test-file-stub
+                  alt="instagram icon"
+                  className="menu-icons"
+                />
+              </a>
+              <a
+                aria-label="twitter"
+                href="https://twitter.com/WCNewell"
+              >
+                <test-file-stub
+                  alt="twitter icon"
+                  className="menu-icons"
+                />
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

@@ -57,7 +57,7 @@ const Portfolio = () => (
 							<a className="dark-link" aria-label="use dark mode" href="https://www.npmjs.com/package/use-dark-mode"> useDarkMode </a>
 							plugin
 						</li>
-						<li>Unit testing created with
+						<li>Testing created with
 							<a className="dark-link" aria-label="jest" href="https://jestjs.io/"> Jest </a>
 						</li>
 						<li>Accessbility audit performed with
@@ -65,7 +65,7 @@ const Portfolio = () => (
 						</li>
 						<li>Original logo design and original blog content</li>
 					</ul>
-					<p>Further Iterations will present some of the following features: a stateful contact form, sorting of blog posts by categories, and more advanced Sassy CSS.</p>
+					<p>Further Iterations will present some of the following features: More advanced Sassy CSS including smoother page transitions, sorting of blog posts by categories, improved error handling, and a stateful contact form.</p>
 					<button className="repo-link">	
 					<a href='https://github.com/WCNewell/clark-blog-gatsby'>
 						<Github className='portfolio-icon' alt='github icon' />

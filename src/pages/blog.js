@@ -6,7 +6,7 @@ import BlogList from '../components/BlogList';
 
 export const BlogPostQuery = graphql`
   query BlogPageQuery {
-    posts: allSanityPost {
+    posts: allSanityPost(sort: {order: DESC, fields: publishedAt}) {
       nodes {
         _id
         publishedAt

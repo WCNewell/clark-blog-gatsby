@@ -4,7 +4,7 @@ exports[` 1`] = `
 <div
   className="footer"
 >
-  <h3
+  <h4
     className="footer-text"
   >
     © 
@@ -18,42 +18,46 @@ exports[` 1`] = `
     >
       Gatsby
     </a>
-  </h3>
-  <a
-    aria-label="linked in"
-    href="https://linkedin.com/in/william-clark-newell/"
+  </h4>
+  <div
+    className="sc-bdvvtL esfeSi"
   >
-    <test-file-stub
-      alt="linked in icon"
-      className="social-icons"
-    />
-  </a>
-  <a
-    aria-label="github"
-    href="https://github.com/WCNewell"
-  >
-    <test-file-stub
-      alt="github icon"
-      className="social-icons"
-    />
-  </a>
-  <a
-    aria-label="instagram"
-    href="https://instagram.com/willcnewell/"
-  >
-    <test-file-stub
-      alt="instagram icon"
-      className="social-icons"
-    />
-  </a>
-  <a
-    aria-label="twitter"
-    href="https://twitter.com/WCNewell"
-  >
-    <test-file-stub
-      alt="twitter icon"
-      className="social-icons"
-    />
-  </a>
+    <a
+      aria-label="linked in"
+      href="https://linkedin.com/in/william-clark-newell/"
+    >
+      <test-file-stub
+        alt="linked in icon"
+        className="social-icons"
+      />
+    </a>
+    <a
+      aria-label="github"
+      href="https://github.com/WCNewell"
+    >
+      <test-file-stub
+        alt="github icon"
+        className="social-icons"
+      />
+    </a>
+    <a
+      aria-label="instagram"
+      href="https://instagram.com/willcnewell/"
+    >
+      <test-file-stub
+        alt="instagram icon"
+        className="social-icons"
+      />
+    </a>
+    <a
+      aria-label="twitter"
+      href="https://twitter.com/WCNewell"
+    >
+      <test-file-stub
+        alt="twitter icon"
+        className="social-icons"
+      />
+    </a>
+  </div>
 </div>
 `;
