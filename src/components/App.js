@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from "prop-types";
-import Footer from './Footer';
 
 import '../styles/global-styles.scss';
 import '../styles/grids.css';
@@ -24,7 +23,6 @@ const App = ({ children }) => {
           <div>
             {children}
           </div>
-          <Footer className="footer" />
         </>
       </ThemeContext.Provider>
     );
