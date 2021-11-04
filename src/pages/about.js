@@ -2,6 +2,7 @@ import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import Seo from '../components/seo';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const ClarkAlyeska = () => {
   return (
@@ -84,6 +85,9 @@ const About = () => (
 						</li>
 					</ul>
 				</div>
+			</div>
+			<div>
+				<Footer />
 			</div>
 	</>
 )

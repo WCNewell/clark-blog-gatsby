@@ -2,7 +2,7 @@ import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image'
 import Seo from '../components/seo';
 import Header from '../components/Header';
-// import styled from 'styled-components';
+import Footer from '../components/Footer';
 
 const GatsbyAstronaut = () => {
   return (
@@ -55,6 +55,9 @@ const ContactPage = () => {
           <GatsbyAstronaut />
           <p className="caption">Hello from the Gatsby Spaceman! Image design by Gatsby.</p>
         </div>
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   )

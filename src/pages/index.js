@@ -3,6 +3,7 @@ import Seo from '../components/seo'
 import { graphql, Link } from 'gatsby';
 import Header from '../components/Header';
 import BlogList from '../components/BlogList';
+import Footer from '../components/Footer';
 
 export const RecentPostsQuery = graphql`
   query RecentPostsQuery {
@@ -43,6 +44,9 @@ const IndexPage = ({ data }) => {
               <h1 className="blog-link" aria-label="see more posts">See more posts...</h1>
             </Link>
         </div>
+      </div>
+      <div>
+        <Footer className="footer" />
       </div>
     </>
   );

@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import Seo from '../components/seo';
 import Header from '../components/Header';
 import BlogList from '../components/BlogList';
+import Footer from '../components/Footer';
 
 export const BlogPostQuery = graphql`
   query BlogPageQuery {
@@ -40,6 +41,9 @@ const Blog = ({ data }) => {
         <div className="content">
           <BlogList posts={posts} />
         </div>
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );

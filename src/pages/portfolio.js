@@ -1,7 +1,8 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import Header from '../components/Header';
 import Seo from '../components/seo';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 import Github from '../assets/github.inline.svg';
 
@@ -109,6 +110,9 @@ const Portfolio = () => (
 						</a>
 					</button>
 				</div>
+			</div>
+			<div>
+				<Footer />
 			</div>
 	</>
 );
