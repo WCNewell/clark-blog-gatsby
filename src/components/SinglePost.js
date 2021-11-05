@@ -10,12 +10,11 @@ const SinglePost = ({ post }) => {
         <span aria-label={post.title}>
           <Link to={`/${post.slug.current}`}>
             <h3 className="dark-link">{post.title}</h3>
-              <div className="post-image">    
-                <GatsbyImage
+              <GatsbyImage
                 image={image}
+                className="post-image"
                 alt={post.imageCredit}
-                />
-              </div>
+              />
           </Link>
           {/* <ul>
             <li className="category">{post.categories.map((category) => category.title).join(' ')}</li>
