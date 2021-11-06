@@ -20,7 +20,7 @@ Version 3.0 of my personal blogsite and portfolio currently under development
 
 ## 💖 Plans for Future Iterations
 
-1. More advanced Sassy CSS including smoother page transitions
+1. More advanced Sassy CSS
 1. Sorting of blog posts by categories
 1. Improved testing and error handling
 1. Stateful contact form
