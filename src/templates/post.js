@@ -4,6 +4,7 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import Seo from '../components/seo';
 import Header from '../components/Header';
 import BlockContent from '../components/BlockContent';
+import Footer from '../components/Footer';
 
 export const query = graphql`
   query BlogPostTemplateQuery($slug: String!) {
@@ -58,6 +59,9 @@ const BlogPostTemplate = props => {
           <p className="caption">{post.imageCredit}</p>
           <p><strong>TLDR: </strong>{post.tlDr}</p>
           <BlockContent blocks={post._rawBody} />
+        </div>
+        <div>
+          <Footer className="footer" />
         </div>
     </>
   )
