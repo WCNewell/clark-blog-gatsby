@@ -45,7 +45,7 @@ const About = () => (
 							<ul>
 								<li>Using Jira as the productivity tool inline with scrum methodology and agile workflow, assisted team with QA, pair programming, code review and full stack coding assignments building proprietary software for multiple clients</li>
 								<li>While managing multiple tickets on strict tempo timers, switched between different tech stacks and languages throughout the day</li>
-								<li>Worked in frontend web and mobile development using HTML, CSS, Sass, JavaScript, TypeScript, PHP,  Razor, Xamarin.iOS, amd JS frameworks such as Angular</li>
+								<li>Worked in frontend web and mobile development using HTML, CSS, Sass, JavaScript, TypeScript, PHP,  Razor, Xamarin.iOS, and JS frameworks such as Angular</li>
 								<li>Customized templates on e-commerce platforms such as Shopify and blog-sites such as WordPress and Magento</li>
 								<li>Worked in backend development using C#, ASP.NET, Entity framework and SQL</li>
 							</ul>
