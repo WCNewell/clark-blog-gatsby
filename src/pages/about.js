@@ -56,7 +56,7 @@ const About = () => (
 							<ul>
 								<li>Trained to oversee every aspect of a full service casual dining restaurant</li>
 								<li>Singlehandedly ran the restaurant while supervising up to 30 people per shift</li>
-								<li>Learned and preformed with proficiency, every single position in the front and back of house</li>
+								<li>Learned and performed with proficiency, every single position in the front and back of house</li>
 								<li>Managerial duties included daily/weekly inventory, supply orders, interviewing, hiring, training, and promoting special marketing events</li>
 							</ul>
 						</li>
@@ -94,7 +94,7 @@ const About = () => (
 						<li>
 							<h3 className="dark-header">University of Utah</h3>
 							<h4>Bachelor of Arts in Music</h4>
-							<p>Completed a liberal arts degree in music along with a German minor, also intentionally completed multiple business, communication and marketing electives all while working full time as an adminastrator for the College of Engineering.</p>	
+							<p>Completed a liberal arts degree in music along with a German minor, also intentionally completed multiple business, communication and marketing electives all while working full time as an administrator for the College of Engineering.</p>	
 						</li>
 					</ul>
 					<h2>Service</h2>
