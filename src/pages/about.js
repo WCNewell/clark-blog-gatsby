@@ -22,15 +22,15 @@ const About = () => (
 				<h1 className="page-title">about</h1>
 				<div className="grid-one">
 					<ClarkAlyeska />
-					<p className="caption">Hello World! I'm a Customer service manager, web developer, outdoorsman and pop culture enthusist. Photo of myself on the Alyeska ski resort headwall while previewing the Cirque Series 2021 race course by Robyn Newell, July 2021.</p>
+					<p className="caption">Hello World! I'm a Customer service manager, web developer, outdoorsman and pop culture enthusist. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
 					<h2>Goal</h2>
-					<p>To represent your software company in support, implementation, quality analysis, product management, development and evangelism as my skills continue to grow.</p>
+					<p>To represent your software company in support, implementation, quality analysis, product management and development.</p>
 				</div>
 				<div className="grid-two">	
 					<h2>Highlighted Experience</h2>
 					<ul>
 						<li>
-							<h3 className="dark-header">Smith's Marketplace - Customer Service Manager</h3>
+							<h3 className="dark-header">Customer Service Manager - Smith's Marketplace</h3>
 							<p>Sept 2018 - Current</p>
 							<ul>
 								<li>Responsible for supervising a 170,000 sq. ft. superstore in store directors' absence</li>
@@ -40,7 +40,7 @@ const About = () => (
 							</ul>
 						</li>
 						<li>
-							<h3 className="dark-header">Red Pepper Software - Software Development Intern</h3>
+							<h3 className="dark-header">Software Development Intern - Red Pepper Software</h3>
 							<p>Jan 2019 - Nov 2019</p>
 							<ul>
 								<li>Using Jira as the productivity tool inline with scrum methodology and agile workflow, assisted team with QA, pair programming, code review and full stack coding assignments building proprietary software for multiple clients</li>
@@ -51,7 +51,7 @@ const About = () => (
 							</ul>
 						</li>
 						<li>
-							<h3 className="dark-header">Flynn Restaurant Group - Applebee's Assistant Manager</h3>
+							<h3 className="dark-header">Assistant Manager - Flynn Restaurant Group</h3>
 							<p>Jan 2016 - Nov 2016</p>
 							<ul>
 								<li>Trained to oversee every aspect of a full service casual dining restaurant</li>
@@ -61,7 +61,7 @@ const About = () => (
 							</ul>
 						</li>
 						<li>
-							<h3 className="dark-header">Great West Financial - Account Administrator</h3>
+							<h3 className="dark-header">Account Administrator - Great West Financial</h3>
 							<p>Aug 2014 - Jul 2015</p>
 							<ul>
 								<li>As part of the cash processing team, provided expeditious and accurate distribution of retirement contributions for various retirement plans and their participants</li>
@@ -70,7 +70,7 @@ const About = () => (
 							</ul>
 						</li>	
 						<li>
-							<h3 className="dark-header">University of Utah - Administrative Assistant</h3>
+							<h3 className="dark-header">Administrative Assistant - University of Utah</h3>
 							<p>Dec 2007 - Jul 2014</p>
 							<ul>
 								<li>Former Assistant to the Director of the Center for Engineering Innovation in the Dept. of Electrical & Computer Engineering and Nanotechnology Institute of Utah</li>
@@ -86,27 +86,27 @@ const About = () => (
 					<h2>Education</h2>
 					<ul>
 						<li>
-							<h3 className="dark-header">Galvanize</h3>
-							<h4>Web Development Immersive Certificate</h4>
+							<h3 className="dark-header">Web Development Immersive Certificate</h3>
+							<h4>Galvanize</h4>
 							<p>
 								<a className="dark-link" href="https://www.galvanize.com/"> Galvanize, </a>in association with Hack Reactor, provides a 6-month coding bootcamp which trains participants in building full-stack JavaScript web applications. In a fully immersive developer environment, Galvanize participants complete industry focused drills, which include front-end frameworks, building back-end databases with API CRUD connectivity between server and client, pair programming, and agile workflow.</p>	
 						</li>
 						<li>
-							<h3 className="dark-header">University of Utah</h3>
-							<h4>Bachelor of Arts in Music</h4>
+							<h3 className="dark-header">Bachelor of Arts in Music, German Minor</h3>
+							<h4>University of Utah</h4>
 							<p>Completed a liberal arts degree in music along with a German minor, also intentionally completed multiple business, communication and marketing electives all while working full time as an administrator for the College of Engineering.</p>	
 						</li>
 					</ul>
 					<h2>Service</h2>
 					<ul>
 						<li>
-							<h3 className="dark-header">Queer Tech Utah</h3>
-							<h4>Co-organizer</h4>
+							<h3 className="dark-header">Co-organizer</h3>
+							<h4>Queer Tech Utah</h4>
 							<p>Organized social networking events and technology discussions for the LGBTQIA+ developer and tech community in the Salt Lake City, Utah area via meetup. Also chaired a Diversity and Inclusion discussion panel for the Silicon Slopes organization.</p>	
 						</li>
 						<li>
-							<h3 className="dark-header">Denver LGBTQ Tech</h3>
-							<h4>Co-organizer</h4>
+							<h3 className="dark-header">Co-organizer</h3>
+							<h4>Denver LGBT Tech</h4>
 							<p>Organized social networking events and technology discussions for the LGBTQIA+ developer and tech community in the Denver, Colorado area via meetup.</p>	
 						</li>
 					</ul>

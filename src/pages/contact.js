@@ -65,9 +65,6 @@ const ContactPage = () => {
 
 export default ContactPage;
 
-// const FormSpace = styled.div`
-//   height: 50rem;
-// `;
 
 
 
