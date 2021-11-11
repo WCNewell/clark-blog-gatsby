@@ -3,6 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import Seo from '../components/seo';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import downLoadFile from '../assets/211107_Newell-William-Clark_Resume.pdf';
 
 const ClarkAlyeska = () => {
   return (
@@ -24,7 +25,8 @@ const About = () => (
 					<ClarkAlyeska />
 					<p className="caption">Hello World! I'm a Customer service manager, web developer, outdoorsman and pop culture enthusist. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
 					<h2>Goal</h2>
-					<p>To represent your software company in support, implementation, quality analysis, product management and development.</p>
+					<p>To represent your software company as a product owner. <strong><a alt="link to download pdf resume" href={downLoadFile} download>Download My Resume.</a></strong></p>
+					
 				</div>
 				<div className="grid-two">	
 					<h2>Highlighted Experience</h2>
@@ -34,17 +36,18 @@ const About = () => (
 							<p>Sept 2018 - Current</p>
 							<ul>
 								<li>Responsible for supervising a 170,000 sq. ft. superstore in store directors' absence</li>
-								<li>Supervise and direct front-end employee activities, protect substantial cash assets, and work mandatory overtime as needed</li>
+								<li>Respond to and resolve customer feedback</li>
+								<li>Supervise and direct front-end employee activities, and protect substantial cash assets</li>
 								<li>Ensure maintenance and operability of check-out technology including self-checkout robots and cash recycler</li>
-								<li>Trained in grocery inventory ordering as well as selection and curbside delivery of online pickup orders</li>
+								<li>Trained in inventory ordering as well as selection and delivery of online pickup orders</li>
 							</ul>
 						</li>
 						<li>
 							<h3 className="dark-header">Software Development Intern - Red Pepper Software</h3>
 							<p>Jan 2019 - Nov 2019</p>
 							<ul>
-								<li>Using Jira as the productivity tool inline with scrum methodology and agile workflow, assisted team with QA, pair programming, code review and full stack coding assignments building proprietary software for multiple clients</li>
-								<li>While managing multiple tickets on strict tempo timers, switched between different tech stacks and languages throughout the day</li>
+								<li>Using Jira as the productivity tool with scrum methodology and agile workflow, assisted team with QA, pair programming, code review and full stack coding assignments building proprietary software for multiple clients</li>
+								<li>While managing multiple tickets on strict tempo timers, switched between different tech stacks and languages</li>
 								<li>Worked in frontend web and mobile development using HTML, CSS, Sass, JavaScript, TypeScript, PHP,  Razor, Xamarin.iOS, and JS frameworks such as Angular</li>
 								<li>Customized templates on e-commerce platforms such as Shopify and blog-sites such as WordPress and Magento</li>
 								<li>Worked in backend development using C#, ASP.NET, Entity framework and SQL</li>
@@ -74,9 +77,9 @@ const About = () => (
 							<p>Dec 2007 - Jul 2014</p>
 							<ul>
 								<li>Former Assistant to the Director of the Center for Engineering Innovation in the Dept. of Electrical & Computer Engineering and Nanotechnology Institute of Utah</li>
-								<li>Coordinated the design and development of websites, social media, and marketing materials for the center</li>
-								<li>Provided support to research faculty, visiting scholars, guest speakers and staff by arranging meetings and travel</li>
-								<li>Organized special events and conferences including venue selection, catering, promotion, sponsorship, media materials and event set-up</li>
+								<li>Coordinated the design and development of websites, social media, and marketing materials</li>
+								<li>Provided support to research faculty, visiting scholars, guest speakers and staff</li>
+								<li>Organized and supervised special events and conferences including venue selection, catering, promotion, sponsorship, amd media materials</li>
 								<li>Coordinated project and customer resource management using CRM tools such as Pipedrive and Zoho</li>
 							</ul>
 						</li>

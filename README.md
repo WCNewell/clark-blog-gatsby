@@ -16,7 +16,7 @@ Version 3.0 of my personal blogsite and portfolio currently under development
 1. Light and dark mode is implemented with state management via Gatsby and React hooks and the [useDarkMode](https://www.npmjs.com/package/use-dark-mode) plugin
 1. Accessibility audit is performed with [WAVE](https://wave.webaim.org/)
 1. Testing is implemented with [Jest](https://jestjs.io/)
-1. Original logo design and original blog content
+1. Custom self-designed logo/branding and original blog content
 
 ## 💖 Plans for Future Iterations
 
