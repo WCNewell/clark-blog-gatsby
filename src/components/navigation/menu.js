@@ -93,7 +93,7 @@ const StyledMenu = styled.nav`
   padding: 2rem;
   position: absolute;
   right: -290px;
-  background-color: #effffa;
+  background-color: #fcf7f8;
   color:  #0b0111;
   transition: transform 0.3s ease-in-out;
   transform: ${({ open }) => open ? 'translateX(-175%)' : 'translateX(0)'};
