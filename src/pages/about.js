@@ -35,7 +35,7 @@ const About = () => (
 							<h3 className="dark-header">Customer Service Manager - Smith's Marketplace</h3>
 							<p>Sept 2018 - Current</p>
 							<ul>
-								<li>Responsible for supervising a 170,000 sq. ft. superstore in store directors' absence</li>
+								<li>Responsible for supervising a 170,000 sq. ft. superstore</li>
 								<li>Respond to and resolve customer feedback</li>
 								<li>Supervise and direct front-end employee activities, and protect substantial cash assets</li>
 								<li>Ensure maintenance and operability of check-out technology including self-checkout robots and cash recycler</li>
@@ -79,7 +79,7 @@ const About = () => (
 								<li>Former Assistant to the Director of the Center for Engineering Innovation in the Dept. of Electrical & Computer Engineering and Nanotechnology Institute of Utah</li>
 								<li>Coordinated the design and development of websites, social media, and marketing materials</li>
 								<li>Provided support to research faculty, visiting scholars, guest speakers and staff</li>
-								<li>Organized and supervised special events and conferences including venue selection, catering, promotion, sponsorship, amd media materials</li>
+								<li>Organized and supervised special events and conferences including venue selection, catering, promotion, sponsorship, and media materials</li>
 								<li>Coordinated project and customer resource management using CRM tools such as Pipedrive and Zoho</li>
 							</ul>
 						</li>
@@ -119,6 +119,6 @@ const About = () => (
 				<Footer />
 			</div>
 	</>
-)
+);
 
 export default About;
