@@ -23,7 +23,7 @@ const About = () => (
 				<h1 className="page-title">about</h1>
 				<div className="grid-one">
 					<ClarkAlyeska />
-					<p className="caption">Hello World! I'm a Customer service manager, web developer, outdoorsman and pop culture enthusist. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
+					<p className="caption">Hello World! I'm a customer service manager, web developer, outdoorsman and pop culture enthusist. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
 					<h2>Goal</h2>
 					<p>To serve your software company as a problem solving Project Manager who uplifts his team and delights clients. <strong><a alt="link to download pdf resume" href={downLoadFile} download>Download My Resume.</a></strong></p>
 					
