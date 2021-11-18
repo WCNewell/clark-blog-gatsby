@@ -19,7 +19,7 @@ const ContactPage = () => {
   return (
     <>
       <Seo title="Contact" />
-      <div className="main-grid">
+      <main className="main-grid">
         <Header /> 
         <div className="grid-one">
           <h1 className="page-title">contact form</h1>
@@ -55,7 +55,7 @@ const ContactPage = () => {
           <GatsbyAstronaut />
           <p className="caption">Hello from the Gatsby Spaceman! Image design by Gatsby.</p>
         </div>
-      </div>
+      </main>
       <div>
         <Footer />
       </div>

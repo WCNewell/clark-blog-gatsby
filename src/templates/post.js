@@ -43,7 +43,7 @@ const BlogPostTemplate = props => {
           <Header />
           <h1 className="page-title">{post.title}</h1>
         </div>
-        <div className="content-items">
+        <article className="content-items">
           <h4>by {post.author.name}</h4>
           <p>{post.publishedAt}</p>
           {/* <ul>
@@ -59,7 +59,7 @@ const BlogPostTemplate = props => {
           <p className="caption">{post.imageCredit}</p>
           <p><strong>TLDR: </strong>{post.tlDr}</p>
           <BlockContent blocks={post._rawBody} />
-        </div>
+        </article>
         <div>
           <Footer className="footer" />
         </div>

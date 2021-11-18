@@ -35,7 +35,7 @@ const IndexPage = ({ data }) => {
   return (
     <>  
       <Seo title="Home" />
-      <div className="main-grid">
+      <main className="main-grid">
         <Header />
         <h1 className="page-title">recent posts</h1>
         <div className="content">
@@ -44,7 +44,7 @@ const IndexPage = ({ data }) => {
               <h1 className="blog-link" aria-label="see more posts">See more posts...</h1>
             </Link>
         </div>
-      </div>
+      </main>
       <div>
         <Footer className="footer" />
       </div>

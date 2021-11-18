@@ -19,7 +19,7 @@ const ClarkWebOne = () => {
 const Portfolio = () => (
 	<>  
 		<Seo title='About' />
-			<div className="main-grid">
+			<main className="main-grid">
 				<Header />
 				<h1 className="page-title">portfolio</h1>
 				<div className="grid-one">
@@ -110,7 +110,7 @@ const Portfolio = () => (
 						</a>
 					</button>
 				</div>
-			</div>
+			</main>
 			<div>
 				<Footer />
 			</div>

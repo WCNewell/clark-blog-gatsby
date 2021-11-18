@@ -501,7 +501,7 @@
   }
 
   .grid-two {
-    grid-column: col-start 10 / span 10;
+    grid-column: col-start 10 / span 7;
     grid-row: 3 / span 3;
   }
 
@@ -577,7 +577,7 @@
   }
 
   .grid-two {
-    grid-column: col-start 10 / span 10;
+    grid-column: col-start 10 / span 7;
     grid-row: 3;
   }
 

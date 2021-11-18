@@ -18,14 +18,14 @@ const ClarkAlyeska = () => {
 const About = () => (
 	<>  
 		<Seo title='About' />
-			<div className="main-grid">
+			<main className="main-grid">
 				<Header />
 				<h1 className="page-title">about</h1>
 				<div className="grid-one">
 					<ClarkAlyeska />
 					<p className="caption">Hello World! I'm a Customer service manager, web developer, outdoorsman and pop culture enthusist. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
 					<h2>Goal</h2>
-					<p>To represent your software company as a product owner. <strong><a alt="link to download pdf resume" href={downLoadFile} download>Download My Resume.</a></strong></p>
+					<p>To serve your software company as a problem solving Project Manager who uplifts his team and delights clients. <strong><a alt="link to download pdf resume" href={downLoadFile} download>Download My Resume.</a></strong></p>
 					
 				</div>
 				<div className="grid-two">	
@@ -37,7 +37,7 @@ const About = () => (
 							<ul>
 								<li>Responsible for supervising a 170,000 sq. ft. superstore</li>
 								<li>Respond to and resolve customer feedback</li>
-								<li>Supervise and direct front-end employee activities, and protect substantial cash assets</li>
+								<li>Supervise and direct front-end employee activities and protect substantial cash assets</li>
 								<li>Ensure maintenance and operability of check-out technology including self-checkout robots and cash recycler</li>
 								<li>Trained in inventory ordering as well as selection and delivery of online pickup orders</li>
 							</ul>
@@ -114,7 +114,7 @@ const About = () => (
 						</li>
 					</ul>
 				</div>
-			</div>
+			</main>
 			<div>
 				<Footer />
 			</div>

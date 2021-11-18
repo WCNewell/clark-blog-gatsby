@@ -18,7 +18,7 @@ const GatsbyAstronaut = () => {
 const NotFoundPage = () => (
   <>
     <Seo title="404: Not found" />
-    <div className="main-grid">
+    <main className="main-grid">
       <Header />
       <div className="content">
         <h1>404: Not Found</h1>
@@ -28,7 +28,7 @@ const NotFoundPage = () => (
         <GatsbyAstronaut />
         <p className="caption">Hello from the Gatsby Spaceman! Image design by Gatsby.</p>
       </div>
-    </div>
+    </main>
     <div>
       <Footer />
     </div>

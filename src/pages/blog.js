@@ -35,13 +35,13 @@ const Blog = ({ data }) => {
   return (
     <>
       <Seo title='Blog Posts' />
-      <div className="main-grid">
+      <main className="main-grid">
         <Header />
         <h1 className="page-title">blog</h1>
         <div className="content">
           <BlogList posts={posts} />
         </div>
-      </div>
+      </main>
       <div>
         <Footer />
       </div>
