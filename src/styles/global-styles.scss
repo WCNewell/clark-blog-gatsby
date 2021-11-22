@@ -1,5 +1,6 @@
 $white: #fafafa;
 $black: #0b0111;
+$blue: #090979;
 $pink: #ff006f;
 $gold: #ffd700;
 $grey: #e6dfdf;
@@ -41,7 +42,7 @@ body.light-mode {
   }
   
   .footer {
-    background-color: $black;
+    background-image: linear-gradient(to left, $pink, $blue, $black);
 
     .footer-text {  
       color: $pink;
@@ -100,7 +101,7 @@ body.dark-mode {
   }
 
   .footer {
-    background-color: $pink;
+    background-image: linear-gradient(to right, $pink, $blue, $black);
     position: relative;
 
     .footer-text {
