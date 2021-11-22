@@ -15,12 +15,12 @@ const SinglePost = ({ post }) => {
                 className="post-image"
                 alt={post.imageCredit}
               />
+            {/* <ul>
+              <li className="category">{post.categories.map((category) => category.title).join(' ')}</li>
+            </ul> */}
+            <p>{post.tlDr}</p>
           </Link>
-          {/* <ul>
-            <li className="category">{post.categories.map((category) => category.title).join(' ')}</li>
-          </ul> */}
         </span>
-        <p>{post.tlDr}</p>
       </div>
     </>
   );
