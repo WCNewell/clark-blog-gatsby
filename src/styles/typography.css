@@ -20,6 +20,8 @@
   margin: 1.5rem;
   background-color: #DCDCDC;
   border-radius: 10px;
+  position: relative;
+  z-index: 0;
 }
 
 .textBlock {
