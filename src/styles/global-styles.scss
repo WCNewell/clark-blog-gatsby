@@ -159,16 +159,12 @@ button {
 
 .sticky-wrapper {
   position: relative;
-  // display: flex;
-  // justify-content: center;
   z-index: 2;
 }
 
 .sticky .sticky-inner {
   position: fixed;
-  // top: 0.5rem;
   right: 0.5rem;
-  // left: 1;
 }
 
 .mode-icon {
