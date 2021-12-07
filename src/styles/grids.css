@@ -22,7 +22,7 @@
   }
   
   .name-grid {
-    grid-column: col-start 6 / span 6;
+    grid-column: col-start 5 / span 6;
     grid-row: 1;
   }
 
@@ -32,7 +32,7 @@
   }
 
   .moon-grid {
-    grid-column: col-start 12 / span 1;
+    grid-column: col-start 13 / span 1;
     grid-row: 1;
   }
 
@@ -97,7 +97,7 @@
   }  
   
   .name-grid {
-    grid-column: col-start 5 / span 6;
+    grid-column: col-start 4 / span 5;
     margin-top: 0.25rem;
   }
   
@@ -106,7 +106,7 @@
   }
   
   .moon-grid {
-    grid-column: col-start 12 / span 1;
+    grid-column: col-start 13 / span 1;
   }
   
   .page-title {
@@ -168,9 +168,10 @@
   .sticky-wrapper {
     grid-column: col-start 16;
     grid-row: 1;
-  }  
+  }
+
   .name-grid {
-    grid-column: col-start 5 / span 4;
+    grid-column: col-start 4 / span 5;
     margin-top: 0.25rem;
   }
   
@@ -179,7 +180,7 @@
   }
   
   .moon-grid {
-    grid-column: col-start 11 / span 1;
+    grid-column: col-start 13 / span 1;
   }
   
   .page-title {
@@ -243,7 +244,7 @@
   }
 
   .name-grid {
-    grid-column: col-start 3 / span 4;
+    grid-column: col-start 3 / span 3;
   }
   
   .sun-grid {

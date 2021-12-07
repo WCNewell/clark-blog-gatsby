@@ -67,12 +67,12 @@ const Menu = ({ open, ...props }) => {
         <a aria-label="github" href='https://github.com/WCNewell'>
             <Github className='menu-icons' alt='github icon'/>
         </a>
-        <a aria-label="instagram" href='https://instagram.com/willcnewell/'>
+        {/* <a aria-label="instagram" href='https://instagram.com/willcnewell/'>
             <Instagram className='menu-icons' alt='instagram icon'/>
         </a>
         <a aria-label="twitter" href='https://twitter.com/WCNewell'>
             <Twitter className='menu-icons' alt='twitter icon'/>
-        </a>
+        </a> */}
       </div>    
     </StyledMenu>
   );
@@ -92,7 +92,7 @@ const StyledMenu = styled.nav`
   text-align: left;
   padding: 2rem;
   position: absolute;
-  right: -290px;
+  right: -300px;
   background-color: #fafafa;
   color:  #0b0111;
   transition: transform 0.3s ease-in-out;
