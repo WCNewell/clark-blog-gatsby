@@ -5,8 +5,8 @@ import styled from 'styled-components';
 
 import LinkedIn from '../../assets/linkedin.inline.svg';
 import Github from '../../assets/github.inline.svg';
-import Twitter from '../../assets/twitter.inline.svg';
-import Instagram from '../../assets/instagram.inline.svg';
+// import Twitter from '../../assets/twitter.inline.svg';
+// import Instagram from '../../assets/instagram.inline.svg';
 
 const Menu = ({ open, ...props }) => {
   
