@@ -579,7 +579,7 @@
 
   .grid-two {
     grid-column: col-start 10 / span 7;
-    grid-row: 3;
+    grid-row: 3 / span 3;
   }
 
   .grid-three {
