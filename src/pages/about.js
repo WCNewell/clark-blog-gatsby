@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import Seo from '../components/seo';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import downLoadFile from '../assets/211107_Newell-William-Clark_Resume.pdf';
+import downLoadFile from '../assets/211212_Newell_William-Clark_PM-Resume.pdf';
 
 const ClarkAlyeska = () => {
   return (
