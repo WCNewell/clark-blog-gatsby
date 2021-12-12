@@ -64,7 +64,7 @@ const BlogPostTemplate = props => {
           <Footer className="footer" />
         </div>
     </>
-  )
-};
+  );
+}
 
 export default BlogPostTemplate;

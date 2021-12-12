@@ -10,6 +10,6 @@ const Code = ({ node }) => {
       {code}
     </SyntaxHighlighter>
   )
-};
+}
 
 export default Code;

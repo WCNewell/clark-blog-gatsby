@@ -60,8 +60,8 @@ const ContactPage = () => {
         <Footer />
       </div>
     </>
-  )
-};
+  );
+}
 
 export default ContactPage;
 

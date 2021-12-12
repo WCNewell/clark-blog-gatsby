@@ -10,22 +10,22 @@ export const ThemeContext = React.createContext('day');
 const Mode = () => {
   const theme = React.useContext(ThemeContext)
     return (
-            theme === 'night' ? <StarMode /> : null
+      theme === 'night' ? <StarMode /> : null
     );
-};
+}
 
 const App = ({ children }) => {
 
-    return (
-      <ThemeContext.Provider value={'night'}>
-        <>
-          <Mode />
-          <div>
-            {children}
-          </div>
-        </>
-      </ThemeContext.Provider>
-    );
+  return (
+    <ThemeContext.Provider value={'night'}>
+      <>
+        <Mode />
+        <div>
+          {children}
+        </div>
+      </>
+    </ThemeContext.Provider>
+  );
 }
 
 export default App;
