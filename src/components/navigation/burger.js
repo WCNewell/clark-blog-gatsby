@@ -45,7 +45,7 @@ export const StyledBurger = styled.div`
   span {
     width: 2rem;
     height: 0.25rem;
-    background: #ff006f;
+    background: #ff0037;
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;
