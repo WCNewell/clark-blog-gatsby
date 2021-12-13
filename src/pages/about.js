@@ -42,7 +42,7 @@ const About = () => (
 							</ul>
 						</li>
 						<li>
-							<h3 className="dark-header">Software Development Intern - Red Pepper Software</h3>
+							<h3 className="dark-header">Full Stack Software Development Intern - Red Pepper Software</h3>
 							<p>Jan 2019 - Nov 2019</p>
 							<ul>
 								<li>Using Jira as the productivity tool with scrum methodology and agile workflow, assisted team with QA, pair programming, code review and full stack coding assignments building proprietary software for multiple clients</li>
