@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import Seo from '../components/seo';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import downLoadFile from '../assets/211212_Newell_William-Clark_PM-Resume.pdf';
+import downLoadFile from '../assets/220220_Newell_William-Clark_PM-Resume.pdf';
 
 const ClarkAlyeska = () => {
   return (
@@ -77,7 +77,7 @@ const About = () => (
 							<ul>
 								<li>Former Assistant to the Director of the Center for Engineering Innovation in the Dept. of Electrical & Computer Engineering and Nanotechnology Institute of Utah</li>
 								<li>Coordinated the design and development of websites, social media, and marketing materials</li>
-								<li>Provided support to research faculty, visiting scholars, guest speakers and staff</li>
+								<li>Coordinated multiple submissions of multi-million dollar, interdisciplinary grant proposals to NIH, NSF and DARPA</li>
 								<li>Organized and supervised special events and conferences including venue selection, catering, promotion, sponsorship, and media materials</li>
 								<li>Coordinated project and customer resource management using CRM tools such as Pipedrive and Zoho</li>
 							</ul>
@@ -87,16 +87,22 @@ const About = () => (
 				<div className="grid-three">
 					<h2>Education</h2>
 					<ul>
+					<li>
+							<h3 className="dark-header">Certified Associate Project Manager</h3>
+							<h4>Project Management Institute</h4>
+							<p>As member of 
+								<a className="dark-link" href="https://www.pmi.org/"> PMI,</a> the global authority on project management best practices and producer of PMBOK, the Project Management Body of Knowledge, completed the CAPM online course and certification exam.</p>	
+						</li>
 						<li>
 							<h3 className="dark-header">Web Development Immersive Certificate</h3>
-							<h4>Galvanize</h4>
+							<h4>Galvanize + Hack Reactor</h4>
 							<p>
-								<a className="dark-link" href="https://www.galvanize.com/"> Galvanize, </a>in association with Hack Reactor, provides a 6-month coding bootcamp which trains participants in building full-stack JavaScript web applications. In a fully immersive developer environment, Galvanize participants complete industry focused drills, which include front-end frameworks, building back-end databases with API CRUD connectivity between server and client, pair programming, and agile workflow.</p>	
+								<a className="dark-link" href="https://www.galvanize.com/"> Galvanize,</a> in association with Hack Reactor, provides a 6-month coding bootcamp which trains participants in building full-stack JavaScript web applications. In a fully immersive developer environment, Galvanize participants complete industry focused drills, which include front-end frameworks, building back-end databases with API CRUD connectivity between server and client, pair programming, and agile workflow.</p>	
 						</li>
 						<li>
 							<h3 className="dark-header">Bachelor of Arts in Music, German Minor</h3>
 							<h4>University of Utah</h4>
-							<p>Completed a liberal arts degree in music along with a German minor, also intentionally completed multiple business, communication and marketing electives all while working full time as an administrator for the College of Engineering.</p>	
+							<p>Completed a liberal arts degree in music along with a German minor. Also intentionally completed multiple business, communication and marketing electives all while working full time as an administrator for the College of Engineering.</p>	
 						</li>
 					</ul>
 					<h2>Service</h2>
