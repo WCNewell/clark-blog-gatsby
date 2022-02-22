@@ -28,6 +28,26 @@ const About = () => (
 					<p>To serve your software company as a problem solving Project Manager who uplifts his team and delights clients. <strong><a alt="link to download pdf resume" href={downLoadFile} download>Download My Resume.</a></strong></p>
 				</div>
 				<div className="grid-two">	
+				<h2>Education</h2>
+					<ul>
+					<li>
+							<h3 className="dark-header">Certified Associate Project Manager</h3>
+							<h4>Project Management Institute</h4>
+							<p>As member of 
+								<a className="dark-link" href="https://www.pmi.org/"> PMI,</a> the global authority on project management best practices and producer of PMBOK, the Project Management Body of Knowledge, completed the CAPM online course and certification exam.</p>	
+						</li>
+						<li>
+							<h3 className="dark-header">Web Development Immersive Certificate</h3>
+							<h4>Galvanize + Hack Reactor</h4>
+							<p>
+								<a className="dark-link" href="https://www.galvanize.com/"> Galvanize,</a> in association with Hack Reactor, provides a 6-month coding bootcamp which trains participants in building full-stack JavaScript web applications. In a fully immersive developer environment, Galvanize participants complete industry focused drills, which include front-end frameworks, building back-end databases with API CRUD connectivity between server and client, pair programming, and agile workflow.</p>	
+						</li>
+						<li>
+							<h3 className="dark-header">Bachelor of Arts in Music, German Minor</h3>
+							<h4>University of Utah</h4>
+							<p>Completed a liberal arts degree in music along with a German minor. Also intentionally completed multiple business, communication and marketing electives all while working full time as an administrator for the College of Engineering.</p>	
+						</li>
+					</ul>
 					<h2>Highlighted Experience</h2>
 					<ul>
 						<li>
@@ -85,27 +105,7 @@ const About = () => (
 					</ul>
 				</div>
 				<div className="grid-three">
-					<h2>Education</h2>
-					<ul>
-					<li>
-							<h3 className="dark-header">Certified Associate Project Manager</h3>
-							<h4>Project Management Institute</h4>
-							<p>As member of 
-								<a className="dark-link" href="https://www.pmi.org/"> PMI,</a> the global authority on project management best practices and producer of PMBOK, the Project Management Body of Knowledge, completed the CAPM online course and certification exam.</p>	
-						</li>
-						<li>
-							<h3 className="dark-header">Web Development Immersive Certificate</h3>
-							<h4>Galvanize + Hack Reactor</h4>
-							<p>
-								<a className="dark-link" href="https://www.galvanize.com/"> Galvanize,</a> in association with Hack Reactor, provides a 6-month coding bootcamp which trains participants in building full-stack JavaScript web applications. In a fully immersive developer environment, Galvanize participants complete industry focused drills, which include front-end frameworks, building back-end databases with API CRUD connectivity between server and client, pair programming, and agile workflow.</p>	
-						</li>
-						<li>
-							<h3 className="dark-header">Bachelor of Arts in Music, German Minor</h3>
-							<h4>University of Utah</h4>
-							<p>Completed a liberal arts degree in music along with a German minor. Also intentionally completed multiple business, communication and marketing electives all while working full time as an administrator for the College of Engineering.</p>	
-						</li>
-					</ul>
-					<h2>Service</h2>
+				<h2>Service</h2>
 					<ul>
 						<li>
 							<h3 className="dark-header">Co-organizer</h3>
