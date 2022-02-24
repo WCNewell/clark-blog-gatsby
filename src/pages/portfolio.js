@@ -65,7 +65,7 @@ const Portfolio = () => (
 						<li>Accessbility audit performed with
 							<a className="dark-link" aria-label="wave" href="https://wave.webaim.org/"> WAVE </a>
 						</li>
-						<li>This solo project features custom self-designed logo/branding and original blog content.</li>
+						<li>This solo project features custom self-designed logo/branding and original blog content</li>
 					</ul>
 					<p>Further Iterations could present some of the following features: More advanced Sassy CSS, sorting of blog posts by categories, improved testing and error handling, and a stateful contact form.</p>
 					<button className="repo-link">	
