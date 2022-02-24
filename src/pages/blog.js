@@ -34,7 +34,7 @@ const Blog = ({ data }) => {
   const posts = data.posts.nodes;
   return (
     <>
-      <Seo title='Blog Posts' />
+      <Seo title='Blog' />
       <main className="main-grid">
         <Header />
         <h1 className="page-title">blog</h1>

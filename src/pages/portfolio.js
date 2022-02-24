@@ -18,7 +18,7 @@ const ClarkWebOne = () => {
 
 const Portfolio = () => (
 	<>  
-		<Seo title='About' />
+		<Seo title='Portfolio' />
 			<main className="main-grid">
 				<Header />
 				<h1 className="page-title">portfolio</h1>
