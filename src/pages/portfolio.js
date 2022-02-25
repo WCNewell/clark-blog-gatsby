@@ -55,7 +55,7 @@ const Portfolio = () => (
 							<a className="dark-link" aria-label="typography.js" href="https://kyleamathews.github.io/typography.js/"> Typography.js, </a>
 							<a className="dark-link" aria-label="react syntax highlighter" href="https://www.npmjs.com/package/react-syntax-highlighter">React Syntax Highlighter, </a> 
 							and a custom responsive grid are implemented for CSS styling</li>
-						<li>Light and dark "star" modes are implemented with context and state management via Styled-Components ThemeProvider, React hooks, and the 
+						<li>Light and dark "star" modes are implemented with context and state management via React hooks, and the 
 							<a className="dark-link" aria-label="use dark mode" href="https://www.npmjs.com/package/use-dark-mode"> useDarkMode </a>
 							plugin
 						</li>
