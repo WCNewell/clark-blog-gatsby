@@ -39,8 +39,8 @@ const Portfolio = () => (
 							<a className="dark-link" aria-label="gatsby" href="https://gatsbyjs.com"> Gatsby, </a>
 								a frontend framework based on the opensource 
 							<a className="dark-link" aria-label="react" href="https://reactjs.org"> React </a>
-							library. This UI stems from the default starter</li>
-						<li>Frontend hosted by
+							library. Gatsby is a blazing-fast static site builder that comes out of the box with SEO and image handling. This UI stems from the default starter.</li>
+						<li>Taking advantage of modern jamstack technology, the frontend is hosted by
 							<a className="dark-link" aria-label="netlify" href="https://netlify.com"> Netlify </a>
 								with CI/CD (Continuous Integration and Continuous Deployment) via Github commits. Netlify also provides the honeypot and data transfer for the contact form</li>
 						<li>Custom backend and CMS (Content Management Studio) built with and hosted by
