@@ -52,7 +52,7 @@ const About = () => (
 					<h2>Highlighted Experience</h2>
 					<ul>
 						<li>
-							<h3 className="dark-header">Customer Service Manager - Smith's Marketplace</h3>
+							<h3 className="dark-header">Customer Service Manager - Kroger dba Smith's Marketplace</h3>
 							<p>Sept 2018 - Current</p>
 							<ul>
 								<li>Responsible for supervising a 170,000 sq. ft. superstore</li>
