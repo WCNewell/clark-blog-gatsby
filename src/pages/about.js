@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import Seo from '../components/seo';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import downLoadFile from '../assets/220220_Newell_William-Clark_PM-Resume.pdf';
+import downLoadFile from '../assets/220320_Newell_William-Clark_PM-Resume.pdf';
 
 const ClarkAlyeska = () => {
   return (
@@ -32,20 +32,20 @@ const About = () => (
 					<ul>
 						<li>
 							<h3 className="dark-header">Certified Associate Project Manager</h3>
-							<h4>Project Management Institute</h4>
+							<h4>Project Management Institute, Feb 2022</h4>
 							<p>As member of 
 								<a className="dark-link" href="https://www.pmi.org/"> PMI,</a> the global authority on project management best practices and producer of PMBOK, the Project Management Body of Knowledge, completed the CAPM online course and certification exam. <a className="dark-link" href="https://www.credly.com/badges/1cfcdd1d-6612-493e-9454-d4c76d8cbe53/public_url">View the Credly Badge.</a>	
 							</p>
 						</li>
 						<li>
 							<h3 className="dark-header">Web Development Immersive Certificate</h3>
-							<h4>Galvanize + Hack Reactor</h4>
+							<h4>Galvanize + Hack Reactor, Jul 2018</h4>
 							<p>
 								<a className="dark-link" href="https://www.galvanize.com/"> Galvanize,</a> in association with Hack Reactor, provides a 6-month coding bootcamp which trains participants in building full-stack JavaScript web applications. In a fully immersive developer environment, Galvanize participants complete industry focused drills, which include front-end frameworks, building back-end databases with API CRUD connectivity between server and client, pair programming, and agile workflow.</p>	
 						</li>
 						<li>
 							<h3 className="dark-header">Bachelor of Arts in Music, German Minor</h3>
-							<h4>University of Utah</h4>
+							<h4>University of Utah, Jul 2013</h4>
 							<p>Completed a liberal arts degree in music along with a German minor. Also intentionally completed multiple business, communication and marketing electives all while working full time as an administrator for the College of Engineering.</p>	
 						</li>
 					</ul>
@@ -55,11 +55,10 @@ const About = () => (
 							<h3 className="dark-header">Customer Service Manager - Kroger dba Smith's Marketplace</h3>
 							<p>Sept 2018 - Current</p>
 							<ul>
-								<li>Responsible for supervising a 170,000 sq. ft. superstore</li>
+								<li>Responsible for supervising a 170,000 sq. ft. superstore while directly managing up to 30 people per day</li>
 								<li>Respond to and resolve customer feedback</li>
-								<li>Supervise and direct front-end employee activities and protect substantial cash assets</li>
-								<li>Ensure maintenance and operability of check-out technology including self-checkout robots and cash recycler</li>
-								<li>Trained in inventory ordering as well as selection and delivery of online pickup orders</li>
+								<li>Ensure maintenance and operability of check-out technology including self-checkout robots and cash recycler while protecting substantial cash assets</li>
+								<li>Trained in inventory ordering as well as selection and curbside delivery of online pickup orders</li>
 							</ul>
 						</li>
 						<li>
@@ -78,8 +77,8 @@ const About = () => (
 							<p>Jan 2016 - Nov 2016</p>
 							<ul>
 								<li>Trained to oversee every aspect of a full service casual dining restaurant</li>
-								<li>Singlehandedly ran the restaurant while supervising up to 30 people per shift</li>
-								<li>Learned and performed with proficiency, every single position in the front and back of house</li>
+								<li>Singlehandedly ran the restaurant while supervising up to 30 people per day</li>
+								<li>Learned and performed with proficiency, every single role in the front and back of house</li>
 								<li>Managerial duties included daily/weekly inventory, supply orders, interviewing, hiring, training, and promoting special marketing events</li>
 							</ul>
 						</li>
@@ -98,7 +97,7 @@ const About = () => (
 							<ul>
 								<li>Former Assistant to the Director of the Center for Engineering Innovation in the Dept. of Electrical & Computer Engineering and Nanotechnology Institute of Utah</li>
 								<li>Coordinated the design and development of websites, social media, and marketing materials</li>
-								<li>Coordinated multiple submissions of multi-million dollar, interdisciplinary grant proposals to NIH, NSF and DARPA</li>
+								<li>Coordinated multiple submissions of multi-million dollar, interdisciplinary grant proposals to NIH, NSF and DARPA and was trained in pre- and post-award management by the university's Office of Research Administration</li>
 								<li>Organized and supervised special events and conferences including venue selection, catering, promotion, sponsorship, and media materials</li>
 								<li>Coordinated project and customer resource management using CRM tools such as Pipedrive and Zoho</li>
 							</ul>
