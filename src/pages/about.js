@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import Seo from '../components/seo';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import downLoadFile from '../assets/220320_Newell_William-Clark_Resume-Full.pdf';
+import downLoadFile from '../assets/220418_Newell_William-Clark_Resume-Full.pdf';
 
 const ClarkAlyeska = () => {
   return (
@@ -25,7 +25,7 @@ const About = () => (
 					<ClarkAlyeska />
 					<p className="caption">Hello World! I'm a customer service manager, web developer, outdoorsman and pop culture enthusist. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
 					<h2>Goal</h2>
-					<p>To serve your organization as a problem solving Project Manager who uplifts his team and delights clients. <strong><a alt="link to download pdf resume" href={downLoadFile} download>Download My Resume.</a></strong></p>
+					<p>To enhance your team and delight clients as a Frontend or Full Stack Web Developer. Highlighted skills include JavaScript, HTML, CSS, React, GatsbyJS, JAMstack development and project management. <strong><a alt="link to download pdf resume" href={downLoadFile} download>Download My Resume.</a></strong></p>
 				</div>
 				<div className="grid-two">	
 				<h2>Education</h2>
