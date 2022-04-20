@@ -57,7 +57,7 @@ const About = () => (
 							<ul>
 								<li>Responsible for supervising a 170,000 sq. ft. superstore while directly managing up to 30 people per day</li>
 								<li>Respond to and resolve customer feedback</li>
-								<li>Ensure maintenance and operability of check-out technology including self-checkout robots and cash recycler while protecting substantial cash assets</li>
+								<li>Ensure maintenance and operability of check-out technology including self-checkout robots and SmartSafe while protecting substantial cash assets</li>
 								<li>Trained in inventory ordering as well as selection and curbside delivery of online pickup orders</li>
 							</ul>
 						</li>

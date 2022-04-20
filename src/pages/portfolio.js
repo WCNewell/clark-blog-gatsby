@@ -57,7 +57,7 @@ const Portfolio = () => (
 							and a custom responsive grid are implemented for CSS styling</li>
 						<li>Light and dark "star" modes are implemented with context and state management via React hooks, and the 
 							<a className="dark-link" aria-label="use dark mode" href="https://www.npmjs.com/package/use-dark-mode"> useDarkMode </a>
-							plugin
+							plugin. P.S. The dark "star" mode is meant to be a whimsical gimmick and does not represent my idea of a serious, functional dark mode 😉 ✨
 						</li>
 						<li>Testing created with
 							<a className="dark-link" aria-label="jest" href="https://jestjs.io/"> Jest </a>
