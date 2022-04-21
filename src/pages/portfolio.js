@@ -67,7 +67,7 @@ const Portfolio = () => (
 						</li>
 						<li>This solo project features custom self-designed logo/branding and original blog content</li>
 					</ul>
-					<p>Further Iterations could present some of the following features: More advanced Sassy CSS, sorting of blog posts by categories, improved testing and error handling, and a stateful contact form.</p>
+					<p>Already in progress, the next iteration of my site is being built upon custom reusable Gatsby themes and take on a more commercial fuctionality.</p>
 					<button className="repo-link">	
 					<a href='https://github.com/WCNewell/clark-blog-gatsby'>
 						<Github className='portfolio-icon' alt='github icon' />

@@ -58,7 +58,7 @@ const About = () => (
 								<li>Responsible for supervising a 170,000 sq. ft. superstore while directly managing up to 30 people per day</li>
 								<li>Respond to and resolve customer feedback</li>
 								<li>Ensure maintenance and operability of check-out technology including self-checkout robots and SmartSafe while protecting substantial cash assets</li>
-								<li>Trained in inventory ordering as well as selection and curbside delivery of online pickup orders</li>
+								<li>Trained in inventory ordering as well as selection and curbside delivery of online Pickup orders</li>
 							</ul>
 						</li>
 						<li>
@@ -76,8 +76,8 @@ const About = () => (
 							<h3 className="dark-header">Assistant Manager - Flynn Restaurant Group</h3>
 							<p>Jan 2016 - Nov 2016</p>
 							<ul>
-								<li>Trained to oversee every aspect of a full service casual dining restaurant</li>
-								<li>Singlehandedly ran the restaurant while supervising up to 30 people per day</li>
+								<li>Trained to oversee every aspect of full service Applebee's restaurants</li>
+								<li>Singlehandedly ran restaurants while supervising up to 30 people per day</li>
 								<li>Learned and performed with proficiency, every single role in the front and back of house</li>
 								<li>Managerial duties included daily/weekly inventory, supply orders, interviewing, hiring, training, and promoting special marketing events</li>
 							</ul>
@@ -97,7 +97,7 @@ const About = () => (
 							<ul>
 								<li>Former Assistant to the Director of the Center for Engineering Innovation in the Dept. of Electrical & Computer Engineering and Nanotechnology Institute of Utah</li>
 								<li>Coordinated the design and development of websites, social media, and marketing materials</li>
-								<li>Coordinated multiple submissions of multi-million dollar, interdisciplinary grant proposals to NIH, NSF and DARPA and was trained in pre- and post-award management by the university's Office of Research Administration</li>
+								<li>Coordinated multiple submissions of multi-million dollar, interdisciplinary grant proposals to NIH, NSF and DARPA and was trained in pre- and post-award management by the University's Office of Research Administration</li>
 								<li>Organized and supervised special events and conferences including venue selection, catering, promotion, sponsorship, and media materials</li>
 								<li>Coordinated project and customer resource management using CRM tools such as Pipedrive and Zoho</li>
 							</ul>
