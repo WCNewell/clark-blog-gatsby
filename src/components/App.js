@@ -9,7 +9,7 @@ export const ThemeContext = React.createContext('day');
 
 const Mode = () => {
   const theme = React.useContext(ThemeContext)
-    return (
+     return (
       theme === 'night' ? <StarMode /> : null
     );
 }
