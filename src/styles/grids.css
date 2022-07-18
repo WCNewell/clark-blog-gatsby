@@ -508,12 +508,12 @@
 
   .grid-three {
     grid-column: col-start 2 / span 7;
-    grid-row: 4 / span 3;
+    grid-row: 5 / span 3;
   }
 
   .grid-four {
     grid-column: col-start 10 / span 7;
-    grid-row: 4;
+    grid-row: 6;
   }
 }
 
