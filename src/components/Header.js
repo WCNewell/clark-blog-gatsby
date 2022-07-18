@@ -14,6 +14,7 @@ const Header = () => {
   const toggleTheme = () => {
     theme === darkMode ? setTheme('night') : setTheme('day')
   }
+  
   const [isSticky, setSticky] = React.useState(false)
   const ref = React.useRef(null)
   const handleScroll = () => {

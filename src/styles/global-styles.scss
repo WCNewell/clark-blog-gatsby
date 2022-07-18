@@ -75,6 +75,12 @@ body.dark-mode {
     }
   }
   
+  .content, .content-items, .grid-one, .grid-two, .grid-three, .grid-four, .grid-five {
+    background-color: $black;
+    padding: 1rem;
+    z-index: 1;
+  }
+  
   .dark-link {
     color: $white;
     text-shadow: none;
@@ -259,4 +265,9 @@ button.repo-link {
 
 .footer-link {
   text-shadow: none;
+}
+
+.content .content-items .grid-one .grid-two .grid-three .grid-four {
+  background-color: purple;
+  z-index: 1;
 }
