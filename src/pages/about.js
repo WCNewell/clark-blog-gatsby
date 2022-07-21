@@ -25,7 +25,7 @@ const About = () => (
 					<ClarkAlyeska />
 					<p className="caption">Hello World! I'm a customer service manager, web developer, outdoorsman and pop culture enthusist. Photo of myself on the Alyeska headwall by Robyn Newell, July 2021.</p>
 					<h2>Goal</h2>
-					<p>To uplift your team, delight clients and solve problems as an Implementation Consultant or Project Manager. Highlighted skills include customer relations, team management, JavaScript, HTML, CSS, React, full stack development, and project management. <strong><a alt="link to download pdf resume" href={downLoadFile} download>Download My Resume.</a></strong></p>
+					<p>To uplift your team, delight clients and solve problems as an Implementation Consultant, Project Manager or Web Developer. Highlighted skills include customer relations, team management, JavaScript, HTML, CSS, React, full stack web development, and project management. <strong><a alt="link to download pdf resume" href={downLoadFile} download>Download My Resume.</a></strong></p>
 				</div>
 				<div className="grid-two">	
 				<h2>Education</h2>
